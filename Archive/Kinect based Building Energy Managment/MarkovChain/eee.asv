@@ -1,0 +1,9 @@
+clc
+clear all
+
+filename ={[pwd '\data\k-files\k1.txt']}
+
+% struct (or object) which is used down the blocks for further processing
+for i = 1:size(filenames, 2)
+    dataStruct{i} =  dateFormatRewrite(filenames{i});
+end

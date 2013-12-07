@@ -1,0 +1,30 @@
+C:\Users\Munish\Desktop\V2 PeopleCounter - Final\V2 PeopleCounter - Final\PeopleCounter - Final\bin\Debug\PeopleCounter - Final.exe
+C:\Users\Munish\Desktop\V2 PeopleCounter - Final\V2 PeopleCounter - Final\PeopleCounter - Final\bin\Debug\PeopleCounter - Final.pdb
+C:\Users\Munish\Desktop\V2 PeopleCounter - Final\V2 PeopleCounter - Final\PeopleCounter - Final\bin\Debug\AForge.dll
+C:\Users\Munish\Desktop\V2 PeopleCounter - Final\V2 PeopleCounter - Final\PeopleCounter - Final\bin\Debug\AForge.Imaging.dll
+C:\Users\Munish\Desktop\V2 PeopleCounter - Final\V2 PeopleCounter - Final\PeopleCounter - Final\bin\Debug\AForge.Math.dll
+C:\Users\Munish\Desktop\V2 PeopleCounter - Final\V2 PeopleCounter - Final\PeopleCounter - Final\obj\x86\Debug\PeopleCounter - Final.csprojResolveAssemblyReference.cache
+C:\Users\Munish\Desktop\V2 PeopleCounter - Final\V2 PeopleCounter - Final\PeopleCounter - Final\obj\x86\Debug\MainWindow.baml
+C:\Users\Munish\Desktop\V2 PeopleCounter - Final\V2 PeopleCounter - Final\PeopleCounter - Final\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Munish\Desktop\V2 PeopleCounter - Final\V2 PeopleCounter - Final\PeopleCounter - Final\obj\x86\Debug\App.g.cs
+C:\Users\Munish\Desktop\V2 PeopleCounter - Final\V2 PeopleCounter - Final\PeopleCounter - Final\obj\x86\Debug\PeopleCounter - Final_MarkupCompile.cache
+C:\Users\Munish\Desktop\V2 PeopleCounter - Final\V2 PeopleCounter - Final\PeopleCounter - Final\obj\x86\Debug\PeopleCounter - Final.g.resources
+C:\Users\Munish\Desktop\V2 PeopleCounter - Final\V2 PeopleCounter - Final\PeopleCounter - Final\obj\x86\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Munish\Desktop\V2 PeopleCounter - Final\V2 PeopleCounter - Final\PeopleCounter - Final\obj\x86\Debug\PeopleCounter - Final.csproj.GenerateResource.Cache
+C:\Users\Munish\Desktop\V2 PeopleCounter - Final\V2 PeopleCounter - Final\PeopleCounter - Final\obj\x86\Debug\PeopleCounter - Final.exe
+C:\Users\Munish\Desktop\V2 PeopleCounter - Final\V2 PeopleCounter - Final\PeopleCounter - Final\obj\x86\Debug\PeopleCounter - Final.pdb
+C:\Users\Munish\Desktop\PeopleCounter With_Updated Log_and_Counter_Fix\PeopleCounter - Final\obj\x86\Debug\PeopleCounter - Final.exe
+C:\Users\Munish\Desktop\PeopleCounter With_Updated Log_and_Counter_Fix\PeopleCounter - Final\obj\x86\Debug\PeopleCounter - Final.pdb
+C:\Users\Munish\Desktop\PeopleCounter With_Updated Log_and_Counter_Fix\PeopleCounter - Final\bin\Debug\PeopleCounter - Final.exe
+C:\Users\Munish\Desktop\PeopleCounter With_Updated Log_and_Counter_Fix\PeopleCounter - Final\bin\Debug\PeopleCounter - Final.pdb
+C:\Users\Munish\Desktop\PeopleCounter With_Updated Log_and_Counter_Fix\PeopleCounter - Final\bin\Debug\AForge.dll
+C:\Users\Munish\Desktop\PeopleCounter With_Updated Log_and_Counter_Fix\PeopleCounter - Final\bin\Debug\AForge.Imaging.dll
+C:\Users\Munish\Desktop\PeopleCounter With_Updated Log_and_Counter_Fix\PeopleCounter - Final\bin\Debug\AForge.Math.dll
+C:\Users\Munish\Desktop\PeopleCounter With_Updated Log_and_Counter_Fix\PeopleCounter - Final\obj\x86\Debug\PeopleCounter - Final.csprojResolveAssemblyReference.cache
+C:\Users\Munish\Desktop\PeopleCounter With_Updated Log_and_Counter_Fix\PeopleCounter - Final\obj\x86\Debug\MainWindow.baml
+C:\Users\Munish\Desktop\PeopleCounter With_Updated Log_and_Counter_Fix\PeopleCounter - Final\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Munish\Desktop\PeopleCounter With_Updated Log_and_Counter_Fix\PeopleCounter - Final\obj\x86\Debug\App.g.cs
+C:\Users\Munish\Desktop\PeopleCounter With_Updated Log_and_Counter_Fix\PeopleCounter - Final\obj\x86\Debug\PeopleCounter - Final_MarkupCompile.cache
+C:\Users\Munish\Desktop\PeopleCounter With_Updated Log_and_Counter_Fix\PeopleCounter - Final\obj\x86\Debug\PeopleCounter - Final.g.resources
+C:\Users\Munish\Desktop\PeopleCounter With_Updated Log_and_Counter_Fix\PeopleCounter - Final\obj\x86\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\Munish\Desktop\PeopleCounter With_Updated Log_and_Counter_Fix\PeopleCounter - Final\obj\x86\Debug\PeopleCounter - Final.csproj.GenerateResource.Cache

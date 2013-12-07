@@ -1,0 +1,211 @@
+9/28/2013 1:48:10 PM IN: 0 OUT: 1
+9/28/2013 1:48:30 PM IN: 1 OUT: 1
+9/28/2013 2:15:45 PM IN: 2 OUT: 1
+9/28/2013 2:30:21 PM IN: 3 OUT: 1
+9/28/2013 2:48:19 PM IN: 4 OUT: 1
+9/28/2013 2:55:08 PM IN: 4 OUT: 2
+9/28/2013 3:03:32 PM IN: 4 OUT: 3
+9/28/2013 3:03:34 PM IN: 4 OUT: 4
+9/28/2013 3:09:05 PM IN: 5 OUT: 4
+9/28/2013 4:01:01 PM IN: 6 OUT: 4
+9/28/2013 4:47:03 PM IN: 6 OUT: 5
+9/28/2013 5:26:33 PM IN: 7 OUT: 5
+9/28/2013 5:36:39 PM IN: 7 OUT: 6
+9/28/2013 6:02:54 PM IN: 7 OUT: 7
+9/28/2013 6:02:54 PM IN: 8 OUT: 7
+9/28/2013 6:08:43 PM IN: 8 OUT: 8
+9/28/2013 6:34:40 PM IN: 9 OUT: 8
+9/28/2013 7:10:32 PM IN: 10 OUT: 8
+9/28/2013 11:55:29 PM IN: 10 OUT: 9
+9/28/2013 11:55:29 PM IN: 10 OUT: 9
+9/29/2013 2:37:09 AM IN: 10 OUT: 10
+9/29/2013 2:43:56 AM IN: 10 OUT: 11
+9/29/2013 6:04:51 AM IN: 11 OUT: 11
+9/29/2013 6:27:37 AM IN: 12 OUT: 11
+9/29/2013 6:28:59 AM IN: 13 OUT: 11
+9/29/2013 6:40:15 AM IN: 1 OUT: 0
+9/29/2013 6:42:11 AM IN: 1 OUT: 1
+9/29/2013 6:52:14 AM IN: 2 OUT: 1
+
+
+This is an examplee of log file
+
+to calculate the occupancy I do this:
+
+The log file contain log of all dates. first extract the log for each date
+Then substract the current day with the prev. to get the exact number of entrance of leave at each time. This will result with 
+1 or 0 for each time, In means going in the zone, out means going out of the zone. 
+the most important vectors here is the time and in/out columns 
+
+getting the data:
+This what I get 
+
+9/28/2013			
+	01:48:10	0	1
+	01:48:30	1	0
+	02:15:45	1	0
+	02:30:21	1	0
+	02:48:19	1	0
+	02:55:08	0	1
+	03:03:32	0	1
+	03:03:34	0	1
+	03:09:05	1	0
+	04:01:01	1	0
+	04:47:03	0	1
+	05:26:33	1	0
+	05:36:39	0	1
+	06:02:54	0	1
+	06:02:54	1	0
+	06:08:43	0	1
+	06:34:40	1	0
+	07:10:32	1	0
+	11:55:29	0	1
+	11:55:29	0	0
+9/29/2013			
+	02:37:09	10	10
+	02:43:56	0	1
+	06:04:51	1	0
+	06:27:37	1	0
+	06:28:59	1	0
+	06:40:15	-12	-11
+	06:42:11	0	1
+	06:52:14	1	0
+you will notice some big (- minus) number, this because the counter  reset in the middel and start counting again from 1
+so, if I have a minus values I should back to the origin data and replace that minus with the origin one which is (1,0)
+
+06:40:15	-12	-11 
+6:40:15  1  0
+
+After that, I have now the data with this format
+time( with format hh:mm:ss) in(1 or 0) out(0 or 1)
+I calculate for each hh:30:00 minutes which result me with 48 time slot)
+the script should find the related time. and sum all in of that time period togather and output it 
+to a new file with discrete time table of 48 slot:
+Time 	In 	OUT
+00:00
+00:30
+01:00
+01:30
+02:00
+02:30
+03:00
+03:30
+04:00
+04:30
+05:00
+05:30
+06:00
+06:30
+07:00
+07:30
+08:00
+08:30
+09:00
+09:30
+10:00
+10:30
+11:00
+11:30
+12:00
+12:30
+13:00
+13:30
+14:00
+14:30
+15:00
+15:30
+16:00
+16:30
+17:00
+17:30
+18:00
+18:30
+19:00
+19:30
+20:00
+20:30
+21:00
+21:30
+22:00
+22:30
+23:00
+23:30
+
+for example. Taking the data above again:
+9/28/2013			
+	01:48:10	0	1
+	01:48:30	1	0
+	02:15:45	1	0
+	02:30:21	1	0
+	02:48:19	1	0
+	02:55:08	0	1
+	03:03:32	0	1
+	03:03:34	0	1
+	03:09:05	1	0
+	04:01:01	1	0
+	04:47:03	0	1
+	05:26:33	1	0
+	05:36:39	0	1
+	06:02:54	0	1
+	06:02:54	1	0
+	06:08:43	0	1
+	06:34:40	1	0
+	07:10:32	1	0
+	11:55:29	0	1
+	11:55:29	0	0
+===================================================
+
+The result will look
+9/28/2013 ( Print the date again)
+
+TIME	in	out
+00:00	0	0
+00:30	0	0
+01:00	0	0
+01:30	0	0
+02:00	0	0
+02:30	0	0
+03:00	0	0
+03:30	0	0
+04:00	0	0
+04:30	0	0
+05:00	0	0
+05:30	0	0
+06:00	0	0
+06:30	0	0
+07:00	0	0
+07:30	0	0
+08:00	0	0
+08:30	0	0
+09:00	0	0
+09:30	0	0
+10:00	0	0
+10:30	0	0
+11:00	0	0
+11:30	0	0
+12:00	0	0
+12:30	0	0
+13:00	0	0
+13:30	1	1
+14:00	1	0
+14:30	2	1
+15:00	1	2
+15:30	0	0
+16:00	1	0
+16:30	0	1
+17:00	1	0
+17:30	0	0
+18:00	1	2
+18:30	1	0
+19:00	1	0
+19:30	0	0
+20:00	0	0
+20:30	0	0
+21:00	0	0
+21:30	0	0
+22:00	0	0
+22:30	0	0
+23:00	0	0
+23:30	0	1
+
+

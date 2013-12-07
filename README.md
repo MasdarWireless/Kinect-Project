@@ -12,6 +12,7 @@ ACM e-Energy conference. Submission deadline. Jan. 15th.
 * There is a complex model, but that's for the whole building.
 
 * The ventilation is **exactly** controlled by the # of people.
+
     * Find out how you set ventilation rate.
     * Change the set point. Or increase the set point. Choose ONE.
     * Reclaim some stuff based on **real data** collected from
@@ -59,3 +60,18 @@ ACM e-Energy conference. Submission deadline. Jan. 15th.
 ## Notes ##
 1. Have some Skype meetings with Dr. Sid.
     
+## TODO ##
+1. Check the MATLAB codes and modify it, to make it properly train the
+   Markov model, **or any other** model that can take input like this
+   and produce **meaningful** result!
+
+2. Read relevant papers, and better your writing skills. Or you would
+   be kicked AWAY from **Masdar Institute of Science and Technology**.
+
+    * Check the data format.
+    * See if any up-to-date model that is working fine with it.
+    * if not, see if any practical model and/or algorithm can be built
+      out of it. (**Dude, that's the REAL stuff.**)
+    * Work hard. Do not cry.
+
+
