@@ -75,3 +75,7 @@ ACM e-Energy conference. Submission deadline. Jan. 15th.
     * Work hard. Do not cry.
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ProfessorX/kinect-project/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
