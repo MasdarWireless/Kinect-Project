@@ -1,0 +1,58 @@
+# Sometimes, or most of the time you have to bear the
+# solitude. Especially when you are just a master student studying
+# tens of thousands of miles, away from home. In this situation, home
+# means the "so-called" People's Republic of China.
+
+* TODO ACM E-Energy 2014 Paper.
+  DEADLINE: <2013-12-31 Tue>
+
+** NEXT Build model for occupancy in this lab. 
+   DEADLINE: <2013-12-28 Sat>
+   - [ ] Multi variate model. 
+   - [ ] Agent based model.
+   - [ ] Markov Chain model. [fn:1]
+     
+   :LOGBOOK:
+   - Removed deadline, was "2013-12-28 Sat" on [2013-12-28 Sat 01:31] \\
+     Well, this deadline operation is fascinating.
+   - State "NEXT"       from ""           [2013-12-28 Sat 01:23] \\
+     Somethings that has to be done.
+   :END:
+
+** NEXT Use eQuest to find out the "possible energy saving" data. [25%]
+   SCHEDULED: <2013-12-29 Sun>
+   - [X] Install eQuest.
+   - [ ] Read a quick start manual. 
+   - [ ] Use this free software to simulate our lab.
+   - [ ] Use the real data for configuration.
+
+   :LOGBOOK:
+   - State "TODO"       from "NEXT"       [2013-12-28 Sat 01:53]
+   - State "NEXT"       from ""           [2013-12-28 Sat 01:41] \\
+     Something "less" mathematical.
+   :END:
+
+** NEXT Finish this conference paper with our good great Mrs Haleimah.
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2013-12-28 Sat 01:54] \\
+     Final stuff.
+   :END:
+
+
+* Multi-Variate model. 
+  DEADLINE: <2013-12-28 Sat>
+
+** TODO Read some reference materials.
+
+** TODO Try to write some codes by yourself.
+
+** TODO Test the code and finish this shit.
+
+* Footnotes
+
+[fn:1] This is done in some other papers.[[file:Archive/Kinect%20based%20Building%20Energy%20Managment/Litreture%20Papers/Erickson10a.pdf][Markov Chain model reference paper.]]
+
+
+
+  
+
