@@ -3,6 +3,40 @@
 # tens of thousands of miles, away from home. In this situation, home
 # means the "so-called" People's Republic of China.
 
+* TODO What I really should do next?
+
+** NEXT REALLY figure out what her thesis is about.
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2013-12-28 Sat 16:59]
+   :END:
+
+** NEXT Extract some days' occupancy data.
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2013-12-28 Sat 17:00]
+   :END:
+
+** NEXT Build models according to what you designed below.
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2013-12-28 Sat 17:01]
+   :END:
+
+** NEXT Validate your models. There should be 3 according to your plan.
+   DEADLINE: <2013-12-29 Sun>
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2013-12-28 Sat 17:02]
+   :END:
+
+** NEXT Use eQuest to get the results as expected.
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2013-12-28 Sat 17:03]
+   :END:
+
+
+
+
+
+
+
 * TODO ACM E-Energy 2014 Paper.
   DEADLINE: <2013-12-31 Tue>
 
@@ -39,14 +73,15 @@
    :END:
 
 
-* Multi-Variate model. 
-  DEADLINE: <2013-12-28 Sat>
+* Multi-Variate model.
 
 ** TODO Read some reference materials.
 
 ** TODO Try to write some codes by yourself.
 
 ** TODO Test the code and finish this shit.
+
+   
 
 * Footnotes
 
