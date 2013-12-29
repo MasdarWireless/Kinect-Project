@@ -46,7 +46,7 @@ ACM e-Energy conference. Submission deadline. Jan. 15th.
 * [The open source implementation in buildings.][BACnet]
   [BACnet]: http://bacnet.sourceforge.net/
 
-* 
+
 
 
 
@@ -59,6 +59,10 @@ ACM e-Energy conference. Submission deadline. Jan. 15th.
 
 ## Notes ##
 1. Have some Skype meetings with Dr. Sid.
+
+2. Do as yo have planned in your org.
+
+
     
 ## TODO ##
 1. Check the MATLAB codes and modify it, to make it properly train the
