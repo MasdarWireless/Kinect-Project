@@ -45,8 +45,13 @@
    - [ ] Multi variate model. 
    - [ ] Agent based model.
    - [ ] Markov Chain model. [fn:1]
+   - [ ] Trying to solve the sparse Markov Chain problem. (Well, it's
+     not easy when dealing with a open office environment like this.) 
+
+
      
    :LOGBOOK:
+   CLOCK: [2013-12-30 Mon 17:53]--[2013-12-30 Mon 18:18] =>  0:25
    - Removed deadline, was "2013-12-28 Sat" on [2013-12-28 Sat 01:31] \\
      Well, this deadline operation is fascinating.
    - State "NEXT"       from ""           [2013-12-28 Sat 01:23] \\
@@ -77,7 +82,11 @@
 
 ** TODO Read some reference materials.
 
-** TODO Try to write some codes by yourself.
+** TODO Try to write some codes by yourself. [0%]
+   - [ ] Figure out which part deals with the reformat of data.
+   - [ ] Play with Mrs Haleimah's code.
+   - [ ] Modify the code and polish the model.
+   - 
 
 ** TODO Test the code and finish this shit.
 

@@ -1,9 +1,3 @@
-
-
-
-
-
-
 function dateFormatRewrite(filename)
 % this function reads a txt log file for date and flips the first two
 % columns of date, like if DD/MM/YYYY format gets changed into MM/DD/YYYY.
