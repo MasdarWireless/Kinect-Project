@@ -13,6 +13,7 @@
     (TeX-add-symbols
      "endexam")
     (TeX-run-style-hooks
+     "hyperref"
      "setspace"
      "listings"
      "xcolor"

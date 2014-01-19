@@ -1,41 +1,43 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: paper.aux
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper.aux
 The style file: plain.bst
 Database file #1: bibliography.bib
-I was expecting a `,' or a `}'---line 311 of file bibliography.bib
+I was expecting a `,' or a `}'---line 621 of file bibliography.bib
  : 
  : @ONLINE{openkinect,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "openkinect" isn't style-file defined
---line 311 of file bibliography.bib
-I was expecting a `,' or a `}'---line 317 of file bibliography.bib
+--line 621 of file bibliography.bib
+I was expecting a `,' or a `}'---line 633 of file bibliography.bib
  : 
  : @ONLINE{openni,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 323 of file bibliography.bib
+I was expecting a `,' or a `}'---line 645 of file bibliography.bib
  : 
  : @ONLINE{RGBD,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 330 of file bibliography.bib
+I was expecting a `,' or a `}'---line 659 of file bibliography.bib
  : 
  : @ONLINE{rgbdemo,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 336 of file bibliography.bib
+I was expecting a `,' or a `}'---line 671 of file bibliography.bib
  : 
  : @ONLINE{huovila2009buildings,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "huovila2009buildings" isn't style-file defined
---line 336 of file bibliography.bib
-I was expecting a `,' or a `}'---line 341 of file bibliography.bib
+--line 671 of file bibliography.bib
+I was expecting a `,' or a `}'---line 681 of file bibliography.bib
  :   
  :   url = {http://books.google.ae/books?id=VkAZygAACAAJ},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 349 of file bibliography.bib
+I was expecting a `,' or a `}'---line 697 of file bibliography.bib
  :   
  :   publisher =    {American Society of Heating, Refrigerating and Air-Conditioning Engineers Inc.},
 (Error may have been on previous line)
@@ -64,4 +66,45 @@ Warning--empty journal in stochasticsimulation
 Warning--there's a number but no volume in SPOT
 Warning--empty journal in aboutkinect
 Warning--empty year in aboutkinect
+You've used 15 entries,
+            2118 wiz_defined-function locations,
+            582 strings with 6561 characters,
+and the built_in function-call counts, 3940 in all, are:
+= -- 398
+> -- 110
+< -- 2
++ -- 51
+- -- 32
+* -- 238
+:= -- 652
+add.period$ -- 40
+call.type$ -- 15
+change.case$ -- 60
+chr.to.int$ -- 0
+cite$ -- 23
+duplicate$ -- 172
+empty$ -- 349
+format.name$ -- 32
+if$ -- 821
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 14
+newline$ -- 73
+num.names$ -- 28
+pop$ -- 69
+preamble$ -- 1
+purify$ -- 46
+quote$ -- 0
+skip$ -- 127
+stack$ -- 0
+substring$ -- 260
+swap$ -- 32
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 58
+warning$ -- 8
+while$ -- 46
+width$ -- 17
+write$ -- 149
 (There were 15 error messages)

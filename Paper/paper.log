@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.12.19)  19 JAN 2014 15:42
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.12.19)  19 JAN 2014 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -698,15 +698,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--88
 
  []
 
-(./intro.tex
-
-LaTeX Warning: Reference `sec:evaluation' on page 1 undefined on input line 67.
+(./intro.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+]
+
+LaTeX Warning: Reference `sec:evaluation' on page 2 undefined on input line 67.
 
 
-]) (./background.tex
+) (./background.tex
 Overfull \hbox (14.24547pt too wide) in paragraph at lines 17--18
 \OT1/cmr/m/n/9 mer-cial sys-tems to count peo-ple in-door and out-door.Remarkab
 le
@@ -724,7 +724,7 @@ Package pdftex.def Info: ./images/k4w350.png used on input line 24.
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
-) (./mcdesign.tex [2 <./images/k4w350.png (PNG copy)>]
+) (./mcdesign.tex [2]
 Overfull \hbox (25.79991pt too wide) in paragraph at lines 9--11
 \OT1/cmr/m/n/9 pancy in each zone be based on a thresh-old vec-tor $(\OML/cmm/m
 /it/9 say\OT1/cmr/m/n/9 [0\OML/cmm/m/it/9 ; \OT1/cmr/m/n/9 5\OML/cmm/m/it/9 ; \
@@ -737,16 +737,19 @@ Overfull \hbox (5.72067pt too wide) in paragraph at lines 18--35
  []
 
 
-Underfull \vbox (badness 1215) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-<./images/numberofkinect.png, id=21, 413.8662pt x 274.626pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./images/k4w350.png (PNG copy)>]
+<./images/numberofkinect.png, id=31, 413.8662pt x 274.626pt>
 File: ./images/numberofkinect.png Graphic file (type png)
 
 <use ./images/numberofkinect.png>
 Package pdftex.def Info: ./images/numberofkinect.png used on input line 94.
 (pdftex.def)             Requested size: 215.99854pt x 143.33014pt.
- [3]
+
 <./images/t1.png, id=33, 389.7762pt x 37.5804pt>
 File: ./images/t1.png Graphic file (type png)
  <use ./images/t1.png>
@@ -758,14 +761,13 @@ File: ./images/t2.png Graphic file (type png)
  <use ./images/t2.png>
 Package pdftex.def Info: ./images/t2.png used on input line 162.
 (pdftex.def)             Requested size: 215.99854pt x 20.82582pt.
-
-<./images/t4.png, id=35, 377.2494pt x 233.1912pt>
+ [4 <./images/numberofkinect.png> <./images/t1.png> <./images/t2.png>]
+<./images/t4.png, id=41, 377.2494pt x 233.1912pt>
 File: ./images/t4.png Graphic file (type png)
  <use ./images/t4.png>
 Package pdftex.def Info: ./images/t4.png used on input line 171.
 (pdftex.def)             Requested size: 215.99854pt x 133.51813pt.
 
-[4 <./images/numberofkinect.png> <./images/t1.png> <./images/t2.png>]
 Overfull \hbox (4.92987pt too wide) in paragraph at lines 179--179
 []\secfnt Kinect-based Oc-cu-pancy Counter soft-ware 
  []
@@ -800,14 +802,14 @@ Overfull \hbox (14.0598pt too wide) in paragraph at lines 217--218
 ugh
  []
 
-<./images/realworld.png, id=45, 453.8556pt x 550.2156pt>
+[5 <./images/t4.png> <./images/112200.png> <./images/swm.png> <./images/minisys
+.png>] <./images/realworld.png, id=52, 453.8556pt x 550.2156pt>
 File: ./images/realworld.png Graphic file (type png)
 
 <use ./images/realworld.png>
 Package pdftex.def Info: ./images/realworld.png used on input line 221.
 (pdftex.def)             Requested size: 215.99854pt x 261.85886pt.
-) (./savings.tex [5 <./images/t4.png> <./images/112200.png> <./images/swm.png> 
-<./images/minisys.png>]
+) (./savings.tex
 Overfull \hbox (15.80232pt too wide) in paragraph at lines 23--25
 \OT1/cmr/m/n/9 ci-ety of Heat-ing, Re-frig-er-at-ing and Air-Conditioning (ASHR
 AE)
@@ -819,8 +821,11 @@ File: ./images/zonedivided.png Graphic file (type png)
 <use ./images/zonedivided.png>
 Package pdftex.def Info: ./images/zonedivided.png used on input line 28.
 (pdftex.def)             Requested size: 215.99854pt x 307.39966pt.
- [6 <./images/realworld.png>]
-<./images/energysavings.png, id=58, 379.6584pt x 257.763pt>
+
+Underfull \vbox (badness 1558) has occurred while \output is active []
+
+ [6 <./images/realworld.png>] <./images/energysavings.png, id=58, 379.6584pt x 
+257.763pt>
 File: ./images/energysavings.png Graphic file (type png)
 
 <use ./images/energysavings.png>
@@ -867,18 +872,19 @@ Missing character: There is no ™ in font cmr9!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
-Missing character: There is no â in font cmr9!
-Missing character: There is no € in font cmr9!
-Missing character: There is no ™ in font cmr9!
 
 Underfull \vbox (badness 1558) has occurred while \output is active []
 
- [8])
-(./conclusion.tex) (./paper.bbl
+ [8]
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ™ in font cmr9!
+)
+(./conclusion.tex) (./paper.bbl [9]
 Missing character: There is no ï in font cmr9!
 Missing character: There is no ¬ in font cmr9!
 Missing character: There is no  in font cmr9!
- [9]) [10
+) [10
 
 ] (./paper.aux)
 
@@ -888,7 +894,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  13664 strings out of 493485
  239222 string characters out of 3143525
- 289973 words of memory out of 3000000
+ 287470 words of memory out of 3000000
  16598 multiletter control sequences out of 15000+200000
  28990 words of font info for 61 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -906,7 +912,7 @@ sy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb
 /texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (10 pages, 4101863 bytes).
+Output written on paper.pdf (10 pages, 4102065 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream
