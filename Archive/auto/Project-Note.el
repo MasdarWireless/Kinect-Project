@@ -14,7 +14,8 @@
      "sec:definition-1"
      "eq:5"
      "sec:background-1"
-     "sec:examples")
+     "sec:examples"
+     "sec:e-quest")
     (TeX-run-style-hooks
      "hyperref"
      "url"

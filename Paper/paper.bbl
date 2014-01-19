@@ -1,0 +1,85 @@
+\begin{thebibliography}{10}
+
+\bibitem{openkinect}
+Openkinect{@ONLINE}, June 2013.
+
+\bibitem{invertedpendulum}
+K.~P. Arabinda.
+\newblock Development of neuro-fuzzy controller for applications to hvac
+  system, inverted pendulum and other processes.
+\newblock {\em Intern. Journ. Computational Cognition}, 6:1--6, 2008.
+
+\bibitem{buildingoccupancyusingmarkov}
+{Yi Jiang} {Chuang Wang}, {Da Yan}.
+\newblock A novel approach for building occupancy simulation.
+\newblock {\em BUILD SIMUL}, 4(149--167), 2011.
+
+\bibitem{TinyAgent}
+{P. Valencia}~{ J. K. Ward} {G. Platt}, {J. Wall}.
+\newblock The tiny agent - wireless sensor networks controlling energy
+  resources.
+\newblock {\em Journal of Networks,}, 3(4):42--50, April 2008.
+
+\bibitem{huovila2009buildings}
+P.~Huovila, United Nations Environment Programme.~Sustainable Consumption, and
+  Production Branch.
+\newblock Buildings and climate change: Summary for decision-makers, 2009.
+
+\bibitem{realtimepeoplecount}
+{ Pallab Jyoti Dutta} {J. L. Raheja}.
+\newblock An insight into the algorithms on real-time people tracking and
+  counting system.
+\newblock {\em International Journal of Computer Applications}, 46(5), 2012.
+
+\bibitem{Designofintelligentcomfort}
+{ R. Du} {J. Liang}.
+\newblock Design of intelligent comfort control system with human learning and
+  minimum power control strategies.
+\newblock {\em Energy Conversion and Management}, 49:517--528, 2011.
+
+\bibitem{Comfortcontrol}
+{E. Arens} { F. Bauman}~{ C. Benton} {M. Fountain}, { G. Brager}.
+\newblock Comfort control for short-term occupancy.
+\newblock {\em Energy Build}, 21:1--13, 1994.
+
+\bibitem{fnd}
+Robert McDowall.
+\newblock {\em Fundamentals of HVAC Systems}.
+
+\bibitem{stochasticsimulation}
+{D. Robinson and J. L. Scartezzini} {N. M. J. Page}.
+\newblock A generalised stochastic model for the simulation of occupant
+  presence.
+\newblock 40:83--98, 2008.
+
+\bibitem{SPOT}
+{S. Keshav} {P. Xiang Gao}.
+\newblock Spot: A smart personalized office thermal control system.
+\newblock {\em Proceedings of the fourth international conference on Future
+  energy systems, e-Energy 13}, (978-1--4503--2052--8):237--246, May 2013.
+
+\bibitem{MamidiChangMaheswaran}
+{ R. Maheswaran} {S.Mamidi }, {Y.Chang}.
+\newblock Improving building energy efﬁciency with a network of sensing,
+  learning and prediction agents.
+\newblock {\em AAMAS}, 2012.
+
+\bibitem{EricksonCarreiraPerpinan}
+{ A. Cerpa.} {V. Erickson}, { M. Carreira-Perpinan}.
+\newblock Observe: Occupancy-based system for efficient reduction of hvac
+  energy.
+\newblock {\em 10th International Conference on Information Processing in
+  Sensor Networks (IPSN)}, pages 258--269, April 2011.
+
+\bibitem{aboutkinect}
+wikipedia.
+\newblock About kinect.
+
+\bibitem{Yoshinaga}
+{ Shimada, A} {Yoshinaga, S.}
+\newblock Real-time people counting using blob descriptor-social and behavioral
+  sciences.
+\newblock {\em The 1st International Conference on Security Camera Network,
+  Privacy Protection and Community Safety}, pages 143--152, 2009.
+
+\end{thebibliography}

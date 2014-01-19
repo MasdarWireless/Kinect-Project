@@ -90,7 +90,56 @@
 
 ** TODO Test the code and finish this shit.
 
-   
+
+* TODO Learn and use eQuest to finish building simulation.
+
+** NEXT Read the manual.
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2014-01-05 Sun 10:31]
+   :END:
+
+** NEXT Use this software.
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2014-01-05 Sun 10:32]
+   :END:
+
+** DONE Simple testing line of words to validate that this function is disabled ...... It seems that's disabled......
+   CLOSED: [2014-01-06 Mon 23:22]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2014-01-06 Mon 23:22]
+   - State "NEXT"       from "TODO"       [2014-01-06 Mon 23:20]
+   :END:
+   - [X] Simple testing line of words to validate that this function
+     is disabled ...... It seems that's disabled...... So the case is
+     that for non-title you have to be precise and more
+     precise. Remember, 
+
+* Comments:
+  - The MATLAB code is well-written by, well, someone. But I also have
+    trouble debugging it.
+  - Judging from this file [[https://github.com/ProfessorX/Kinect-Project/blob/master/Archive/Kinect%2520based%2520Building%2520Energy%2520Managment/MarkovChain/data/tempOccMat.txt][A sample of some days' occupancy data]], if
+    we assume the People Counting software works fine, then there is
+    something wrong with the "calculation algorithm".
+  - I doubt yet another time the equations used below. But right now I
+    can do nothing more about it...
+  - Where the heck is your Jie Cao? I have lost it.
+
+
+#+NAME: Occupancy Algorithm
+#+BEGIN_SRC matlab
+  % Occupancy formulas used
+  %   zone1 = k1_in + k2_out - k2_in
+  %   lobby = k2_in - k2_out + k3_out - k3_in + k6_out - k6_in
+  %   zone2 = k3_in - k3_out + k4_in - k4_out
+  %   zone3 = k6_in - k6_out
+  %   zone4 = k8_in - k8_out + k7_out - k7_in
+#+END_SRC
+
+
+
+
+
+  
 
 * Footnotes
 

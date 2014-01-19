@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<agent-settings xmlns="http://www.iesve.com/ShowMe" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iesve.com/ShowMe ReportAgentSettings.xsd">
+	<!-- These attributes removed from header-agent
+  logoPath="file:///c:/pSource/dev/BIN_DE~1/keys/ieslogo.WMF"
+  illustrationPath="file:///c:/pSource/dev/BIN_DE~1/keys/ieslogo.WMF"
+  project-name=""
+  incIllustration="yes"
+  -->
+	<header-agent mode="header" name="Header" incHeader="yes" incUserData="yes" consultant-name="" phone="+44 (0)141 945 8500" email="sales@iesve.com" project-name="MIST Phase 1A all zones" logoPath="file://C:\Program Files (x86)\IES\VE 2013\apps\Keys\ieslogo.bmp" illustrationPath="file://C:\Program Files (x86)\IES\VE 2013\apps\Keys\ieslogo.bmp">
+		<HeaderText><![CDATA[IES Ltd
+Helix Building, Kelvin Campus
+West of Scotland Science Park
+Glasgow  G20 0SP]]></HeaderText>
+	</header-agent>
+	<location-agent mode="location" name="Location" includeLocation="yes" includeDesign="yes" detailedDesign="yes" includeSimulation="yes" WeatherDesignParameter="CIBSE"/>
+	<template-agent mode="templates" name="Templates" addRoomDetails="yes" includeRooms="yes" includeConstructions="yes" UValueType="CIBSE" includeMacroflo="yes" includeThermal="yes" includeLighting="yes" includeRadiance="yes"/>
+	<roomlist-agent include="yes" mode="rooms" name="Room Settings" UseSelection="true" UValueType="CIBSE" DisplayFormat="DisplayTable">
+		<field id="room-id">Room ID</field>
+		<field id="room-name" use="true">Room Name</field>
+		<field id="layer">Layer</field>
+		<field id="floor-area" use="true" vt="VT_AREA_M2">Floor Area</field>
+		<field id="average-height" vt="VT_DISTANCE_M">Average Height</field>
+		<field id="Volume" use="true" vt="VT_VOLUME_M3">Volume</field>
+		<field id="Template">Template</field>
+		<field id="cooling-setpoint" vt="VT_TEMPERATURE">Cooling Setpoint</field>
+		<field id="heating-setpoint" vt="VT_TEMPERATURE">Heating Setpoint</field>
+		<field id="min-sat">Min.Percent Saturation (%)</field>
+		<field id="max-sat">Max.Percent Saturation (%)</field>
+		<field id="cool-profile">Cooling Variation Profile</field>
+		<field id="heat-profile">Heating Variation Profile</field>
+		<field id="Heating Zone ID" hide="yes">Heating Zone ID</field>
+		<field id="Cooling Zone ID" hide="yes">Cooling Zone ID</field>
+		<fieldGroup id="air-exchanges" name="Room Air Exchanges">
+			<fieldGroup id="infiltration-ae" name="Infiltration">
+				<field id="infil-vent-ac-rate">Infiltration Vent. AC Rate (ac/hr)</field>
+				<field id="infil-vent-air-flow" vt="VT_VOLUMEFLOWRATE_LPERS">Infiltration Vent. Air Flow</field>
+				<field id="infil-profile">Infiltration Vent. Profile</field>
+			</fieldGroup>
+			<fieldGroup id="natural-vent-ae" name="Natural Ventilation">
+				<field id="nat-vent-ac-rate">Natural Vent. AC Rate (ac/hr)</field>
+				<field id="nat-vent-air-flow" vt="VT_VOLUMEFLOWRATE_LPERS">Natural Vent. Air Flow</field>
+				<field id="nat-vent-profile">Natural Vent. Profile</field>
+			</fieldGroup>
+			<fieldGroup id="mech-vent-ae" name="Mechanical Ventilation">
+				<field id="mech-vent-ac-rate">Mechanical Vent. AC Rate (ac/hr)</field>
+				<field id="mech-vent-air-flow" vt="VT_VOLUMEFLOWRATE_LPERS">Mechanical Vent. Air Flow</field>
+				<field id="mech-vent-profile">Mechanical Vent. Profile</field>
+			</fieldGroup>
+		</fieldGroup>
+		<fieldGroup id="gains" name="Room Casual Gains">
+			<fieldGroup id="fluoro-gain" name="Fluorescent Lighting">
+				<field id="fluoro-profile">Fluorescent Profile</field>
+				<field id="fluoro-sens-gain" vt="VT_HCPOW_KW">Fluorescent Sensible Gain</field>
+				<field id="fluoro-sens-gain-dens" vt="VT_HCPOW_AREA">Fluorescent Sensible Gain Density</field>
+				<field id="fluoro-dim-profile">Dimming profile</field>
+			</fieldGroup>
+			<fieldGroup id="tungsten-gain" name="Tungsten Lighting">
+				<field id="tungsten-profile">Tungsten Lighting Profile</field>
+				<field id="tungsten-sens-gain" vt="VT_HCPOW_KW">Tungsten Sensible Gain</field>
+				<field id="tungsten-sens-gain-dens" vt="VT_HCPOW_AREA">Tungsten Sensible Gain Density</field>
+				<field id="tungsten-dim-profile">Dimming profile</field>
+			</fieldGroup>
+			<fieldGroup id="machinery-gain" name="Machinery">
+				<field id="machinery-profile">Machinery Profile</field>
+				<field id="machinery-sens-gain" vt="VT_HCPOW_KW">Machinery Sensible Gain</field>
+				<field id="machinery-latent-gain" vt="VT_HCPOW_KW">Machinery Latent Gain</field>
+			</fieldGroup>
+			<fieldGroup id="misc-gain" name="Miscellaneous Gain">
+				<field id="misc-profile">Miscellaneous Profile</field>
+				<field id="misc-sens-gain" vt="VT_HCPOW_KW">Miscellaneous Sensible Gain</field>
+				<field id="misc-latent-gain" vt="VT_HCPOW_KW">Miscellaneous Latent Gain</field>
+			</fieldGroup>
+			<fieldGroup id="cooking-gain" name="Cooking Gain">
+				<field id="cooking-profile">Cooking Profile</field>
+				<field id="cooking-sens-gain" vt="VT_HCPOW_KW">Cooking Sensible Gain</field>
+				<field id="cooking-latent-gain" vt="VT_HCPOW_KW">Cooking Latent Gain</field>
+			</fieldGroup>
+			<fieldGroup id="computers-gain" name="Computers Gain">
+				<field id="computers-profile">Computers Profile</field>
+				<field id="comp-sens-gain" vt="VT_HCPOW_KW">Computers Sensible Gain</field>
+			</fieldGroup>
+			<fieldGroup id="people-gain" name="People Gain">
+				<field id="occ-profile">Occupancy Profile</field>
+				<field id="n-occup">Number Occupants</field>
+				<field id="occ-density" vt="VT_OCC_DENS">Occupancy Density</field>
+			</fieldGroup>
+		</fieldGroup>
+		<field id="gross-ext-floor-area" vt="VT_AREA_M2">Gross External Floor Area</field>
+		<field id="gross-roof-area" vt="VT_AREA_M2">Gross Roof Area</field>
+		<field id="gross-ext-wall-area" vt="VT_AREA_M2">Gross External Wall Area</field>
+		<field id="gross-ext-glaze-area" vt="VT_AREA_M2">Gross External Glazing Area</field>
+		<field id="gross-intern-part-area" vt="VT_AREA_M2">Gross Internal Partition/Floor Area</field>
+		<field id="net-ext-floor-area" vt="VT_AREA_M2">Net External Floor Area</field>
+		<field id="net-roof-area" vt="VT_AREA_M2">Net Roof Area</field>
+		<field id="net-extern-wall-area" vt="VT_AREA_M2">Net External Wall Area</field>
+		<field id="net-extern-glaze-area" vt="VT_AREA_M2">Net External Glazing Area</field>
+		<field id="net-intern-part-area" vt="VT_AREA_M2">Net Internal Partition/Floor Area</field>
+	</roomlist-agent>
+</agent-settings>

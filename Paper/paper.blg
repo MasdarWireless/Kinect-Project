@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: paper.aux
+The style file: plain.bst
+Database file #1: bibliography.bib
+I was expecting a `,' or a `}'---line 311 of file bibliography.bib
+ : 
+ : @ONLINE{openkinect,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "openkinect" isn't style-file defined
+--line 311 of file bibliography.bib
+I was expecting a `,' or a `}'---line 317 of file bibliography.bib
+ : 
+ : @ONLINE{openni,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 323 of file bibliography.bib
+ : 
+ : @ONLINE{RGBD,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 330 of file bibliography.bib
+ : 
+ : @ONLINE{rgbdemo,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 336 of file bibliography.bib
+ : 
+ : @ONLINE{huovila2009buildings,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "huovila2009buildings" isn't style-file defined
+--line 336 of file bibliography.bib
+I was expecting a `,' or a `}'---line 341 of file bibliography.bib
+ :   
+ :   url = {http://books.google.ae/books?id=VkAZygAACAAJ},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 349 of file bibliography.bib
+ :   
+ :   publisher =    {American Society of Heating, Refrigerating and Air-Conditioning Engineers Inc.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Too many commas in name 1 of "{G. Platt}, {J. Wall}, {P. Valencia}, { J. K. Ward}" for entry TinyAgent
+while executing---line 1049 of file plain.bst
+Warning--to sort, need author or key in openkinect
+Too many commas in name 1 of "{Chuang Wang}, {Da Yan}, , {Yi Jiang}" for entry buildingoccupancyusingmarkov
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "{M. Fountain},{ G. Brager}, {E. Arens},{ F. Bauman}, { C. Benton}" for entry Comfortcontrol
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "{M. Fountain},{ G. Brager}, {E. Arens},{ F. Bauman}, { C. Benton}" for entry Comfortcontrol
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "{Chuang Wang}, {Da Yan}, , {Yi Jiang}" for entry buildingoccupancyusingmarkov
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "{G. Platt}, {J. Wall}, {P. Valencia}, { J. K. Ward}" for entry TinyAgent
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "{M. Fountain},{ G. Brager}, {E. Arens},{ F. Bauman}, { C. Benton}" for entry Comfortcontrol
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "{M. Fountain},{ G. Brager}, {E. Arens},{ F. Bauman}, { C. Benton}" for entry Comfortcontrol
+while executing---line 1090 of file plain.bst
+Warning--can't use both author and editor fields in fnd
+Warning--empty publisher in fnd
+Warning--empty year in fnd
+Warning--empty journal in stochasticsimulation
+Warning--there's a number but no volume in SPOT
+Warning--empty journal in aboutkinect
+Warning--empty year in aboutkinect
+(There were 15 error messages)
