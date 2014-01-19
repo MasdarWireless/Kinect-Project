@@ -136,10 +136,25 @@
 #+END_SRC
 
 
+* Paper
+  :LOGBOOK:
+  CLOCK: [2014-01-19 Sun 15:56]
+  :END:
+
+** TODO Check the paper and see what else you should write.
+   :LOGBOOK:
+   CLOCK: [2014-01-19 Sun 15:56]--[2014-01-19 Sun 15:56] =>  0:00
+   :END:
+
+** NEXT Software Engineer? Are you a software engineer?
+   DEADLINE: <2014-01-19 Sun 21:00>
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2014-01-19 Sun 15:53] \\
+     Simulation, simulation.
+   :END:
 
 
-
-  
+   
 
 * Footnotes
 
