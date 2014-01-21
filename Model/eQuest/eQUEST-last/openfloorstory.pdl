@@ -1,0 +1,1807 @@
+2011-Apr-11 10:42:25 - Project Saved
+2011-Apr-11 10:42:29 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 10:45:54 - Project Saved
+2011-Apr-11 10:45:57 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 10:46:26 - Project Saved
+2011-Apr-11 11:03:52 - Project Saved
+2011-Apr-11 11:03:54 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:05:41 - Project Saved
+2011-Apr-11 11:06:56 - Project Saved
+2011-Apr-11 11:06:59 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:08:09 - Project Saved
+2011-Apr-11 11:08:12 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:10:00 - Project Saved
+2011-Apr-11 11:10:02 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:11:17 - Project Saved
+2011-Apr-11 11:13:06 - Project Saved
+2011-Apr-11 11:13:09 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:14:05 - Project Saved
+2011-Apr-11 11:14:07 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:15:41 - Project Saved
+2011-Apr-11 11:17:06 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:18:01 - Project Saved
+2011-Apr-11 11:18:09 - Project Saved
+2011-Apr-11 11:20:19 - Project Saved
+2011-Apr-11 11:27:03 - Project Saved
+2011-Apr-11 18:28:46 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 18:30:01 - ZoneByActivityAreaInputs Error 6 (Activity area 2 width and depth must be > 0) evaluating rule: Rule 441, 3, Line 68017: Perform Z-B-A Zoning
+2011-Apr-11 18:32:31 - Project Saved
+2011-Apr-11 18:32:33 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 18:37:10 - ZoneByActivityAreaInputs Error 6 (Activity area 2 width and depth must be > 0) evaluating rule: Rule 441, 3, Line 68017: Perform Z-B-A Zoning
+2011-Apr-11 18:38:22 - PerformZoning() Error:  Negative Floor Area.
+2011-Apr-11 18:38:22 - ZoneByActivityAreaInputs Error 6 (Activity area 2 width and depth must be > 0) evaluating rule: Rule 441, 3, Line 68017: Perform Z-B-A Zoning
+2011-Apr-11 18:38:22 - PerformZoning() Error:  Negative Floor Polygon Area.
+2011-Apr-11 18:42:16 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 18:44:34 - Project Saved
+2011-Apr-11 18:45:22 - Project Saved
+2011-Apr-11 18:46:31 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-13 10:14:37 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-13 10:15:10 - Project Saved
+2011-Apr-13 10:15:13 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 12:18:30 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 14:31:02 - Project Saved
+2011-May-08 14:31:09 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 14:33:45 - Project Saved
+2011-May-08 14:33:48 - Project Saved
+2011-May-08 14:33:57 - Project Saved
+2011-May-08 14:51:31 - Project Saved
+2011-May-08 14:51:34 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 14:52:15 - Project Saved
+2011-May-08 14:54:34 - Project Saved
+2011-May-08 14:57:58 - Sum of seasonal day-of-week counts (0) not equal to 365. evaluating rule: Rule 227, 156, Line 35153: Set NumDayOfWkPerSeas via SetSeasonalDOWH() function
+2011-May-08 14:58:06 - Sum of seasonal day-of-week counts (124) not equal to 365. evaluating rule: Rule 227, 156, Line 35153: Set NumDayOfWkPerSeas via SetSeasonalDOWH() function
+2011-May-08 14:58:17 - Sum of seasonal day-of-week counts (0) not equal to 365. evaluating rule: Rule 227, 156, Line 35153: Set NumDayOfWkPerSeas via SetSeasonalDOWH() function
+2011-May-08 15:01:04 - Project Saved
+2011-May-08 15:01:06 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 15:01:44 - Project Saved
+2011-May-08 15:01:48 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 15:02:37 - Project Saved
+2011-May-08 15:23:30 - Project Saved
+2011-May-08 15:27:42 - Project Saved
+2011-May-08 15:28:22 - Project Saved
+2011-May-08 15:29:21 - Project Saved
+2011-May-08 15:30:37 - Project Saved
+2011-May-08 17:04:43 - Project Saved
+2011-May-08 17:15:50 - Project Saved
+2011-May-08 17:15:56 - Project Saved
+2011-May-08 17:16:07 - Project Saved
+2011-May-08 17:29:07 - Project Saved
+2011-May-08 18:02:45 - Project Saved
+2011-May-08 18:10:10 - Project Saved
+2011-May-08 19:57:07 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 20:16:26 - Project Saved
+2011-May-08 20:31:54 - Project Saved
+2011-May-08 20:32:24 - Project Saved
+2011-May-08 21:14:00 - Project Saved
+2011-May-09 21:04:43 - Opening Project 'two story office\two story office.pd2'...
+2011-May-09 21:04:58 - Project Saved
+2011-May-09 23:49:41 - Opening Project 'two story office\two story office.pd2'...
+2011-May-10 01:35:38 - Project Saved
+2011-May-10 01:46:16 - Project Saved
+2011-May-10 01:56:13 - Project Saved
+2011-May-10 14:06:26 - Project Saved
+2011-May-10 14:59:57 - Project Saved
+2011-May-10 15:03:58 - Project Saved
+2011-May-10 15:13:03 - Project Saved
+2011-May-10 15:13:48 - Project Saved
+2011-May-10 15:15:15 - Project Saved
+2011-May-10 15:22:01 - Project Saved
+2011-May-10 15:25:51 - Project Saved
+2011-May-10 15:31:32 - Project Saved
+2011-May-10 15:31:55 - Project Saved
+2011-May-10 15:33:27 - Project Saved
+2011-May-10 15:34:04 - Project Saved
+2011-May-10 15:34:47 - Project Saved
+2011-May-10 15:35:24 - Project Saved
+2011-May-10 15:40:59 - Project Saved
+2011-May-10 15:42:09 - Project Saved
+2011-May-10 15:42:48 - Project Saved
+2011-May-10 15:43:30 - Project Saved
+2011-May-10 15:44:03 - Project Saved
+2011-May-10 15:45:17 - Project Saved
+2011-May-10 15:49:16 - Project Saved
+2011-May-10 15:51:04 - Project Saved
+2011-May-10 15:51:41 - Project Saved
+2011-May-10 16:37:57 - Project Saved
+2011-May-10 16:41:34 - Project Saved
+2011-May-10 16:45:09 - Project Saved
+2011-May-10 16:45:17 - Project Saved
+2011-May-10 16:46:57 - Project Saved
+2011-May-10 17:03:15 - Project Saved
+2011-May-10 17:04:01 - Project Saved
+2011-May-10 17:39:25 - Project Saved
+2011-May-10 17:49:44 - Project Saved
+2011-May-10 17:50:54 - Project Saved
+2011-May-10 17:53:23 - Project Saved
+2011-May-10 17:54:05 - Project Saved
+2011-May-10 17:54:25 - Project Saved
+2011-May-10 17:54:44 - Project Saved
+2011-May-10 17:55:12 - Project Saved
+2011-May-10 17:57:48 - Project Saved
+2011-May-10 17:58:20 - Project Saved
+2011-May-10 17:58:48 - Project Saved
+2011-May-10 17:59:13 - Project Saved
+2011-May-10 18:00:53 - Project Saved
+2011-May-10 18:01:27 - Project Saved
+2011-May-10 18:01:44 - Project Saved
+2011-May-11 02:06:48 - Project Saved
+2011-May-11 02:22:43 - Project Saved
+2011-May-11 02:35:18 - Project Saved
+2011-May-11 07:19:07 - Project Saved
+2013-Nov-12 13:36:18 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-13 13:51:26 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-15 18:12:36 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-16 07:13:35 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-17 23:26:32 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-17 23:27:34 - Project Saved
+2013-Nov-17 23:29:14 - Project Saved
+2013-Nov-18 05:45:58 - Project Saved
+2013-Nov-18 06:01:53 - Project Saved
+2013-Nov-18 06:06:04 - Project Saved
+2013-Nov-18 06:55:03 - Project Saved
+2013-Nov-18 06:59:39 - Project Saved
+2013-Nov-18 07:09:29 - Project Saved
+2013-Nov-18 07:51:20 - Project Saved
+2013-Nov-18 07:52:52 - Project Saved
+2013-Nov-18 07:56:26 - Project Saved
+2013-Nov-18 07:56:44 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-18 07:56:48 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Nov-18 07:56:48 - Available PageFile Memory after loading 3-D geometry -> 3107201024  
+2013-Nov-18 07:56:48 - Available Virtual Memory after loading 3-D geometry -> 2935943168  
+2013-Nov-18 08:00:11 - Project Saved
+2013-Nov-18 08:00:39 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-18 08:00:40 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Nov-18 08:00:40 - Available PageFile Memory after loading 3-D geometry -> 3281448960  
+2013-Nov-18 08:00:40 - Available Virtual Memory after loading 3-D geometry -> 2920148992  
+2013-Nov-18 08:03:05 - Project Saved
+2013-Nov-18 08:04:13 - Project Saved
+2013-Nov-18 08:06:06 - Project Saved
+2013-Nov-18 08:49:36 - Project Saved
+2013-Nov-18 08:55:36 - Project Saved
+2013-Nov-18 09:50:32 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-18 10:00:42 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-18 10:01:10 - Project Saved
+2013-Nov-18 10:02:24 - Project Saved
+2013-Nov-18 10:09:39 - Project Saved
+2013-Nov-18 10:13:08 - Project Saved
+2013-Nov-18 10:14:02 - Project Saved
+2013-Nov-18 10:14:55 - Project Saved
+2013-Nov-18 11:34:10 - Project Saved
+2013-Nov-18 11:35:45 - Project Saved
+2013-Nov-18 11:36:37 - Project Saved
+2013-Nov-18 11:59:19 - Project Saved
+2013-Nov-18 12:00:00 - Project Saved
+2013-Nov-18 12:06:16 - Project Saved
+2013-Nov-18 12:06:37 - Project Saved
+2013-Dec-04 15:26:32 - Opening Project 'two story office\two story office.pd2'...
+2013-Dec-16 10:24:10 - Opening Project 'two story office\two story office.pd2'...
+2013-Dec-16 10:27:20 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:27:20 - Available PageFile Memory after loading 3-D geometry -> 165175296  
+2013-Dec-16 10:27:20 - Available Virtual Memory after loading 3-D geometry -> 2994032640  
+2013-Dec-16 10:27:34 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:27:34 - Available PageFile Memory after loading 3-D geometry -> 135503872  
+2013-Dec-16 10:27:34 - Available Virtual Memory after loading 3-D geometry -> 2995548160  
+2013-Dec-16 10:28:39 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:28:39 - Available PageFile Memory after loading 3-D geometry -> 122281984  
+2013-Dec-16 10:28:39 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:28:59 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:28:59 - Available PageFile Memory after loading 3-D geometry -> 158060544  
+2013-Dec-16 10:28:59 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:18 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:18 - Available PageFile Memory after loading 3-D geometry -> 150818816  
+2013-Dec-16 10:29:18 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:25 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:25 - Available PageFile Memory after loading 3-D geometry -> 157675520  
+2013-Dec-16 10:29:25 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:31 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:31 - Available PageFile Memory after loading 3-D geometry -> 76419072  
+2013-Dec-16 10:29:31 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:36 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:36 - Available PageFile Memory after loading 3-D geometry -> 104710144  
+2013-Dec-16 10:29:36 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:45 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:45 - Available PageFile Memory after loading 3-D geometry -> 152612864  
+2013-Dec-16 10:29:45 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:51 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:51 - Available PageFile Memory after loading 3-D geometry -> 157872128  
+2013-Dec-16 10:29:51 - Available Virtual Memory after loading 3-D geometry -> 2992140288  
+2013-Dec-16 10:29:56 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:56 - Available PageFile Memory after loading 3-D geometry -> 160718848  
+2013-Dec-16 10:29:56 - Available Virtual Memory after loading 3-D geometry -> 2992140288  
+2013-Dec-16 10:30:37 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:30:37 - Available PageFile Memory after loading 3-D geometry -> 123027456  
+2013-Dec-16 10:30:37 - Available Virtual Memory after loading 3-D geometry -> 2992140288  
+2013-Dec-16 10:31:10 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:31:10 - Available PageFile Memory after loading 3-D geometry -> 140009472  
+2013-Dec-16 10:31:10 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:31:19 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:31:19 - Available PageFile Memory after loading 3-D geometry -> 117018624  
+2013-Dec-16 10:31:19 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:31:37 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:31:37 - Available PageFile Memory after loading 3-D geometry -> 127983616  
+2013-Dec-16 10:31:37 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:31:42 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:31:42 - Available PageFile Memory after loading 3-D geometry -> 130048000  
+2013-Dec-16 10:31:42 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:32:05 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:32:05 - Available PageFile Memory after loading 3-D geometry -> 119906304  
+2013-Dec-16 10:32:05 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:34:02 - There are 16464 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:34:02 - Available PageFile Memory after loading 3-D geometry -> 149274624  
+2013-Dec-16 10:34:02 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:34:09 - There are 16464 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:34:09 - Available PageFile Memory after loading 3-D geometry -> 149622784  
+2013-Dec-16 10:34:09 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:34:18 - There are 16464 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:34:18 - Available PageFile Memory after loading 3-D geometry -> 127959040  
+2013-Dec-16 10:34:18 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:34:32 - There are 16464 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:34:32 - Available PageFile Memory after loading 3-D geometry -> 140894208  
+2013-Dec-16 10:34:32 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:34:40 - There are 16464 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:34:40 - Available PageFile Memory after loading 3-D geometry -> 120832000  
+2013-Dec-16 10:34:40 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:35:32 - There are 16128 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:35:33 - Available PageFile Memory after loading 3-D geometry -> 160006144  
+2013-Dec-16 10:35:33 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:35:47 - There are 16128 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:35:47 - Available PageFile Memory after loading 3-D geometry -> 115613696  
+2013-Dec-16 10:35:47 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:35:55 - There are 16128 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:35:55 - Available PageFile Memory after loading 3-D geometry -> 158265344  
+2013-Dec-16 10:35:55 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:36:41 - Opening Project 'two story office\two story office.pd2'...
+2013-Dec-16 11:03:18 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 11:03:18 - Available PageFile Memory after loading 3-D geometry -> 174522368  
+2013-Dec-16 11:03:18 - Available Virtual Memory after loading 3-D geometry -> 3031580672  
+2013-Dec-16 11:03:54 - Opening Project 'two story office\two story office.pd2'...
+2013-Dec-16 11:07:11 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 11:07:11 - Available PageFile Memory after loading 3-D geometry -> 130408448  
+2013-Dec-16 11:07:11 - Available Virtual Memory after loading 3-D geometry -> 2997866496  
+2013-Dec-16 11:07:31 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 11:07:31 - Available PageFile Memory after loading 3-D geometry -> 123486208  
+2013-Dec-16 11:07:31 - Available Virtual Memory after loading 3-D geometry -> 3000430592  
+2013-Dec-26 10:42:08 - Opening Project 'two story office\two story office.pd2'...
+2013-Dec-26 10:42:50 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-26 10:42:50 - Available PageFile Memory after loading 3-D geometry -> 740642816  
+2013-Dec-26 10:42:50 - Available Virtual Memory after loading 3-D geometry -> 2979909632  
+2014-Jan-07 16:45:49 - Opening Project 'two story office\two story office.pd2'...
+2014-Jan-07 17:10:10 - Opening Project 'two story office\two story office.pd2'...
+2014-Jan-09 15:17:01 - Project Saved
+2014-Jan-12 17:19:11 - Opening Project 'two story office\two story office.pd2'...
+2014-Jan-12 17:20:09 - Project Saved
+2014-Jan-12 17:20:41 - Data Retrieval from building database failed evaluating rule: Rule 399, 2, Line 67944: Default CBEC-2003 comparison properties based on wizard inputs (iff wizard properties already initialized)
+2014-Jan-12 20:05:40 - Opening Project 'EQUEST-MODEL-Tamplete\two story office.pd2'...
+2014-Jan-12 20:07:05 - Project Saved
+2014-Jan-12 20:07:40 - ZoneByActivityAreaInputs Error 6 (Activity area 2 width and depth must be > 0) evaluating rule: Rule 454, 3, Line 69906: Perform Z-B-A Zoning
+2014-Jan-12 20:34:09 - Project Saved
+2014-Jan-12 20:34:13 - Opening Project 'EQUEST-MODEL-Tamplete\two story office.pd2'...
+2014-Jan-12 20:34:51 - There are 46704 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 20:34:52 - Available PageFile Memory after loading 3-D geometry -> 3612901376  
+2014-Jan-12 20:34:52 - Available Virtual Memory after loading 3-D geometry -> 2914009088  
+2014-Jan-12 20:36:18 - Project Saved
+2014-Jan-12 20:37:58 - Project Saved
+2014-Jan-12 20:38:01 - Opening Project 'EQUEST-MODEL-Tamplete\two story office.pd2'...
+2014-Jan-12 20:38:56 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 20:38:57 - Available PageFile Memory after loading 3-D geometry -> 3586633728  
+2014-Jan-12 20:38:57 - Available Virtual Memory after loading 3-D geometry -> 2909712384  
+2014-Jan-12 20:52:11 - Project Saved
+2014-Jan-12 20:54:38 - Project Saved
+2014-Jan-12 20:57:22 - Project Saved
+2014-Jan-12 21:07:53 - Project Saved
+2014-Jan-12 21:10:40 - Project Saved
+2014-Jan-12 21:13:35 - Project Saved
+2014-Jan-12 21:18:57 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:18:57 - Available PageFile Memory after loading 3-D geometry -> 3443851264  
+2014-Jan-12 21:18:57 - Available Virtual Memory after loading 3-D geometry -> 2907217920  
+2014-Jan-12 21:19:26 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:19:26 - Available PageFile Memory after loading 3-D geometry -> 3400204288  
+2014-Jan-12 21:19:26 - Available Virtual Memory after loading 3-D geometry -> 2875801600  
+2014-Jan-12 21:22:27 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:22:27 - Available PageFile Memory after loading 3-D geometry -> 3413954560  
+2014-Jan-12 21:22:27 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:22:38 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:22:38 - Available PageFile Memory after loading 3-D geometry -> 3415126016  
+2014-Jan-12 21:22:38 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:22:50 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:22:50 - Available PageFile Memory after loading 3-D geometry -> 3421966336  
+2014-Jan-12 21:22:50 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:02 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:02 - Available PageFile Memory after loading 3-D geometry -> 3419561984  
+2014-Jan-12 21:23:02 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:10 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:10 - Available PageFile Memory after loading 3-D geometry -> 3414847488  
+2014-Jan-12 21:23:10 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:19 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:20 - Available PageFile Memory after loading 3-D geometry -> 3417358336  
+2014-Jan-12 21:23:20 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:27 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:27 - Available PageFile Memory after loading 3-D geometry -> 3412836352  
+2014-Jan-12 21:23:27 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:36 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:37 - Available PageFile Memory after loading 3-D geometry -> 3413389312  
+2014-Jan-12 21:23:37 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:45 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:45 - Available PageFile Memory after loading 3-D geometry -> 3412426752  
+2014-Jan-12 21:23:45 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:24:37 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:24:37 - Available PageFile Memory after loading 3-D geometry -> 3386257408  
+2014-Jan-12 21:24:37 - Available Virtual Memory after loading 3-D geometry -> 2867187712  
+2014-Jan-12 21:25:10 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:25:11 - Available PageFile Memory after loading 3-D geometry -> 3391836160  
+2014-Jan-12 21:25:11 - Available Virtual Memory after loading 3-D geometry -> 2867187712  
+2014-Jan-12 21:25:38 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:25:38 - Available PageFile Memory after loading 3-D geometry -> 3394322432  
+2014-Jan-12 21:25:38 - Available Virtual Memory after loading 3-D geometry -> 2871644160  
+2014-Jan-12 21:26:30 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:26:30 - Available PageFile Memory after loading 3-D geometry -> 3407613952  
+2014-Jan-12 21:26:30 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:28:24 - Project Saved
+2014-Jan-12 21:32:29 - Project Saved
+2014-Jan-12 21:32:33 - Opening Project 'eQUEST 3-65 Projects\openfloorstory.pd2'...
+2014-Jan-12 21:33:26 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:33:27 - Available PageFile Memory after loading 3-D geometry -> 3400622080  
+2014-Jan-12 21:33:27 - Available Virtual Memory after loading 3-D geometry -> 2920259584  
+2014-Jan-12 21:41:15 - Opening Project 'eQUEST 3-65 Projects\openfloorstory.pd2'...
+2014-Jan-12 21:45:04 - Project Saved
+2014-Jan-12 21:48:30 - GenerateRoofSurface() Unable to find a plane that intersects the intersection line
+2014-Jan-12 21:48:31 - GenerateRoofSurface. Error in generating Pitched Roof, please refer to DbgPitchedRoof.txt for details
+2014-Jan-12 21:48:32 - The following issue(s) were encountered while calculating pitched roof intersections and planes for building shell 'Bldg Envelope & Loads 1':
+
+  Error: 5 - Unable to find a plane that intersects the intersection line.
+  Error: 10 - Not all roof surfaces could be completely generated.
+
+Revising the roof shape may correct these problems.
+2014-Jan-12 21:49:24 - Project Saved
+2014-Jan-12 21:49:28 - Opening Project 'eQUEST 3-65 Projects\openfloorstory.pd2'...
+2014-Jan-12 21:49:36 - There are 39648 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:49:37 - Available PageFile Memory after loading 3-D geometry -> 4238946304  
+2014-Jan-12 21:49:37 - Available Virtual Memory after loading 3-D geometry -> 2906157056  
+2014-Jan-12 21:50:34 - Project Saved
+2014-Jan-12 21:50:48 - Project Saved
+2014-Jan-12 21:51:36 - Project Saved
+2014-Jan-12 21:54:18 - Project Saved
+2014-Jan-12 21:55:01 - Project Saved
+2014-Jan-12 21:56:41 - Project Saved
+2014-Jan-13 10:16:00 - Project Saved
+2014-Jan-13 10:16:24 - Project Saved
+2014-Jan-13 10:16:40 - Project Saved
+2014-Jan-13 10:19:53 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:20:01 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:26:31 - Project Saved
+2014-Jan-13 10:26:35 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-13 10:26:44 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:26:44 - Available PageFile Memory after loading 3-D geometry -> 4011786240  
+2014-Jan-13 10:26:44 - Available Virtual Memory after loading 3-D geometry -> 2876272640  
+2014-Jan-13 10:27:37 - Project Saved
+2014-Jan-13 10:28:55 - Project Saved
+2014-Jan-13 10:32:02 - Project Saved
+2014-Jan-13 10:37:02 - Project Saved
+2014-Jan-13 10:37:06 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-13 10:37:18 - There are 39648 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:37:18 - Available PageFile Memory after loading 3-D geometry -> 3975372800  
+2014-Jan-13 10:37:18 - Available Virtual Memory after loading 3-D geometry -> 2871869440  
+2014-Jan-13 10:37:44 - Project Saved
+2014-Jan-13 10:38:16 - Project Saved
+2014-Jan-13 10:48:56 - There are 39648 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:48:56 - Available PageFile Memory after loading 3-D geometry -> 4021256192  
+2014-Jan-13 10:48:56 - Available Virtual Memory after loading 3-D geometry -> 2877222912  
+2014-Jan-13 10:49:07 - There are 39648 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:49:08 - Available PageFile Memory after loading 3-D geometry -> 4010389504  
+2014-Jan-13 10:49:08 - Available Virtual Memory after loading 3-D geometry -> 2868310016  
+2014-Jan-13 10:49:37 - There are 39648 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:49:38 - Available PageFile Memory after loading 3-D geometry -> 4028940288  
+2014-Jan-13 10:49:38 - Available Virtual Memory after loading 3-D geometry -> 2868310016  
+2014-Jan-13 10:50:47 - Project Saved
+2014-Jan-13 10:51:59 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:52:10 - Project Saved
+2014-Jan-13 10:52:15 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-13 10:52:15 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:52:25 - There are 49728 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:52:26 - Available PageFile Memory after loading 3-D geometry -> 4049002496  
+2014-Jan-13 10:52:26 - Available Virtual Memory after loading 3-D geometry -> 2908979200  
+2014-Jan-13 10:59:08 - Project Saved
+2014-Jan-13 10:59:27 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:59:28 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:59:33 - Project Saved
+2014-Jan-13 10:59:37 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-13 10:59:37 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:59:38 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:59:46 - There are 38304 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:59:47 - Available PageFile Memory after loading 3-D geometry -> 4058324992  
+2014-Jan-13 10:59:47 - Available Virtual Memory after loading 3-D geometry -> 2912215040  
+2014-Jan-13 11:00:46 - Project Saved
+2014-Jan-13 11:01:37 - Project Saved
+2014-Jan-13 11:03:58 - Project Saved
+2014-Jan-14 21:56:24 - Project Saved
+2014-Jan-14 21:56:52 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 21:56:53 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 21:58:50 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 21:58:52 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 21:59:53 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 21:59:54 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:00:55 - Project Saved
+2014-Jan-14 22:01:02 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-14 22:01:02 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:01:04 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:01:12 - There are 37296 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-14 22:01:13 - Available PageFile Memory after loading 3-D geometry -> 3823976448  
+2014-Jan-14 22:01:13 - Available Virtual Memory after loading 3-D geometry -> 2876407808  
+2014-Jan-14 22:36:54 - Project Saved
+2014-Jan-14 22:39:19 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:39:38 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:39:40 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:39:46 - Project Saved
+2014-Jan-14 22:39:49 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-14 22:39:49 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:39:51 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:39:58 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-14 22:39:58 - Available PageFile Memory after loading 3-D geometry -> 3789856768  
+2014-Jan-14 22:39:58 - Available Virtual Memory after loading 3-D geometry -> 2904584192  
+2014-Jan-14 22:41:05 - Project Saved
+2014-Jan-14 22:41:49 - Project Saved
+2014-Jan-14 22:41:53 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-14 22:41:53 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:41:54 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:42:00 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-14 22:42:01 - Available PageFile Memory after loading 3-D geometry -> 3772624896  
+2014-Jan-14 22:42:01 - Available Virtual Memory after loading 3-D geometry -> 2895675392  
+2014-Jan-14 22:43:33 - Project Saved
+2014-Jan-14 23:21:58 - Project Saved
+2014-Jan-14 23:26:18 - Project Saved
+2014-Jan-14 23:31:14 - Project Saved
+2014-Jan-14 23:33:32 - Project Saved
+2014-Jan-14 23:48:58 - Project Saved
+2014-Jan-14 23:49:32 - Project Saved
+2014-Jan-14 23:50:15 - Project Saved
+2014-Jan-15 00:15:55 - Project Saved
+2014-Jan-15 00:16:45 - Project Saved
+2014-Jan-15 00:17:53 - Project Saved
+2014-Jan-15 00:18:30 - Project Saved
+2014-Jan-15 00:19:02 - Project Saved
+2014-Jan-15 00:53:05 - Project Saved
+2014-Jan-15 00:54:03 - Project Saved
+2014-Jan-15 00:54:49 - Project Saved
+2014-Jan-15 00:55:46 - Project Saved
+2014-Jan-17 18:40:17 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 18:40:17 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:40:18 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:44:28 - Project Saved
+2014-Jan-17 18:45:50 - Project Saved
+2014-Jan-17 18:45:55 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 18:45:55 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:45:57 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:46:00 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 18:46:00 - Available PageFile Memory after loading 3-D geometry -> 475500544  
+2014-Jan-17 18:46:00 - Available Virtual Memory after loading 3-D geometry -> 2896072704  
+2014-Jan-17 18:46:19 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 18:46:19 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:46:21 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:46:24 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 18:46:24 - Available PageFile Memory after loading 3-D geometry -> 462319616  
+2014-Jan-17 18:46:24 - Available Virtual Memory after loading 3-D geometry -> 2890829824  
+2014-Jan-17 19:35:18 - Project Saved
+2014-Jan-17 19:37:47 - Project Saved
+2014-Jan-17 19:38:57 - Project Saved
+2014-Jan-17 19:39:39 - Project Saved
+2014-Jan-17 19:48:19 - Project Saved
+2014-Jan-17 19:49:33 - Project Saved
+2014-Jan-17 19:50:14 - Project Saved
+2014-Jan-17 19:50:48 - Project Saved
+2014-Jan-17 20:03:25 - Project Saved
+2014-Jan-17 20:03:29 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 20:03:29 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:03:33 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:03:37 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 20:03:37 - Available PageFile Memory after loading 3-D geometry -> 4211318784  
+2014-Jan-17 20:03:37 - Available Virtual Memory after loading 3-D geometry -> 2903539712  
+2014-Jan-17 20:03:54 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 20:03:54 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:04:40 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:04:43 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 20:04:43 - Available PageFile Memory after loading 3-D geometry -> 4205760512  
+2014-Jan-17 20:04:43 - Available Virtual Memory after loading 3-D geometry -> 2900393984  
+2014-Jan-17 20:05:24 - Project Saved
+2014-Jan-17 20:19:21 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 20:19:21 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:19:25 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:26:08 - Project Saved
+2014-Jan-17 20:36:16 - Project Saved
+2014-Jan-17 20:36:21 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 20:36:21 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:36:22 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:36:26 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 20:36:26 - Available PageFile Memory after loading 3-D geometry -> 3334283264  
+2014-Jan-17 20:36:26 - Available Virtual Memory after loading 3-D geometry -> 2936868864  
+2014-Jan-17 20:36:49 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 20:36:49 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:36:52 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:36:55 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 20:36:55 - Available PageFile Memory after loading 3-D geometry -> 3341594624  
+2014-Jan-17 20:36:55 - Available Virtual Memory after loading 3-D geometry -> 2931625984  
+2014-Jan-17 22:45:03 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 22:45:03 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:45:04 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:57:21 - Project Saved
+2014-Jan-17 22:57:25 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 22:57:25 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:57:27 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:57:30 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 22:57:30 - Available PageFile Memory after loading 3-D geometry -> 756260864  
+2014-Jan-17 22:57:30 - Available Virtual Memory after loading 3-D geometry -> 2924470272  
+2014-Jan-17 22:57:49 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 22:57:49 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:57:52 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:57:54 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 22:57:54 - Available PageFile Memory after loading 3-D geometry -> 747937792  
+2014-Jan-17 22:57:54 - Available Virtual Memory after loading 3-D geometry -> 2919227392  
+2014-Jan-17 22:59:51 - Project Saved
+2014-Jan-17 23:01:19 - Project Saved
+2014-Jan-17 23:02:08 - Project Saved
+2014-Jan-17 23:03:27 - Project Saved
+2014-Jan-17 23:13:20 - Project Saved
+2014-Jan-17 23:13:24 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 23:13:24 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:13:25 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:13:28 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 23:13:28 - Available PageFile Memory after loading 3-D geometry -> 750120960  
+2014-Jan-17 23:13:28 - Available Virtual Memory after loading 3-D geometry -> 2931679232  
+2014-Jan-17 23:13:42 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 23:13:42 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:13:44 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:13:48 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 23:13:48 - Available PageFile Memory after loading 3-D geometry -> 747479040  
+2014-Jan-17 23:13:48 - Available Virtual Memory after loading 3-D geometry -> 2928533504  
+2014-Jan-17 23:15:13 - Project Saved
+2014-Jan-17 23:15:17 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 23:15:17 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:15:18 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:15:20 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 23:15:20 - Available PageFile Memory after loading 3-D geometry -> 735723520  
+2014-Jan-17 23:15:20 - Available Virtual Memory after loading 3-D geometry -> 2924077056  
+2014-Jan-17 23:15:36 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 23:15:36 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:15:38 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:15:42 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 23:15:42 - Available PageFile Memory after loading 3-D geometry -> 732946432  
+2014-Jan-17 23:15:42 - Available Virtual Memory after loading 3-D geometry -> 2921979904  
+2014-Jan-17 23:36:29 - Project Saved
+2014-Jan-17 23:37:08 - Project Saved
+2014-Jan-17 23:37:42 - Project Saved
+2014-Jan-17 23:38:14 - Project Saved
+2014-Jan-17 23:42:00 - Project Saved
+2014-Jan-17 23:59:14 - Project Saved
+2014-Jan-18 00:11:55 - Project Saved
+2014-Jan-20 17:40:18 - Opening Project 'eQUEST-last\openfloorstory.pd2'...
+2014-Jan-20 17:40:18 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 17:40:19 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2011-Apr-11 10:42:25 - Project Saved
+2011-Apr-11 10:42:29 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 10:45:54 - Project Saved
+2011-Apr-11 10:45:57 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 10:46:26 - Project Saved
+2011-Apr-11 11:03:52 - Project Saved
+2011-Apr-11 11:03:54 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:05:41 - Project Saved
+2011-Apr-11 11:06:56 - Project Saved
+2011-Apr-11 11:06:59 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:08:09 - Project Saved
+2011-Apr-11 11:08:12 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:10:00 - Project Saved
+2011-Apr-11 11:10:02 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:11:17 - Project Saved
+2011-Apr-11 11:13:06 - Project Saved
+2011-Apr-11 11:13:09 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:14:05 - Project Saved
+2011-Apr-11 11:14:07 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:15:41 - Project Saved
+2011-Apr-11 11:17:06 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:18:01 - Project Saved
+2011-Apr-11 11:18:09 - Project Saved
+2011-Apr-11 11:20:19 - Project Saved
+2011-Apr-11 11:27:03 - Project Saved
+2011-Apr-11 18:28:46 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 18:30:01 - ZoneByActivityAreaInputs Error 6 (Activity area 2 width and depth must be > 0) evaluating rule: Rule 441, 3, Line 68017: Perform Z-B-A Zoning
+2011-Apr-11 18:32:31 - Project Saved
+2011-Apr-11 18:32:33 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 18:37:10 - ZoneByActivityAreaInputs Error 6 (Activity area 2 width and depth must be > 0) evaluating rule: Rule 441, 3, Line 68017: Perform Z-B-A Zoning
+2011-Apr-11 18:38:22 - PerformZoning() Error:  Negative Floor Area.
+2011-Apr-11 18:38:22 - ZoneByActivityAreaInputs Error 6 (Activity area 2 width and depth must be > 0) evaluating rule: Rule 441, 3, Line 68017: Perform Z-B-A Zoning
+2011-Apr-11 18:38:22 - PerformZoning() Error:  Negative Floor Polygon Area.
+2011-Apr-11 18:42:16 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 18:44:34 - Project Saved
+2011-Apr-11 18:45:22 - Project Saved
+2011-Apr-11 18:46:31 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-13 10:14:37 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-13 10:15:10 - Project Saved
+2011-Apr-13 10:15:13 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 12:18:30 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 14:31:02 - Project Saved
+2011-May-08 14:31:09 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 14:33:45 - Project Saved
+2011-May-08 14:33:48 - Project Saved
+2011-May-08 14:33:57 - Project Saved
+2011-May-08 14:51:31 - Project Saved
+2011-May-08 14:51:34 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 14:52:15 - Project Saved
+2011-May-08 14:54:34 - Project Saved
+2011-May-08 14:57:58 - Sum of seasonal day-of-week counts (0) not equal to 365. evaluating rule: Rule 227, 156, Line 35153: Set NumDayOfWkPerSeas via SetSeasonalDOWH() function
+2011-May-08 14:58:06 - Sum of seasonal day-of-week counts (124) not equal to 365. evaluating rule: Rule 227, 156, Line 35153: Set NumDayOfWkPerSeas via SetSeasonalDOWH() function
+2011-May-08 14:58:17 - Sum of seasonal day-of-week counts (0) not equal to 365. evaluating rule: Rule 227, 156, Line 35153: Set NumDayOfWkPerSeas via SetSeasonalDOWH() function
+2011-May-08 15:01:04 - Project Saved
+2011-May-08 15:01:06 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 15:01:44 - Project Saved
+2011-May-08 15:01:48 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 15:02:37 - Project Saved
+2011-May-08 15:23:30 - Project Saved
+2011-May-08 15:27:42 - Project Saved
+2011-May-08 15:28:22 - Project Saved
+2011-May-08 15:29:21 - Project Saved
+2011-May-08 15:30:37 - Project Saved
+2011-May-08 17:04:43 - Project Saved
+2011-May-08 17:15:50 - Project Saved
+2011-May-08 17:15:56 - Project Saved
+2011-May-08 17:16:07 - Project Saved
+2011-May-08 17:29:07 - Project Saved
+2011-May-08 18:02:45 - Project Saved
+2011-May-08 18:10:10 - Project Saved
+2011-May-08 19:57:07 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 20:16:26 - Project Saved
+2011-May-08 20:31:54 - Project Saved
+2011-May-08 20:32:24 - Project Saved
+2011-May-08 21:14:00 - Project Saved
+2011-May-09 21:04:43 - Opening Project 'two story office\two story office.pd2'...
+2011-May-09 21:04:58 - Project Saved
+2011-May-09 23:49:41 - Opening Project 'two story office\two story office.pd2'...
+2011-May-10 01:35:38 - Project Saved
+2011-May-10 01:46:16 - Project Saved
+2011-May-10 01:56:13 - Project Saved
+2011-May-10 14:06:26 - Project Saved
+2011-May-10 14:59:57 - Project Saved
+2011-May-10 15:03:58 - Project Saved
+2011-May-10 15:13:03 - Project Saved
+2011-May-10 15:13:48 - Project Saved
+2011-May-10 15:15:15 - Project Saved
+2011-May-10 15:22:01 - Project Saved
+2011-May-10 15:25:51 - Project Saved
+2011-May-10 15:31:32 - Project Saved
+2011-May-10 15:31:55 - Project Saved
+2011-May-10 15:33:27 - Project Saved
+2011-May-10 15:34:04 - Project Saved
+2011-May-10 15:34:47 - Project Saved
+2011-May-10 15:35:24 - Project Saved
+2011-May-10 15:40:59 - Project Saved
+2011-May-10 15:42:09 - Project Saved
+2011-May-10 15:42:48 - Project Saved
+2011-May-10 15:43:30 - Project Saved
+2011-May-10 15:44:03 - Project Saved
+2011-May-10 15:45:17 - Project Saved
+2011-May-10 15:49:16 - Project Saved
+2011-May-10 15:51:04 - Project Saved
+2011-May-10 15:51:41 - Project Saved
+2011-May-10 16:37:57 - Project Saved
+2011-May-10 16:41:34 - Project Saved
+2011-May-10 16:45:09 - Project Saved
+2011-May-10 16:45:17 - Project Saved
+2011-May-10 16:46:57 - Project Saved
+2011-May-10 17:03:15 - Project Saved
+2011-May-10 17:04:01 - Project Saved
+2011-May-10 17:39:25 - Project Saved
+2011-May-10 17:49:44 - Project Saved
+2011-May-10 17:50:54 - Project Saved
+2011-May-10 17:53:23 - Project Saved
+2011-May-10 17:54:05 - Project Saved
+2011-May-10 17:54:25 - Project Saved
+2011-May-10 17:54:44 - Project Saved
+2011-May-10 17:55:12 - Project Saved
+2011-May-10 17:57:48 - Project Saved
+2011-May-10 17:58:20 - Project Saved
+2011-May-10 17:58:48 - Project Saved
+2011-May-10 17:59:13 - Project Saved
+2011-May-10 18:00:53 - Project Saved
+2011-May-10 18:01:27 - Project Saved
+2011-May-10 18:01:44 - Project Saved
+2011-May-11 02:06:48 - Project Saved
+2011-May-11 02:22:43 - Project Saved
+2011-May-11 02:35:18 - Project Saved
+2011-May-11 07:19:07 - Project Saved
+2013-Nov-12 13:36:18 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-13 13:51:26 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-15 18:12:36 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-16 07:13:35 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-17 23:26:32 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-17 23:27:34 - Project Saved
+2013-Nov-17 23:29:14 - Project Saved
+2013-Nov-18 05:45:58 - Project Saved
+2013-Nov-18 06:01:53 - Project Saved
+2013-Nov-18 06:06:04 - Project Saved
+2013-Nov-18 06:55:03 - Project Saved
+2013-Nov-18 06:59:39 - Project Saved
+2013-Nov-18 07:09:29 - Project Saved
+2013-Nov-18 07:51:20 - Project Saved
+2013-Nov-18 07:52:52 - Project Saved
+2013-Nov-18 07:56:26 - Project Saved
+2013-Nov-18 07:56:44 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-18 07:56:48 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Nov-18 07:56:48 - Available PageFile Memory after loading 3-D geometry -> 3107201024  
+2013-Nov-18 07:56:48 - Available Virtual Memory after loading 3-D geometry -> 2935943168  
+2013-Nov-18 08:00:11 - Project Saved
+2013-Nov-18 08:00:39 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-18 08:00:40 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Nov-18 08:00:40 - Available PageFile Memory after loading 3-D geometry -> 3281448960  
+2013-Nov-18 08:00:40 - Available Virtual Memory after loading 3-D geometry -> 2920148992  
+2013-Nov-18 08:03:05 - Project Saved
+2013-Nov-18 08:04:13 - Project Saved
+2013-Nov-18 08:06:06 - Project Saved
+2013-Nov-18 08:49:36 - Project Saved
+2013-Nov-18 08:55:36 - Project Saved
+2013-Nov-18 09:50:32 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-18 10:00:42 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-18 10:01:10 - Project Saved
+2013-Nov-18 10:02:24 - Project Saved
+2013-Nov-18 10:09:39 - Project Saved
+2013-Nov-18 10:13:08 - Project Saved
+2013-Nov-18 10:14:02 - Project Saved
+2013-Nov-18 10:14:55 - Project Saved
+2013-Nov-18 11:34:10 - Project Saved
+2013-Nov-18 11:35:45 - Project Saved
+2013-Nov-18 11:36:37 - Project Saved
+2013-Nov-18 11:59:19 - Project Saved
+2013-Nov-18 12:00:00 - Project Saved
+2013-Nov-18 12:06:16 - Project Saved
+2013-Nov-18 12:06:37 - Project Saved
+2013-Dec-04 15:26:32 - Opening Project 'two story office\two story office.pd2'...
+2013-Dec-16 10:24:10 - Opening Project 'two story office\two story office.pd2'...
+2013-Dec-16 10:27:20 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:27:20 - Available PageFile Memory after loading 3-D geometry -> 165175296  
+2013-Dec-16 10:27:20 - Available Virtual Memory after loading 3-D geometry -> 2994032640  
+2013-Dec-16 10:27:34 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:27:34 - Available PageFile Memory after loading 3-D geometry -> 135503872  
+2013-Dec-16 10:27:34 - Available Virtual Memory after loading 3-D geometry -> 2995548160  
+2013-Dec-16 10:28:39 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:28:39 - Available PageFile Memory after loading 3-D geometry -> 122281984  
+2013-Dec-16 10:28:39 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:28:59 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:28:59 - Available PageFile Memory after loading 3-D geometry -> 158060544  
+2013-Dec-16 10:28:59 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:18 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:18 - Available PageFile Memory after loading 3-D geometry -> 150818816  
+2013-Dec-16 10:29:18 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:25 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:25 - Available PageFile Memory after loading 3-D geometry -> 157675520  
+2013-Dec-16 10:29:25 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:31 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:31 - Available PageFile Memory after loading 3-D geometry -> 76419072  
+2013-Dec-16 10:29:31 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:36 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:36 - Available PageFile Memory after loading 3-D geometry -> 104710144  
+2013-Dec-16 10:29:36 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:45 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:45 - Available PageFile Memory after loading 3-D geometry -> 152612864  
+2013-Dec-16 10:29:45 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:51 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:51 - Available PageFile Memory after loading 3-D geometry -> 157872128  
+2013-Dec-16 10:29:51 - Available Virtual Memory after loading 3-D geometry -> 2992140288  
+2013-Dec-16 10:29:56 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:56 - Available PageFile Memory after loading 3-D geometry -> 160718848  
+2013-Dec-16 10:29:56 - Available Virtual Memory after loading 3-D geometry -> 2992140288  
+2013-Dec-16 10:30:37 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:30:37 - Available PageFile Memory after loading 3-D geometry -> 123027456  
+2013-Dec-16 10:30:37 - Available Virtual Memory after loading 3-D geometry -> 2992140288  
+2013-Dec-16 10:31:10 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:31:10 - Available PageFile Memory after loading 3-D geometry -> 140009472  
+2013-Dec-16 10:31:10 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:31:19 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:31:19 - Available PageFile Memory after loading 3-D geometry -> 117018624  
+2013-Dec-16 10:31:19 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:31:37 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:31:37 - Available PageFile Memory after loading 3-D geometry -> 127983616  
+2013-Dec-16 10:31:37 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:31:42 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:31:42 - Available PageFile Memory after loading 3-D geometry -> 130048000  
+2013-Dec-16 10:31:42 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:32:05 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:32:05 - Available PageFile Memory after loading 3-D geometry -> 119906304  
+2013-Dec-16 10:32:05 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:34:02 - There are 16464 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:34:02 - Available PageFile Memory after loading 3-D geometry -> 149274624  
+2013-Dec-16 10:34:02 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:34:09 - There are 16464 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:34:09 - Available PageFile Memory after loading 3-D geometry -> 149622784  
+2013-Dec-16 10:34:09 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:34:18 - There are 16464 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:34:18 - Available PageFile Memory after loading 3-D geometry -> 127959040  
+2013-Dec-16 10:34:18 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:34:32 - There are 16464 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:34:32 - Available PageFile Memory after loading 3-D geometry -> 140894208  
+2013-Dec-16 10:34:32 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:34:40 - There are 16464 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:34:40 - Available PageFile Memory after loading 3-D geometry -> 120832000  
+2013-Dec-16 10:34:40 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:35:32 - There are 16128 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:35:33 - Available PageFile Memory after loading 3-D geometry -> 160006144  
+2013-Dec-16 10:35:33 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:35:47 - There are 16128 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:35:47 - Available PageFile Memory after loading 3-D geometry -> 115613696  
+2013-Dec-16 10:35:47 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:35:55 - There are 16128 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:35:55 - Available PageFile Memory after loading 3-D geometry -> 158265344  
+2013-Dec-16 10:35:55 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:36:41 - Opening Project 'two story office\two story office.pd2'...
+2013-Dec-16 11:03:18 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 11:03:18 - Available PageFile Memory after loading 3-D geometry -> 174522368  
+2013-Dec-16 11:03:18 - Available Virtual Memory after loading 3-D geometry -> 3031580672  
+2013-Dec-16 11:03:54 - Opening Project 'two story office\two story office.pd2'...
+2013-Dec-16 11:07:11 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 11:07:11 - Available PageFile Memory after loading 3-D geometry -> 130408448  
+2013-Dec-16 11:07:11 - Available Virtual Memory after loading 3-D geometry -> 2997866496  
+2013-Dec-16 11:07:31 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 11:07:31 - Available PageFile Memory after loading 3-D geometry -> 123486208  
+2013-Dec-16 11:07:31 - Available Virtual Memory after loading 3-D geometry -> 3000430592  
+2013-Dec-26 10:42:08 - Opening Project 'two story office\two story office.pd2'...
+2013-Dec-26 10:42:50 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-26 10:42:50 - Available PageFile Memory after loading 3-D geometry -> 740642816  
+2013-Dec-26 10:42:50 - Available Virtual Memory after loading 3-D geometry -> 2979909632  
+2014-Jan-07 16:45:49 - Opening Project 'two story office\two story office.pd2'...
+2014-Jan-07 17:10:10 - Opening Project 'two story office\two story office.pd2'...
+2014-Jan-09 15:17:01 - Project Saved
+2014-Jan-12 17:19:11 - Opening Project 'two story office\two story office.pd2'...
+2014-Jan-12 17:20:09 - Project Saved
+2014-Jan-12 17:20:41 - Data Retrieval from building database failed evaluating rule: Rule 399, 2, Line 67944: Default CBEC-2003 comparison properties based on wizard inputs (iff wizard properties already initialized)
+2014-Jan-12 20:05:40 - Opening Project 'EQUEST-MODEL-Tamplete\two story office.pd2'...
+2014-Jan-12 20:07:05 - Project Saved
+2014-Jan-12 20:07:40 - ZoneByActivityAreaInputs Error 6 (Activity area 2 width and depth must be > 0) evaluating rule: Rule 454, 3, Line 69906: Perform Z-B-A Zoning
+2014-Jan-12 20:34:09 - Project Saved
+2014-Jan-12 20:34:13 - Opening Project 'EQUEST-MODEL-Tamplete\two story office.pd2'...
+2014-Jan-12 20:34:51 - There are 46704 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 20:34:52 - Available PageFile Memory after loading 3-D geometry -> 3612901376  
+2014-Jan-12 20:34:52 - Available Virtual Memory after loading 3-D geometry -> 2914009088  
+2014-Jan-12 20:36:18 - Project Saved
+2014-Jan-12 20:37:58 - Project Saved
+2014-Jan-12 20:38:01 - Opening Project 'EQUEST-MODEL-Tamplete\two story office.pd2'...
+2014-Jan-12 20:38:56 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 20:38:57 - Available PageFile Memory after loading 3-D geometry -> 3586633728  
+2014-Jan-12 20:38:57 - Available Virtual Memory after loading 3-D geometry -> 2909712384  
+2014-Jan-12 20:52:11 - Project Saved
+2014-Jan-12 20:54:38 - Project Saved
+2014-Jan-12 20:57:22 - Project Saved
+2014-Jan-12 21:07:53 - Project Saved
+2014-Jan-12 21:10:40 - Project Saved
+2014-Jan-12 21:13:35 - Project Saved
+2014-Jan-12 21:18:57 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:18:57 - Available PageFile Memory after loading 3-D geometry -> 3443851264  
+2014-Jan-12 21:18:57 - Available Virtual Memory after loading 3-D geometry -> 2907217920  
+2014-Jan-12 21:19:26 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:19:26 - Available PageFile Memory after loading 3-D geometry -> 3400204288  
+2014-Jan-12 21:19:26 - Available Virtual Memory after loading 3-D geometry -> 2875801600  
+2014-Jan-12 21:22:27 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:22:27 - Available PageFile Memory after loading 3-D geometry -> 3413954560  
+2014-Jan-12 21:22:27 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:22:38 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:22:38 - Available PageFile Memory after loading 3-D geometry -> 3415126016  
+2014-Jan-12 21:22:38 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:22:50 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:22:50 - Available PageFile Memory after loading 3-D geometry -> 3421966336  
+2014-Jan-12 21:22:50 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:02 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:02 - Available PageFile Memory after loading 3-D geometry -> 3419561984  
+2014-Jan-12 21:23:02 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:10 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:10 - Available PageFile Memory after loading 3-D geometry -> 3414847488  
+2014-Jan-12 21:23:10 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:19 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:20 - Available PageFile Memory after loading 3-D geometry -> 3417358336  
+2014-Jan-12 21:23:20 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:27 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:27 - Available PageFile Memory after loading 3-D geometry -> 3412836352  
+2014-Jan-12 21:23:27 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:36 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:37 - Available PageFile Memory after loading 3-D geometry -> 3413389312  
+2014-Jan-12 21:23:37 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:45 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:45 - Available PageFile Memory after loading 3-D geometry -> 3412426752  
+2014-Jan-12 21:23:45 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:24:37 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:24:37 - Available PageFile Memory after loading 3-D geometry -> 3386257408  
+2014-Jan-12 21:24:37 - Available Virtual Memory after loading 3-D geometry -> 2867187712  
+2014-Jan-12 21:25:10 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:25:11 - Available PageFile Memory after loading 3-D geometry -> 3391836160  
+2014-Jan-12 21:25:11 - Available Virtual Memory after loading 3-D geometry -> 2867187712  
+2014-Jan-12 21:25:38 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:25:38 - Available PageFile Memory after loading 3-D geometry -> 3394322432  
+2014-Jan-12 21:25:38 - Available Virtual Memory after loading 3-D geometry -> 2871644160  
+2014-Jan-12 21:26:30 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:26:30 - Available PageFile Memory after loading 3-D geometry -> 3407613952  
+2014-Jan-12 21:26:30 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:28:24 - Project Saved
+2014-Jan-12 21:32:29 - Project Saved
+2014-Jan-12 21:32:33 - Opening Project 'eQUEST 3-65 Projects\openfloorstory.pd2'...
+2014-Jan-12 21:33:26 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:33:27 - Available PageFile Memory after loading 3-D geometry -> 3400622080  
+2014-Jan-12 21:33:27 - Available Virtual Memory after loading 3-D geometry -> 2920259584  
+2014-Jan-12 21:41:15 - Opening Project 'eQUEST 3-65 Projects\openfloorstory.pd2'...
+2014-Jan-12 21:45:04 - Project Saved
+2014-Jan-12 21:48:30 - GenerateRoofSurface() Unable to find a plane that intersects the intersection line
+2014-Jan-12 21:48:31 - GenerateRoofSurface. Error in generating Pitched Roof, please refer to DbgPitchedRoof.txt for details
+2014-Jan-12 21:48:32 - The following issue(s) were encountered while calculating pitched roof intersections and planes for building shell 'Bldg Envelope & Loads 1':
+
+  Error: 5 - Unable to find a plane that intersects the intersection line.
+  Error: 10 - Not all roof surfaces could be completely generated.
+
+Revising the roof shape may correct these problems.
+2014-Jan-12 21:49:24 - Project Saved
+2014-Jan-12 21:49:28 - Opening Project 'eQUEST 3-65 Projects\openfloorstory.pd2'...
+2014-Jan-12 21:49:36 - There are 39648 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:49:37 - Available PageFile Memory after loading 3-D geometry -> 4238946304  
+2014-Jan-12 21:49:37 - Available Virtual Memory after loading 3-D geometry -> 2906157056  
+2014-Jan-12 21:50:34 - Project Saved
+2014-Jan-12 21:50:48 - Project Saved
+2014-Jan-12 21:51:36 - Project Saved
+2014-Jan-12 21:54:18 - Project Saved
+2014-Jan-12 21:55:01 - Project Saved
+2014-Jan-12 21:56:41 - Project Saved
+2014-Jan-13 10:16:00 - Project Saved
+2014-Jan-13 10:16:24 - Project Saved
+2014-Jan-13 10:16:40 - Project Saved
+2014-Jan-13 10:19:53 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:20:01 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:26:31 - Project Saved
+2014-Jan-13 10:26:35 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-13 10:26:44 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:26:44 - Available PageFile Memory after loading 3-D geometry -> 4011786240  
+2014-Jan-13 10:26:44 - Available Virtual Memory after loading 3-D geometry -> 2876272640  
+2014-Jan-13 10:27:37 - Project Saved
+2014-Jan-13 10:28:55 - Project Saved
+2014-Jan-13 10:32:02 - Project Saved
+2014-Jan-13 10:37:02 - Project Saved
+2014-Jan-13 10:37:06 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-13 10:37:18 - There are 39648 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:37:18 - Available PageFile Memory after loading 3-D geometry -> 3975372800  
+2014-Jan-13 10:37:18 - Available Virtual Memory after loading 3-D geometry -> 2871869440  
+2014-Jan-13 10:37:44 - Project Saved
+2014-Jan-13 10:38:16 - Project Saved
+2014-Jan-13 10:48:56 - There are 39648 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:48:56 - Available PageFile Memory after loading 3-D geometry -> 4021256192  
+2014-Jan-13 10:48:56 - Available Virtual Memory after loading 3-D geometry -> 2877222912  
+2014-Jan-13 10:49:07 - There are 39648 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:49:08 - Available PageFile Memory after loading 3-D geometry -> 4010389504  
+2014-Jan-13 10:49:08 - Available Virtual Memory after loading 3-D geometry -> 2868310016  
+2014-Jan-13 10:49:37 - There are 39648 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:49:38 - Available PageFile Memory after loading 3-D geometry -> 4028940288  
+2014-Jan-13 10:49:38 - Available Virtual Memory after loading 3-D geometry -> 2868310016  
+2014-Jan-13 10:50:47 - Project Saved
+2014-Jan-13 10:51:59 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:52:10 - Project Saved
+2014-Jan-13 10:52:15 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-13 10:52:15 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:52:25 - There are 49728 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:52:26 - Available PageFile Memory after loading 3-D geometry -> 4049002496  
+2014-Jan-13 10:52:26 - Available Virtual Memory after loading 3-D geometry -> 2908979200  
+2014-Jan-13 10:59:08 - Project Saved
+2014-Jan-13 10:59:27 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:59:28 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:59:33 - Project Saved
+2014-Jan-13 10:59:37 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-13 10:59:37 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:59:38 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:59:46 - There are 38304 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:59:47 - Available PageFile Memory after loading 3-D geometry -> 4058324992  
+2014-Jan-13 10:59:47 - Available Virtual Memory after loading 3-D geometry -> 2912215040  
+2014-Jan-13 11:00:46 - Project Saved
+2014-Jan-13 11:01:37 - Project Saved
+2014-Jan-13 11:03:58 - Project Saved
+2014-Jan-14 21:56:24 - Project Saved
+2014-Jan-14 21:56:52 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 21:56:53 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 21:58:50 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 21:58:52 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 21:59:53 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 21:59:54 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:00:55 - Project Saved
+2014-Jan-14 22:01:02 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-14 22:01:02 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:01:04 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:01:12 - There are 37296 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-14 22:01:13 - Available PageFile Memory after loading 3-D geometry -> 3823976448  
+2014-Jan-14 22:01:13 - Available Virtual Memory after loading 3-D geometry -> 2876407808  
+2014-Jan-14 22:36:54 - Project Saved
+2014-Jan-14 22:39:19 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:39:38 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:39:40 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:39:46 - Project Saved
+2014-Jan-14 22:39:49 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-14 22:39:49 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:39:51 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:39:58 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-14 22:39:58 - Available PageFile Memory after loading 3-D geometry -> 3789856768  
+2014-Jan-14 22:39:58 - Available Virtual Memory after loading 3-D geometry -> 2904584192  
+2014-Jan-14 22:41:05 - Project Saved
+2014-Jan-14 22:41:49 - Project Saved
+2014-Jan-14 22:41:53 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-14 22:41:53 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:41:54 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:42:00 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-14 22:42:01 - Available PageFile Memory after loading 3-D geometry -> 3772624896  
+2014-Jan-14 22:42:01 - Available Virtual Memory after loading 3-D geometry -> 2895675392  
+2014-Jan-14 22:43:33 - Project Saved
+2014-Jan-14 23:21:58 - Project Saved
+2014-Jan-14 23:26:18 - Project Saved
+2014-Jan-14 23:31:14 - Project Saved
+2014-Jan-14 23:33:32 - Project Saved
+2014-Jan-14 23:48:58 - Project Saved
+2014-Jan-14 23:49:32 - Project Saved
+2014-Jan-14 23:50:15 - Project Saved
+2014-Jan-15 00:15:55 - Project Saved
+2014-Jan-15 00:16:45 - Project Saved
+2014-Jan-15 00:17:53 - Project Saved
+2014-Jan-15 00:18:30 - Project Saved
+2014-Jan-15 00:19:02 - Project Saved
+2014-Jan-15 00:53:05 - Project Saved
+2014-Jan-15 00:54:03 - Project Saved
+2014-Jan-15 00:54:49 - Project Saved
+2014-Jan-15 00:55:46 - Project Saved
+2014-Jan-17 18:40:17 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 18:40:17 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:40:18 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:44:28 - Project Saved
+2014-Jan-17 18:45:50 - Project Saved
+2014-Jan-17 18:45:55 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 18:45:55 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:45:57 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:46:00 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 18:46:00 - Available PageFile Memory after loading 3-D geometry -> 475500544  
+2014-Jan-17 18:46:00 - Available Virtual Memory after loading 3-D geometry -> 2896072704  
+2014-Jan-17 18:46:19 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 18:46:19 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:46:21 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:46:24 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 18:46:24 - Available PageFile Memory after loading 3-D geometry -> 462319616  
+2014-Jan-17 18:46:24 - Available Virtual Memory after loading 3-D geometry -> 2890829824  
+2014-Jan-17 19:35:18 - Project Saved
+2014-Jan-17 19:37:47 - Project Saved
+2014-Jan-17 19:38:57 - Project Saved
+2014-Jan-17 19:39:39 - Project Saved
+2014-Jan-17 19:48:19 - Project Saved
+2014-Jan-17 19:49:33 - Project Saved
+2014-Jan-17 19:50:14 - Project Saved
+2014-Jan-17 19:50:48 - Project Saved
+2014-Jan-17 20:03:25 - Project Saved
+2014-Jan-17 20:03:29 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 20:03:29 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:03:33 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:03:37 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 20:03:37 - Available PageFile Memory after loading 3-D geometry -> 4211318784  
+2014-Jan-17 20:03:37 - Available Virtual Memory after loading 3-D geometry -> 2903539712  
+2014-Jan-17 20:03:54 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 20:03:54 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:04:40 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:04:43 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 20:04:43 - Available PageFile Memory after loading 3-D geometry -> 4205760512  
+2014-Jan-17 20:04:43 - Available Virtual Memory after loading 3-D geometry -> 2900393984  
+2014-Jan-17 20:05:24 - Project Saved
+2014-Jan-17 20:19:21 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 20:19:21 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:19:25 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:26:08 - Project Saved
+2014-Jan-17 20:36:16 - Project Saved
+2014-Jan-17 20:36:21 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 20:36:21 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:36:22 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:36:26 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 20:36:26 - Available PageFile Memory after loading 3-D geometry -> 3334283264  
+2014-Jan-17 20:36:26 - Available Virtual Memory after loading 3-D geometry -> 2936868864  
+2014-Jan-17 20:36:49 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 20:36:49 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:36:52 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:36:55 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 20:36:55 - Available PageFile Memory after loading 3-D geometry -> 3341594624  
+2014-Jan-17 20:36:55 - Available Virtual Memory after loading 3-D geometry -> 2931625984  
+2014-Jan-17 22:45:03 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 22:45:03 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:45:04 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:57:21 - Project Saved
+2014-Jan-17 22:57:25 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 22:57:25 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:57:27 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:57:30 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 22:57:30 - Available PageFile Memory after loading 3-D geometry -> 756260864  
+2014-Jan-17 22:57:30 - Available Virtual Memory after loading 3-D geometry -> 2924470272  
+2014-Jan-17 22:57:49 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 22:57:49 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:57:52 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:57:54 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 22:57:54 - Available PageFile Memory after loading 3-D geometry -> 747937792  
+2014-Jan-17 22:57:54 - Available Virtual Memory after loading 3-D geometry -> 2919227392  
+2014-Jan-17 22:59:51 - Project Saved
+2014-Jan-17 23:01:19 - Project Saved
+2014-Jan-17 23:02:08 - Project Saved
+2014-Jan-17 23:03:27 - Project Saved
+2014-Jan-17 23:13:20 - Project Saved
+2014-Jan-17 23:13:24 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 23:13:24 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:13:25 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:13:28 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 23:13:28 - Available PageFile Memory after loading 3-D geometry -> 750120960  
+2014-Jan-17 23:13:28 - Available Virtual Memory after loading 3-D geometry -> 2931679232  
+2014-Jan-17 23:13:42 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 23:13:42 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:13:44 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:13:48 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 23:13:48 - Available PageFile Memory after loading 3-D geometry -> 747479040  
+2014-Jan-17 23:13:48 - Available Virtual Memory after loading 3-D geometry -> 2928533504  
+2014-Jan-17 23:15:13 - Project Saved
+2014-Jan-17 23:15:17 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 23:15:17 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:15:18 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:15:20 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 23:15:20 - Available PageFile Memory after loading 3-D geometry -> 735723520  
+2014-Jan-17 23:15:20 - Available Virtual Memory after loading 3-D geometry -> 2924077056  
+2014-Jan-17 23:15:36 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 23:15:36 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:15:38 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:15:42 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 23:15:42 - Available PageFile Memory after loading 3-D geometry -> 732946432  
+2014-Jan-17 23:15:42 - Available Virtual Memory after loading 3-D geometry -> 2921979904  
+2014-Jan-17 23:36:29 - Project Saved
+2014-Jan-17 23:37:08 - Project Saved
+2014-Jan-17 23:37:42 - Project Saved
+2014-Jan-17 23:38:14 - Project Saved
+2014-Jan-17 23:42:00 - Project Saved
+2014-Jan-17 23:59:14 - Project Saved
+2014-Jan-18 00:11:55 - Project Saved
+2014-Jan-20 09:52:26 - Opening Project 'eQUEST-last\openfloorstory.pd2'...
+2014-Jan-20 09:52:26 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 09:52:30 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 09:57:10 - Project Saved
+2014-Jan-20 09:59:44 - Project Saved
+2014-Jan-20 10:03:24 - Project Saved
+2014-Jan-20 10:03:46 - Opening Project 'eQUEST-last\openfloorstory.pd2'...
+2014-Jan-20 10:03:46 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:03:54 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:04:32 - Project Saved
+2014-Jan-20 10:04:43 - Opening Project 'eQUEST-last\openfloorstory.pd2'...
+2014-Jan-20 10:04:43 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:04:50 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:04:53 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-20 10:04:53 - Available PageFile Memory after loading 3-D geometry -> 1846108160  
+2014-Jan-20 10:04:53 - Available Virtual Memory after loading 3-D geometry -> 2995351552  
+2014-Jan-20 10:05:06 - Opening Project 'eQUEST-last\openfloorstory.pd2'...
+2014-Jan-20 10:05:06 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:05:08 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:05:10 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-20 10:05:10 - Available PageFile Memory after loading 3-D geometry -> 1853964288  
+2014-Jan-20 10:05:10 - Available Virtual Memory after loading 3-D geometry -> 2981900288  
+2014-Jan-20 10:16:56 - Opening Project 'eQUEST-last\openfloorstory.pd2'...
+2014-Jan-20 10:16:56 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:16:57 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:19:35 - Project Saved
+2014-Jan-20 10:19:52 - Opening Project 'eQUEST-last\openfloorstory.pd2'...
+2014-Jan-20 10:19:52 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:19:57 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:20:00 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-20 10:20:00 - Available PageFile Memory after loading 3-D geometry -> 1743450112  
+2014-Jan-20 10:20:00 - Available Virtual Memory after loading 3-D geometry -> 2981294080  
+2014-Jan-20 10:20:13 - Opening Project 'eQUEST-last\openfloorstory.pd2'...
+2014-Jan-20 10:20:13 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:20:14 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:20:16 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-20 10:20:17 - Available PageFile Memory after loading 3-D geometry -> 1724817408  
+2014-Jan-20 10:20:17 - Available Virtual Memory after loading 3-D geometry -> 2975068160  
+2014-Jan-20 10:36:02 - Project Saved
+2014-Jan-20 10:36:32 - Opening Project 'eQUEST-last\openfloorstory.pd2'...
+2014-Jan-20 10:36:32 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:36:34 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:39:45 - Project Saved
+2014-Jan-20 10:40:05 - Opening Project 'eQUEST-last\openfloorstory.pd2'...
+2014-Jan-20 10:40:05 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:40:05 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:40:08 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-20 10:40:08 - Available PageFile Memory after loading 3-D geometry -> 1808568320  
+2014-Jan-20 10:40:08 - Available Virtual Memory after loading 3-D geometry -> 3001012224  
+2014-Jan-20 10:40:21 - Opening Project 'eQUEST-last\openfloorstory.pd2'...
+2014-Jan-20 10:40:21 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:40:22 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:40:24 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-20 10:40:24 - Available PageFile Memory after loading 3-D geometry -> 1808134144  
+2014-Jan-20 10:40:24 - Available Virtual Memory after loading 3-D geometry -> 2991771648  
+2014-Jan-20 10:53:41 - Opening Project 'eQUEST-last\openfloorstory.pd2'...
+2014-Jan-20 10:53:41 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 10:53:52 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 11:54:39 - Project Saved
+2014-Jan-20 12:13:59 - Project Saved
+2014-Jan-20 12:14:17 - Opening Project 'eQUEST-last\openfloorstory.pd2'...
+2014-Jan-20 12:14:17 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 12:14:17 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 12:14:21 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-20 12:14:21 - Available PageFile Memory after loading 3-D geometry -> 1546989568  
+2014-Jan-20 12:14:21 - Available Virtual Memory after loading 3-D geometry -> 2970890240  
+2014-Jan-20 12:14:34 - Opening Project 'eQUEST-last\openfloorstory.pd2'...
+2014-Jan-20 12:14:34 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 12:14:35 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 12:14:37 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-20 12:14:37 - Available PageFile Memory after loading 3-D geometry -> 1537925120  
+2014-Jan-20 12:14:37 - Available Virtual Memory after loading 3-D geometry -> 2969387008  
+2014-Jan-20 12:16:04 - Project Saved
+2014-Jan-20 12:16:06 - Project Saved
+2014-Jan-20 17:39:59 - Project Saved
+2011-Apr-11 10:42:25 - Project Saved
+2011-Apr-11 10:42:29 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 10:45:54 - Project Saved
+2011-Apr-11 10:45:57 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 10:46:26 - Project Saved
+2011-Apr-11 11:03:52 - Project Saved
+2011-Apr-11 11:03:54 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:05:41 - Project Saved
+2011-Apr-11 11:06:56 - Project Saved
+2011-Apr-11 11:06:59 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:08:09 - Project Saved
+2011-Apr-11 11:08:12 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:10:00 - Project Saved
+2011-Apr-11 11:10:02 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:11:17 - Project Saved
+2011-Apr-11 11:13:06 - Project Saved
+2011-Apr-11 11:13:09 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:14:05 - Project Saved
+2011-Apr-11 11:14:07 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:15:41 - Project Saved
+2011-Apr-11 11:17:06 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 11:18:01 - Project Saved
+2011-Apr-11 11:18:09 - Project Saved
+2011-Apr-11 11:20:19 - Project Saved
+2011-Apr-11 11:27:03 - Project Saved
+2011-Apr-11 18:28:46 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 18:30:01 - ZoneByActivityAreaInputs Error 6 (Activity area 2 width and depth must be > 0) evaluating rule: Rule 441, 3, Line 68017: Perform Z-B-A Zoning
+2011-Apr-11 18:32:31 - Project Saved
+2011-Apr-11 18:32:33 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 18:37:10 - ZoneByActivityAreaInputs Error 6 (Activity area 2 width and depth must be > 0) evaluating rule: Rule 441, 3, Line 68017: Perform Z-B-A Zoning
+2011-Apr-11 18:38:22 - PerformZoning() Error:  Negative Floor Area.
+2011-Apr-11 18:38:22 - ZoneByActivityAreaInputs Error 6 (Activity area 2 width and depth must be > 0) evaluating rule: Rule 441, 3, Line 68017: Perform Z-B-A Zoning
+2011-Apr-11 18:38:22 - PerformZoning() Error:  Negative Floor Polygon Area.
+2011-Apr-11 18:42:16 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-11 18:44:34 - Project Saved
+2011-Apr-11 18:45:22 - Project Saved
+2011-Apr-11 18:46:31 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-13 10:14:37 - Opening Project 'two story office\two story office.pd2'...
+2011-Apr-13 10:15:10 - Project Saved
+2011-Apr-13 10:15:13 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 12:18:30 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 14:31:02 - Project Saved
+2011-May-08 14:31:09 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 14:33:45 - Project Saved
+2011-May-08 14:33:48 - Project Saved
+2011-May-08 14:33:57 - Project Saved
+2011-May-08 14:51:31 - Project Saved
+2011-May-08 14:51:34 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 14:52:15 - Project Saved
+2011-May-08 14:54:34 - Project Saved
+2011-May-08 14:57:58 - Sum of seasonal day-of-week counts (0) not equal to 365. evaluating rule: Rule 227, 156, Line 35153: Set NumDayOfWkPerSeas via SetSeasonalDOWH() function
+2011-May-08 14:58:06 - Sum of seasonal day-of-week counts (124) not equal to 365. evaluating rule: Rule 227, 156, Line 35153: Set NumDayOfWkPerSeas via SetSeasonalDOWH() function
+2011-May-08 14:58:17 - Sum of seasonal day-of-week counts (0) not equal to 365. evaluating rule: Rule 227, 156, Line 35153: Set NumDayOfWkPerSeas via SetSeasonalDOWH() function
+2011-May-08 15:01:04 - Project Saved
+2011-May-08 15:01:06 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 15:01:44 - Project Saved
+2011-May-08 15:01:48 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 15:02:37 - Project Saved
+2011-May-08 15:23:30 - Project Saved
+2011-May-08 15:27:42 - Project Saved
+2011-May-08 15:28:22 - Project Saved
+2011-May-08 15:29:21 - Project Saved
+2011-May-08 15:30:37 - Project Saved
+2011-May-08 17:04:43 - Project Saved
+2011-May-08 17:15:50 - Project Saved
+2011-May-08 17:15:56 - Project Saved
+2011-May-08 17:16:07 - Project Saved
+2011-May-08 17:29:07 - Project Saved
+2011-May-08 18:02:45 - Project Saved
+2011-May-08 18:10:10 - Project Saved
+2011-May-08 19:57:07 - Opening Project 'two story office\two story office.pd2'...
+2011-May-08 20:16:26 - Project Saved
+2011-May-08 20:31:54 - Project Saved
+2011-May-08 20:32:24 - Project Saved
+2011-May-08 21:14:00 - Project Saved
+2011-May-09 21:04:43 - Opening Project 'two story office\two story office.pd2'...
+2011-May-09 21:04:58 - Project Saved
+2011-May-09 23:49:41 - Opening Project 'two story office\two story office.pd2'...
+2011-May-10 01:35:38 - Project Saved
+2011-May-10 01:46:16 - Project Saved
+2011-May-10 01:56:13 - Project Saved
+2011-May-10 14:06:26 - Project Saved
+2011-May-10 14:59:57 - Project Saved
+2011-May-10 15:03:58 - Project Saved
+2011-May-10 15:13:03 - Project Saved
+2011-May-10 15:13:48 - Project Saved
+2011-May-10 15:15:15 - Project Saved
+2011-May-10 15:22:01 - Project Saved
+2011-May-10 15:25:51 - Project Saved
+2011-May-10 15:31:32 - Project Saved
+2011-May-10 15:31:55 - Project Saved
+2011-May-10 15:33:27 - Project Saved
+2011-May-10 15:34:04 - Project Saved
+2011-May-10 15:34:47 - Project Saved
+2011-May-10 15:35:24 - Project Saved
+2011-May-10 15:40:59 - Project Saved
+2011-May-10 15:42:09 - Project Saved
+2011-May-10 15:42:48 - Project Saved
+2011-May-10 15:43:30 - Project Saved
+2011-May-10 15:44:03 - Project Saved
+2011-May-10 15:45:17 - Project Saved
+2011-May-10 15:49:16 - Project Saved
+2011-May-10 15:51:04 - Project Saved
+2011-May-10 15:51:41 - Project Saved
+2011-May-10 16:37:57 - Project Saved
+2011-May-10 16:41:34 - Project Saved
+2011-May-10 16:45:09 - Project Saved
+2011-May-10 16:45:17 - Project Saved
+2011-May-10 16:46:57 - Project Saved
+2011-May-10 17:03:15 - Project Saved
+2011-May-10 17:04:01 - Project Saved
+2011-May-10 17:39:25 - Project Saved
+2011-May-10 17:49:44 - Project Saved
+2011-May-10 17:50:54 - Project Saved
+2011-May-10 17:53:23 - Project Saved
+2011-May-10 17:54:05 - Project Saved
+2011-May-10 17:54:25 - Project Saved
+2011-May-10 17:54:44 - Project Saved
+2011-May-10 17:55:12 - Project Saved
+2011-May-10 17:57:48 - Project Saved
+2011-May-10 17:58:20 - Project Saved
+2011-May-10 17:58:48 - Project Saved
+2011-May-10 17:59:13 - Project Saved
+2011-May-10 18:00:53 - Project Saved
+2011-May-10 18:01:27 - Project Saved
+2011-May-10 18:01:44 - Project Saved
+2011-May-11 02:06:48 - Project Saved
+2011-May-11 02:22:43 - Project Saved
+2011-May-11 02:35:18 - Project Saved
+2011-May-11 07:19:07 - Project Saved
+2013-Nov-12 13:36:18 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-13 13:51:26 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-15 18:12:36 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-16 07:13:35 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-17 23:26:32 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-17 23:27:34 - Project Saved
+2013-Nov-17 23:29:14 - Project Saved
+2013-Nov-18 05:45:58 - Project Saved
+2013-Nov-18 06:01:53 - Project Saved
+2013-Nov-18 06:06:04 - Project Saved
+2013-Nov-18 06:55:03 - Project Saved
+2013-Nov-18 06:59:39 - Project Saved
+2013-Nov-18 07:09:29 - Project Saved
+2013-Nov-18 07:51:20 - Project Saved
+2013-Nov-18 07:52:52 - Project Saved
+2013-Nov-18 07:56:26 - Project Saved
+2013-Nov-18 07:56:44 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-18 07:56:48 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Nov-18 07:56:48 - Available PageFile Memory after loading 3-D geometry -> 3107201024  
+2013-Nov-18 07:56:48 - Available Virtual Memory after loading 3-D geometry -> 2935943168  
+2013-Nov-18 08:00:11 - Project Saved
+2013-Nov-18 08:00:39 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-18 08:00:40 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Nov-18 08:00:40 - Available PageFile Memory after loading 3-D geometry -> 3281448960  
+2013-Nov-18 08:00:40 - Available Virtual Memory after loading 3-D geometry -> 2920148992  
+2013-Nov-18 08:03:05 - Project Saved
+2013-Nov-18 08:04:13 - Project Saved
+2013-Nov-18 08:06:06 - Project Saved
+2013-Nov-18 08:49:36 - Project Saved
+2013-Nov-18 08:55:36 - Project Saved
+2013-Nov-18 09:50:32 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-18 10:00:42 - Opening Project 'two story office\two story office.pd2'...
+2013-Nov-18 10:01:10 - Project Saved
+2013-Nov-18 10:02:24 - Project Saved
+2013-Nov-18 10:09:39 - Project Saved
+2013-Nov-18 10:13:08 - Project Saved
+2013-Nov-18 10:14:02 - Project Saved
+2013-Nov-18 10:14:55 - Project Saved
+2013-Nov-18 11:34:10 - Project Saved
+2013-Nov-18 11:35:45 - Project Saved
+2013-Nov-18 11:36:37 - Project Saved
+2013-Nov-18 11:59:19 - Project Saved
+2013-Nov-18 12:00:00 - Project Saved
+2013-Nov-18 12:06:16 - Project Saved
+2013-Nov-18 12:06:37 - Project Saved
+2013-Dec-04 15:26:32 - Opening Project 'two story office\two story office.pd2'...
+2013-Dec-16 10:24:10 - Opening Project 'two story office\two story office.pd2'...
+2013-Dec-16 10:27:20 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:27:20 - Available PageFile Memory after loading 3-D geometry -> 165175296  
+2013-Dec-16 10:27:20 - Available Virtual Memory after loading 3-D geometry -> 2994032640  
+2013-Dec-16 10:27:34 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:27:34 - Available PageFile Memory after loading 3-D geometry -> 135503872  
+2013-Dec-16 10:27:34 - Available Virtual Memory after loading 3-D geometry -> 2995548160  
+2013-Dec-16 10:28:39 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:28:39 - Available PageFile Memory after loading 3-D geometry -> 122281984  
+2013-Dec-16 10:28:39 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:28:59 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:28:59 - Available PageFile Memory after loading 3-D geometry -> 158060544  
+2013-Dec-16 10:28:59 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:18 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:18 - Available PageFile Memory after loading 3-D geometry -> 150818816  
+2013-Dec-16 10:29:18 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:25 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:25 - Available PageFile Memory after loading 3-D geometry -> 157675520  
+2013-Dec-16 10:29:25 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:31 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:31 - Available PageFile Memory after loading 3-D geometry -> 76419072  
+2013-Dec-16 10:29:31 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:36 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:36 - Available PageFile Memory after loading 3-D geometry -> 104710144  
+2013-Dec-16 10:29:36 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:45 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:45 - Available PageFile Memory after loading 3-D geometry -> 152612864  
+2013-Dec-16 10:29:45 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:29:51 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:51 - Available PageFile Memory after loading 3-D geometry -> 157872128  
+2013-Dec-16 10:29:51 - Available Virtual Memory after loading 3-D geometry -> 2992140288  
+2013-Dec-16 10:29:56 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:29:56 - Available PageFile Memory after loading 3-D geometry -> 160718848  
+2013-Dec-16 10:29:56 - Available Virtual Memory after loading 3-D geometry -> 2992140288  
+2013-Dec-16 10:30:37 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:30:37 - Available PageFile Memory after loading 3-D geometry -> 123027456  
+2013-Dec-16 10:30:37 - Available Virtual Memory after loading 3-D geometry -> 2992140288  
+2013-Dec-16 10:31:10 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:31:10 - Available PageFile Memory after loading 3-D geometry -> 140009472  
+2013-Dec-16 10:31:10 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:31:19 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:31:19 - Available PageFile Memory after loading 3-D geometry -> 117018624  
+2013-Dec-16 10:31:19 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:31:37 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:31:37 - Available PageFile Memory after loading 3-D geometry -> 127983616  
+2013-Dec-16 10:31:37 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:31:42 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:31:42 - Available PageFile Memory after loading 3-D geometry -> 130048000  
+2013-Dec-16 10:31:42 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:32:05 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:32:05 - Available PageFile Memory after loading 3-D geometry -> 119906304  
+2013-Dec-16 10:32:05 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:34:02 - There are 16464 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:34:02 - Available PageFile Memory after loading 3-D geometry -> 149274624  
+2013-Dec-16 10:34:02 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:34:09 - There are 16464 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:34:09 - Available PageFile Memory after loading 3-D geometry -> 149622784  
+2013-Dec-16 10:34:09 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:34:18 - There are 16464 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:34:18 - Available PageFile Memory after loading 3-D geometry -> 127959040  
+2013-Dec-16 10:34:18 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:34:32 - There are 16464 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:34:32 - Available PageFile Memory after loading 3-D geometry -> 140894208  
+2013-Dec-16 10:34:32 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:34:40 - There are 16464 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:34:40 - Available PageFile Memory after loading 3-D geometry -> 120832000  
+2013-Dec-16 10:34:40 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:35:32 - There are 16128 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:35:33 - Available PageFile Memory after loading 3-D geometry -> 160006144  
+2013-Dec-16 10:35:33 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:35:47 - There are 16128 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:35:47 - Available PageFile Memory after loading 3-D geometry -> 115613696  
+2013-Dec-16 10:35:47 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:35:55 - There are 16128 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 10:35:55 - Available PageFile Memory after loading 3-D geometry -> 158265344  
+2013-Dec-16 10:35:55 - Available Virtual Memory after loading 3-D geometry -> 2996596736  
+2013-Dec-16 10:36:41 - Opening Project 'two story office\two story office.pd2'...
+2013-Dec-16 11:03:18 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 11:03:18 - Available PageFile Memory after loading 3-D geometry -> 174522368  
+2013-Dec-16 11:03:18 - Available Virtual Memory after loading 3-D geometry -> 3031580672  
+2013-Dec-16 11:03:54 - Opening Project 'two story office\two story office.pd2'...
+2013-Dec-16 11:07:11 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 11:07:11 - Available PageFile Memory after loading 3-D geometry -> 130408448  
+2013-Dec-16 11:07:11 - Available Virtual Memory after loading 3-D geometry -> 2997866496  
+2013-Dec-16 11:07:31 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-16 11:07:31 - Available PageFile Memory after loading 3-D geometry -> 123486208  
+2013-Dec-16 11:07:31 - Available Virtual Memory after loading 3-D geometry -> 3000430592  
+2013-Dec-26 10:42:08 - Opening Project 'two story office\two story office.pd2'...
+2013-Dec-26 10:42:50 - There are 17136 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2013-Dec-26 10:42:50 - Available PageFile Memory after loading 3-D geometry -> 740642816  
+2013-Dec-26 10:42:50 - Available Virtual Memory after loading 3-D geometry -> 2979909632  
+2014-Jan-07 16:45:49 - Opening Project 'two story office\two story office.pd2'...
+2014-Jan-07 17:10:10 - Opening Project 'two story office\two story office.pd2'...
+2014-Jan-09 15:17:01 - Project Saved
+2014-Jan-12 17:19:11 - Opening Project 'two story office\two story office.pd2'...
+2014-Jan-12 17:20:09 - Project Saved
+2014-Jan-12 17:20:41 - Data Retrieval from building database failed evaluating rule: Rule 399, 2, Line 67944: Default CBEC-2003 comparison properties based on wizard inputs (iff wizard properties already initialized)
+2014-Jan-12 20:05:40 - Opening Project 'EQUEST-MODEL-Tamplete\two story office.pd2'...
+2014-Jan-12 20:07:05 - Project Saved
+2014-Jan-12 20:07:40 - ZoneByActivityAreaInputs Error 6 (Activity area 2 width and depth must be > 0) evaluating rule: Rule 454, 3, Line 69906: Perform Z-B-A Zoning
+2014-Jan-12 20:34:09 - Project Saved
+2014-Jan-12 20:34:13 - Opening Project 'EQUEST-MODEL-Tamplete\two story office.pd2'...
+2014-Jan-12 20:34:51 - There are 46704 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 20:34:52 - Available PageFile Memory after loading 3-D geometry -> 3612901376  
+2014-Jan-12 20:34:52 - Available Virtual Memory after loading 3-D geometry -> 2914009088  
+2014-Jan-12 20:36:18 - Project Saved
+2014-Jan-12 20:37:58 - Project Saved
+2014-Jan-12 20:38:01 - Opening Project 'EQUEST-MODEL-Tamplete\two story office.pd2'...
+2014-Jan-12 20:38:56 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 20:38:57 - Available PageFile Memory after loading 3-D geometry -> 3586633728  
+2014-Jan-12 20:38:57 - Available Virtual Memory after loading 3-D geometry -> 2909712384  
+2014-Jan-12 20:52:11 - Project Saved
+2014-Jan-12 20:54:38 - Project Saved
+2014-Jan-12 20:57:22 - Project Saved
+2014-Jan-12 21:07:53 - Project Saved
+2014-Jan-12 21:10:40 - Project Saved
+2014-Jan-12 21:13:35 - Project Saved
+2014-Jan-12 21:18:57 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:18:57 - Available PageFile Memory after loading 3-D geometry -> 3443851264  
+2014-Jan-12 21:18:57 - Available Virtual Memory after loading 3-D geometry -> 2907217920  
+2014-Jan-12 21:19:26 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:19:26 - Available PageFile Memory after loading 3-D geometry -> 3400204288  
+2014-Jan-12 21:19:26 - Available Virtual Memory after loading 3-D geometry -> 2875801600  
+2014-Jan-12 21:22:27 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:22:27 - Available PageFile Memory after loading 3-D geometry -> 3413954560  
+2014-Jan-12 21:22:27 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:22:38 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:22:38 - Available PageFile Memory after loading 3-D geometry -> 3415126016  
+2014-Jan-12 21:22:38 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:22:50 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:22:50 - Available PageFile Memory after loading 3-D geometry -> 3421966336  
+2014-Jan-12 21:22:50 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:02 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:02 - Available PageFile Memory after loading 3-D geometry -> 3419561984  
+2014-Jan-12 21:23:02 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:10 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:10 - Available PageFile Memory after loading 3-D geometry -> 3414847488  
+2014-Jan-12 21:23:10 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:19 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:20 - Available PageFile Memory after loading 3-D geometry -> 3417358336  
+2014-Jan-12 21:23:20 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:27 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:27 - Available PageFile Memory after loading 3-D geometry -> 3412836352  
+2014-Jan-12 21:23:27 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:36 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:37 - Available PageFile Memory after loading 3-D geometry -> 3413389312  
+2014-Jan-12 21:23:37 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:23:45 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:23:45 - Available PageFile Memory after loading 3-D geometry -> 3412426752  
+2014-Jan-12 21:23:45 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:24:37 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:24:37 - Available PageFile Memory after loading 3-D geometry -> 3386257408  
+2014-Jan-12 21:24:37 - Available Virtual Memory after loading 3-D geometry -> 2867187712  
+2014-Jan-12 21:25:10 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:25:11 - Available PageFile Memory after loading 3-D geometry -> 3391836160  
+2014-Jan-12 21:25:11 - Available Virtual Memory after loading 3-D geometry -> 2867187712  
+2014-Jan-12 21:25:38 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:25:38 - Available PageFile Memory after loading 3-D geometry -> 3394322432  
+2014-Jan-12 21:25:38 - Available Virtual Memory after loading 3-D geometry -> 2871644160  
+2014-Jan-12 21:26:30 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:26:30 - Available PageFile Memory after loading 3-D geometry -> 3407613952  
+2014-Jan-12 21:26:30 - Available Virtual Memory after loading 3-D geometry -> 2880557056  
+2014-Jan-12 21:28:24 - Project Saved
+2014-Jan-12 21:32:29 - Project Saved
+2014-Jan-12 21:32:33 - Opening Project 'eQUEST 3-65 Projects\openfloorstory.pd2'...
+2014-Jan-12 21:33:26 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:33:27 - Available PageFile Memory after loading 3-D geometry -> 3400622080  
+2014-Jan-12 21:33:27 - Available Virtual Memory after loading 3-D geometry -> 2920259584  
+2014-Jan-12 21:41:15 - Opening Project 'eQUEST 3-65 Projects\openfloorstory.pd2'...
+2014-Jan-12 21:45:04 - Project Saved
+2014-Jan-12 21:48:30 - GenerateRoofSurface() Unable to find a plane that intersects the intersection line
+2014-Jan-12 21:48:31 - GenerateRoofSurface. Error in generating Pitched Roof, please refer to DbgPitchedRoof.txt for details
+2014-Jan-12 21:48:32 - The following issue(s) were encountered while calculating pitched roof intersections and planes for building shell 'Bldg Envelope & Loads 1':
+
+  Error: 5 - Unable to find a plane that intersects the intersection line.
+  Error: 10 - Not all roof surfaces could be completely generated.
+
+Revising the roof shape may correct these problems.
+2014-Jan-12 21:49:24 - Project Saved
+2014-Jan-12 21:49:28 - Opening Project 'eQUEST 3-65 Projects\openfloorstory.pd2'...
+2014-Jan-12 21:49:36 - There are 39648 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-12 21:49:37 - Available PageFile Memory after loading 3-D geometry -> 4238946304  
+2014-Jan-12 21:49:37 - Available Virtual Memory after loading 3-D geometry -> 2906157056  
+2014-Jan-12 21:50:34 - Project Saved
+2014-Jan-12 21:50:48 - Project Saved
+2014-Jan-12 21:51:36 - Project Saved
+2014-Jan-12 21:54:18 - Project Saved
+2014-Jan-12 21:55:01 - Project Saved
+2014-Jan-12 21:56:41 - Project Saved
+2014-Jan-13 10:16:00 - Project Saved
+2014-Jan-13 10:16:24 - Project Saved
+2014-Jan-13 10:16:40 - Project Saved
+2014-Jan-13 10:19:53 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:20:01 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:26:31 - Project Saved
+2014-Jan-13 10:26:35 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-13 10:26:44 - There are 43008 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:26:44 - Available PageFile Memory after loading 3-D geometry -> 4011786240  
+2014-Jan-13 10:26:44 - Available Virtual Memory after loading 3-D geometry -> 2876272640  
+2014-Jan-13 10:27:37 - Project Saved
+2014-Jan-13 10:28:55 - Project Saved
+2014-Jan-13 10:32:02 - Project Saved
+2014-Jan-13 10:37:02 - Project Saved
+2014-Jan-13 10:37:06 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-13 10:37:18 - There are 39648 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:37:18 - Available PageFile Memory after loading 3-D geometry -> 3975372800  
+2014-Jan-13 10:37:18 - Available Virtual Memory after loading 3-D geometry -> 2871869440  
+2014-Jan-13 10:37:44 - Project Saved
+2014-Jan-13 10:38:16 - Project Saved
+2014-Jan-13 10:48:56 - There are 39648 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:48:56 - Available PageFile Memory after loading 3-D geometry -> 4021256192  
+2014-Jan-13 10:48:56 - Available Virtual Memory after loading 3-D geometry -> 2877222912  
+2014-Jan-13 10:49:07 - There are 39648 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:49:08 - Available PageFile Memory after loading 3-D geometry -> 4010389504  
+2014-Jan-13 10:49:08 - Available Virtual Memory after loading 3-D geometry -> 2868310016  
+2014-Jan-13 10:49:37 - There are 39648 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:49:38 - Available PageFile Memory after loading 3-D geometry -> 4028940288  
+2014-Jan-13 10:49:38 - Available Virtual Memory after loading 3-D geometry -> 2868310016  
+2014-Jan-13 10:50:47 - Project Saved
+2014-Jan-13 10:51:59 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:52:10 - Project Saved
+2014-Jan-13 10:52:15 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-13 10:52:15 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:52:25 - There are 49728 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:52:26 - Available PageFile Memory after loading 3-D geometry -> 4049002496  
+2014-Jan-13 10:52:26 - Available Virtual Memory after loading 3-D geometry -> 2908979200  
+2014-Jan-13 10:59:08 - Project Saved
+2014-Jan-13 10:59:27 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:59:28 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:59:33 - Project Saved
+2014-Jan-13 10:59:37 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-13 10:59:37 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:59:38 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-13 10:59:46 - There are 38304 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-13 10:59:47 - Available PageFile Memory after loading 3-D geometry -> 4058324992  
+2014-Jan-13 10:59:47 - Available Virtual Memory after loading 3-D geometry -> 2912215040  
+2014-Jan-13 11:00:46 - Project Saved
+2014-Jan-13 11:01:37 - Project Saved
+2014-Jan-13 11:03:58 - Project Saved
+2014-Jan-14 21:56:24 - Project Saved
+2014-Jan-14 21:56:52 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 21:56:53 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 21:58:50 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 21:58:52 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 21:59:53 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 21:59:54 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:00:55 - Project Saved
+2014-Jan-14 22:01:02 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-14 22:01:02 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:01:04 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:01:12 - There are 37296 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-14 22:01:13 - Available PageFile Memory after loading 3-D geometry -> 3823976448  
+2014-Jan-14 22:01:13 - Available Virtual Memory after loading 3-D geometry -> 2876407808  
+2014-Jan-14 22:36:54 - Project Saved
+2014-Jan-14 22:39:19 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:39:38 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:39:40 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:39:46 - Project Saved
+2014-Jan-14 22:39:49 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-14 22:39:49 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:39:51 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:39:58 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-14 22:39:58 - Available PageFile Memory after loading 3-D geometry -> 3789856768  
+2014-Jan-14 22:39:58 - Available Virtual Memory after loading 3-D geometry -> 2904584192  
+2014-Jan-14 22:41:05 - Project Saved
+2014-Jan-14 22:41:49 - Project Saved
+2014-Jan-14 22:41:53 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-14 22:41:53 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:41:54 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-14 22:42:00 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-14 22:42:01 - Available PageFile Memory after loading 3-D geometry -> 3772624896  
+2014-Jan-14 22:42:01 - Available Virtual Memory after loading 3-D geometry -> 2895675392  
+2014-Jan-14 22:43:33 - Project Saved
+2014-Jan-14 23:21:58 - Project Saved
+2014-Jan-14 23:26:18 - Project Saved
+2014-Jan-14 23:31:14 - Project Saved
+2014-Jan-14 23:33:32 - Project Saved
+2014-Jan-14 23:48:58 - Project Saved
+2014-Jan-14 23:49:32 - Project Saved
+2014-Jan-14 23:50:15 - Project Saved
+2014-Jan-15 00:15:55 - Project Saved
+2014-Jan-15 00:16:45 - Project Saved
+2014-Jan-15 00:17:53 - Project Saved
+2014-Jan-15 00:18:30 - Project Saved
+2014-Jan-15 00:19:02 - Project Saved
+2014-Jan-15 00:53:05 - Project Saved
+2014-Jan-15 00:54:03 - Project Saved
+2014-Jan-15 00:54:49 - Project Saved
+2014-Jan-15 00:55:46 - Project Saved
+2014-Jan-17 18:40:17 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 18:40:17 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:40:18 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:44:28 - Project Saved
+2014-Jan-17 18:45:50 - Project Saved
+2014-Jan-17 18:45:55 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 18:45:55 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:45:57 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:46:00 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 18:46:00 - Available PageFile Memory after loading 3-D geometry -> 475500544  
+2014-Jan-17 18:46:00 - Available Virtual Memory after loading 3-D geometry -> 2896072704  
+2014-Jan-17 18:46:19 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 18:46:19 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:46:21 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 18:46:24 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 18:46:24 - Available PageFile Memory after loading 3-D geometry -> 462319616  
+2014-Jan-17 18:46:24 - Available Virtual Memory after loading 3-D geometry -> 2890829824  
+2014-Jan-17 19:35:18 - Project Saved
+2014-Jan-17 19:37:47 - Project Saved
+2014-Jan-17 19:38:57 - Project Saved
+2014-Jan-17 19:39:39 - Project Saved
+2014-Jan-17 19:48:19 - Project Saved
+2014-Jan-17 19:49:33 - Project Saved
+2014-Jan-17 19:50:14 - Project Saved
+2014-Jan-17 19:50:48 - Project Saved
+2014-Jan-17 20:03:25 - Project Saved
+2014-Jan-17 20:03:29 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 20:03:29 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:03:33 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:03:37 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 20:03:37 - Available PageFile Memory after loading 3-D geometry -> 4211318784  
+2014-Jan-17 20:03:37 - Available Virtual Memory after loading 3-D geometry -> 2903539712  
+2014-Jan-17 20:03:54 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 20:03:54 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:04:40 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:04:43 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 20:04:43 - Available PageFile Memory after loading 3-D geometry -> 4205760512  
+2014-Jan-17 20:04:43 - Available Virtual Memory after loading 3-D geometry -> 2900393984  
+2014-Jan-17 20:05:24 - Project Saved
+2014-Jan-17 20:19:21 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 20:19:21 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:19:25 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:26:08 - Project Saved
+2014-Jan-17 20:36:16 - Project Saved
+2014-Jan-17 20:36:21 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 20:36:21 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:36:22 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:36:26 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 20:36:26 - Available PageFile Memory after loading 3-D geometry -> 3334283264  
+2014-Jan-17 20:36:26 - Available Virtual Memory after loading 3-D geometry -> 2936868864  
+2014-Jan-17 20:36:49 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 20:36:49 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:36:52 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 20:36:55 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 20:36:55 - Available PageFile Memory after loading 3-D geometry -> 3341594624  
+2014-Jan-17 20:36:55 - Available Virtual Memory after loading 3-D geometry -> 2931625984  
+2014-Jan-17 22:45:03 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 22:45:03 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:45:04 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:57:21 - Project Saved
+2014-Jan-17 22:57:25 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 22:57:25 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:57:27 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:57:30 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 22:57:30 - Available PageFile Memory after loading 3-D geometry -> 756260864  
+2014-Jan-17 22:57:30 - Available Virtual Memory after loading 3-D geometry -> 2924470272  
+2014-Jan-17 22:57:49 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 22:57:49 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:57:52 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 22:57:54 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 22:57:54 - Available PageFile Memory after loading 3-D geometry -> 747937792  
+2014-Jan-17 22:57:54 - Available Virtual Memory after loading 3-D geometry -> 2919227392  
+2014-Jan-17 22:59:51 - Project Saved
+2014-Jan-17 23:01:19 - Project Saved
+2014-Jan-17 23:02:08 - Project Saved
+2014-Jan-17 23:03:27 - Project Saved
+2014-Jan-17 23:13:20 - Project Saved
+2014-Jan-17 23:13:24 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 23:13:24 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:13:25 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:13:28 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 23:13:28 - Available PageFile Memory after loading 3-D geometry -> 750120960  
+2014-Jan-17 23:13:28 - Available Virtual Memory after loading 3-D geometry -> 2931679232  
+2014-Jan-17 23:13:42 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 23:13:42 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:13:44 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:13:48 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 23:13:48 - Available PageFile Memory after loading 3-D geometry -> 747479040  
+2014-Jan-17 23:13:48 - Available Virtual Memory after loading 3-D geometry -> 2928533504  
+2014-Jan-17 23:15:13 - Project Saved
+2014-Jan-17 23:15:17 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 23:15:17 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:15:18 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:15:20 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 23:15:20 - Available PageFile Memory after loading 3-D geometry -> 735723520  
+2014-Jan-17 23:15:20 - Available Virtual Memory after loading 3-D geometry -> 2924077056  
+2014-Jan-17 23:15:36 - Opening Project 'The paper Work\openfloorstory.pd2'...
+2014-Jan-17 23:15:36 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:15:38 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-17 23:15:42 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-17 23:15:42 - Available PageFile Memory after loading 3-D geometry -> 732946432  
+2014-Jan-17 23:15:42 - Available Virtual Memory after loading 3-D geometry -> 2921979904  
+2014-Jan-17 23:36:29 - Project Saved
+2014-Jan-17 23:37:08 - Project Saved
+2014-Jan-17 23:37:42 - Project Saved
+2014-Jan-17 23:38:14 - Project Saved
+2014-Jan-17 23:42:00 - Project Saved
+2014-Jan-17 23:59:14 - Project Saved
+2014-Jan-18 00:11:55 - Project Saved
+2014-Jan-20 17:40:18 - Opening Project 'eQUEST-last\openfloorstory.pd2'...
+2014-Jan-20 17:40:18 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 17:40:19 - Error in AngleToDirectionIndex():  Unable to determine direction index.
+2014-Jan-20 17:40:24 - There are 36624 free kbytes of MemoryNeeded,including 20 percent margin,  to load 3-D View
+2014-Jan-20 17:40:24 - Available PageFile Memory after loading 3-D geometry -> 479354880  
+2014-Jan-20 17:40:24 - Available Virtual Memory after loading 3-D geometry -> 2903117824  
+2014-Jan-21 15:01:39 - Project Saved

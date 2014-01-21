@@ -154,6 +154,15 @@
    :END:
 
 
+
+* Future work
+
+** Finish the two MATLAB codes as required.
+
+** Try to modify her paper, if that's necessary enough.
+
+** Be a good student. Make money by creating value.
+
    
 
 * Footnotes

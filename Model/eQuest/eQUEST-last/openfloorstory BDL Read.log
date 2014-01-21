@@ -1,0 +1,344 @@
+Line    21:  Title
+Line    25:  Run Period:  Entire Year
+Line    35:  Holidays:  Observed Holidays
+Line    46:  Compliance Data:  Compliance Data
+Line    62:  Site Parameters:  Site Data
+Line    67:  Building Parameters:  Building Data
+Line    73:  Project Data
+Line    81:  Material:  EL1 IWall Cons Mat 2 (0.91)
+Line    85:  Material:  EL1 UFMat (G.N1.U2.M1)
+Line    89:  Material:  EL1 UFMat (G.SW2.U3.M1)
+Line    93:  Material:  EL1 UFMat (G.N3.U4.M1)
+Line    97:  Material:  EL1 UFMat (G.SE4.U5.M1)
+Line   102:  Layers:  EL1 EWall Cons Layers
+Line   105:  Layers:  EL1 Roof Cons Layers
+Line   110:  Layers:  EL1 Ceilg Cons Layers
+Line   114:  Layers:  EL1 IWall Cons Layers
+Line   118:  Layers:  EL1 IFlr Cons Layers
+Line   122:  Layers:  EL1 IFSHL Cons Layers
+Line   125:  Layers:  EL1 UFLyrs (G.N1.U2)
+Line   129:  Layers:  EL1 UFLyrs (G.SW2.U3)
+Line   133:  Layers:  EL1 UFLyrs (G.N3.U4)
+Line   137:  Layers:  EL1 UFLyrs (G.SE4.U5)
+Line   142:  Construction:  EL1 EWall Construction
+Line   148:  Construction:  EL1 Roof Construction
+Line   154:  Construction:  EL1 Ceilg Construction
+Line   158:  Construction:  EL1 IWall Construction
+Line   162:  Construction:  EL1 IFlr Construction
+Line   166:  Construction:  EL1 IFSHL Construction
+Line   170:  Construction:  EL1 IFlSP Construction
+Line   174:  Construction:  EL1 UFCons (G.N1.U2)
+Line   178:  Construction:  EL1 UFCons (G.SW2.U3)
+Line   182:  Construction:  EL1 UFCons (G.N3.U4)
+Line   186:  Construction:  EL1 UFCons (G.SE4.U5)
+Line   202:  Glass Type:  EL1 Window Type #1 GT
+Line   208:  Glass Type:  EL1 Window Type #2 GT
+Line   234:  Day Schedule:  EL1 Bldg Occup Mon
+Line   239:  Day Schedule:  EL1 Bldg Occup Fri
+Line   244:  Day Schedule:  EL1 Bldg InsLt Mon
+Line   249:  Day Schedule:  EL1 Bldg InsLt Fri
+Line   253:  Day Schedule:  EL1 Bldg InsLt Sun
+Line   257:  Day Schedule:  EL1 Bldg InsLt HDD
+Line   261:  Day Schedule:  EL1 Bldg OffEq Mon
+Line   266:  Day Schedule:  EL1 Bldg OffEq Fri
+Line   270:  Day Schedule:  EL1 Bldg OffEq Sun
+Line   274:  Day Schedule:  EL1 Bldg OffEq HDD
+Line   278:  Day Schedule:  EL1 Bldg TskLt Mon
+Line   284:  Day Schedule:  EL1 Bldg TskLt Fri
+Line   288:  Day Schedule:  EL1 Bldg TskLt Sun
+Line   292:  Day Schedule:  EL1 Bldg TskLt HDD
+Line   296:  Day Schedule:  EL1 WinShade Day 1
+Line   301:  Day Schedule:  EL1 WinShade Day 2
+Line   305:  Day Schedule:  EL1 WinShade Day 3
+Line   309:  Day Schedule:  EL1 WinShade Day 4
+Line   314:  Day Schedule:  DHW Eqp NRes Mon
+Line   319:  Day Schedule:  DHW Eqp NRes Fri
+Line   323:  Day Schedule:  DHW Eqp NRes Sun
+Line   327:  Day Schedule:  DHW Eqp NRes HDD
+Line   331:  Day Schedule:  ZG1-S1 (PSZ) P-Inf Mon
+Line   337:  Day Schedule:  ZG1-S1 (PSZ) P-Inf Wed
+Line   342:  Day Schedule:  ZG1-S1 (PSZ) P-Inf Fri
+Line   346:  Day Schedule:  ZG1-S1 (PSZ) P-Inf Sun
+Line   351:  Day Schedule:  ZG1-S1 (PSZ) P-Inf HDD
+Line   355:  Day Schedule:  ZG1-S1 (PSZ) C-Inf Mon
+Line   359:  Day Schedule:  ZG1-S1 (PSZ) C-Inf Wed
+Line   364:  Day Schedule:  ZG1-S1 (PSZ) C-Inf Fri
+Line   368:  Day Schedule:  S1 Sys1 (PSZ) Fan Mon
+Line   372:  Day Schedule:  S1 Sys1 (PSZ) Fan Wed
+Line   377:  Day Schedule:  S1 Sys1 (PSZ) Fan Fri
+Line   381:  Day Schedule:  S1 Sys1 (PSZ) Cool Mon
+Line   386:  Day Schedule:  S1 Sys1 (PSZ) Cool Fri
+Line   390:  Day Schedule:  S1 Sys1 (PSZ) Heat Mon
+Line   395:  Day Schedule:  S1 Sys1 (PSZ) Heat Fri
+Line   399:  Day Schedule:  Day Schedule 40
+Line   404:  Day Schedule:  SUN-Z1
+Line   409:  Day Schedule:  MON-K1
+Line   414:  Day Schedule:  FRI-K1
+Line   419:  Day Schedule:  SAT-K1
+Line   424:  Day Schedule:  THUR-K1
+Line   430:  Day Schedule:  TUES-K1
+Line   435:  Day Schedule:  WED-K1
+Line   441:  Day Schedule:  sun-z2
+Line   446:  Day Schedule:  mon-z2
+Line   451:  Day Schedule:  tues-z2
+Line   456:  Day Schedule:  wed-z2
+Line   461:  Day Schedule:  thurs-z2
+Line   466:  Day Schedule:  fri-z2
+Line   472:  Day Schedule:  sat-z2
+Line   477:  Day Schedule:  sun-z3
+Line   482:  Day Schedule:  mon-z3
+Line   487:  Day Schedule:  tues-z3
+Line   492:  Day Schedule:  wed-z3
+Line   497:  Day Schedule:  thurs-z3
+Line   502:  Day Schedule:  fri-z3
+Line   507:  Day Schedule:  sat-z3
+Line   517:  Week Schedule:  EL1 Bldg Occup Wk
+Line   523:  Week Schedule:  EL1 Bldg InsLt Wk
+Line   528:  Week Schedule:  EL1 Bldg OffEq Wk
+Line   534:  Week Schedule:  EL1 Bldg TskLt Wk
+Line   540:  Week Schedule:  EL1 WinShade Week 1
+Line   546:  Week Schedule:  EL1 WinShade Week 2
+Line   552:  Week Schedule:  DHW Eqp NRes Wk
+Line   558:  Week Schedule:  ZG1-S1 (PSZ) P-Inf Wk
+Line   566:  Week Schedule:  ZG1-S1 (PSZ) C-Inf Wk
+Line   573:  Week Schedule:  S1 Sys1 (PSZ) Fan Wk
+Line   580:  Week Schedule:  S1 Sys1 (PSZ) Cool Wk
+Line   586:  Week Schedule:  S1 Sys1 (PSZ) Heat Wk
+Line   592:  Week Schedule:  zone1 Bld Occup Wk
+Line   597:  Week Schedule:  zone2 Bld Occup Wk
+Line   602:  Week Schedule:  zone3 Bld Occup Wk
+Line   612:  Annual Schedule:  EL1 Bldg Occup Sch
+Line   618:  Annual Schedule:  EL1 Bldg InsLt Sch
+Line   624:  Annual Schedule:  EL1 Bldg OffEq Sch
+Line   630:  Annual Schedule:  EL1 Bldg TskLt Sch
+Line   636:  Annual Schedule:  EL1 WinShade Year 1
+Line   643:  Annual Schedule:  DHW Eqp NRes Sch
+Line   649:  Annual Schedule:  ZG1-S1 (PSZ) P-Inf Sch
+Line   655:  Annual Schedule:  ZG1-S1 (PSZ) C-Inf Sch
+Line   661:  Annual Schedule:  S1 Sys1 (PSZ) Fan Sch
+Line   667:  Annual Schedule:  S1 Sys1 (PSZ) Cool Sch
+Line   673:  Annual Schedule:  S1 Sys1 (PSZ) Heat Sch
+Line   679:  Annual Schedule:  zone1 Yearly Occup Sch
+Line   685:  Annual Schedule:  zone2 Yearly Occup Sch
+Line   691:  Annual Schedule:  zone3 Yearly Occup Sch
+Line   703:  Polygon:  EL1 Floor Polygon
+Line   713:  Polygon:  EL1 Space Polygon 1
+Line   719:  Polygon:  EL1 Space Polygon 2
+Line   726:  Polygon:  EL1 Space Polygon 3
+Line   732:  Polygon:  EL1 Space Polygon 4
+Line   739:  Polygon:  EL1 Space Polygon 1 - SMirro
+Line   745:  Polygon:  EL1 Space Polygon 2 - SMirro
+Line   752:  Polygon:  EL1 Space Polygon 3 - SMirro
+Line   758:  Polygon:  EL1 Space Polygon 4 - SMirro
+Line   786:  Baseline:  Baseline Data
+Line   796:  Floor:  EL1 Ground Flr
+Line   805:  Space:  EL1 North Perim Spc (G.N1)
+Line   845:  Exterior Wall:  EL1 North Wall (G.N1.E1)
+Line   850:  Window:  EL1 North Win (G.N1.E1.W1)
+Line   863:  Window:  EL1 North Win (G.N1.E1.W2)
+Line   876:  Window:  EL1 North Win (G.N1.E1.W3)
+Line   889:  Window:  EL1 North Win (G.N1.E1.W4)
+Line   902:  Door:  EL1 North Door (G.N1.E1.D1)
+Line   908:  Exterior Wall:  EL1 West Wall (G.N1.E2)
+Line   913:  Window:  EL1 West Win (G.N1.E2.W1)
+Line   926:  Window:  EL1 West Win (G.N1.E2.W2)
+Line   939:  Window:  EL1 West Win (G.N1.E2.W3)
+Line   952:  Window:  EL1 West Win (G.N1.E2.W4)
+Line   965:  Exterior Wall:  EL1 East Wall (G.N1.E3)
+Line   970:  Window:  EL1 East Win (G.N1.E3.W1)
+Line   983:  Window:  EL1 East Win (G.N1.E3.W2)
+Line   996:  Window:  EL1 East Win (G.N1.E3.W3)
+Line  1009:  Window:  EL1 East Win (G.N1.E3.W4)
+Line  1022:  Interior Wall:  EL1 Ceiling (G.N1.I1)
+Line  1027:  Underground Wall:  EL1 Flr (G.N1.U1)
+Line  1031:  Space:  EL1 SW Perim Spc (G.SW2)
+Line  1078:  Exterior Wall:  EL1 North Wall (G.SW2.E4)
+Line  1083:  Window:  EL1 North Win (G.SW2.E4.W1)
+Line  1096:  Exterior Wall:  EL1 West Wall (G.SW2.E5)
+Line  1101:  Window:  EL1 West Win (G.SW2.E5.W1)
+Line  1114:  Window:  EL1 West Win (G.SW2.E5.W2)
+Line  1127:  Window:  EL1 West Win (G.SW2.E5.W3)
+Line  1140:  Window:  EL1 West Win (G.SW2.E5.W4)
+Line  1153:  Exterior Wall:  EL1 South Wall (G.SW2.E6)
+Line  1158:  Window:  EL1 South Win (G.SW2.E6.W1)
+Line  1171:  Window:  EL1 South Win (G.SW2.E6.W2)
+Line  1184:  Window:  EL1 South Win (G.SW2.E6.W3)
+Line  1197:  Window:  EL1 South Win (G.SW2.E6.W4)
+Line  1210:  Window:  EL1 South Win (G.SW2.E6.W5)
+Line  1223:  Window:  EL1 South Win (G.SW2.E6.W6)
+Line  1236:  Door:  EL1 South Door (G.SW2.E6.D1)
+Line  1242:  Interior Wall:  EL1 North Wall (G.SW2.I2)
+Line  1247:  Interior Wall:  EL1 East Wall (G.SW2.I3)
+Line  1252:  Interior Wall:  EL1 Ceiling (G.SW2.I4)
+Line  1257:  Underground Wall:  EL1 Flr (G.SW2.U2)
+Line  1261:  Space:  EL1 North Perim Spc (G.N3)
+Line  1301:  Exterior Wall:  EL1 North Wall (G.N3.E7)
+Line  1306:  Window:  EL1 North Win (G.N3.E7.W1)
+Line  1319:  Window:  EL1 North Win (G.N3.E7.W2)
+Line  1332:  Window:  EL1 North Win (G.N3.E7.W3)
+Line  1345:  Window:  EL1 North Win (G.N3.E7.W4)
+Line  1358:  Window:  EL1 North Win (G.N3.E7.W5)
+Line  1371:  Exterior Wall:  EL1 West Wall (G.N3.E8)
+Line  1376:  Window:  EL1 West Win (G.N3.E8.W1)
+Line  1389:  Window:  EL1 West Win (G.N3.E8.W2)
+Line  1402:  Window:  EL1 West Win (G.N3.E8.W3)
+Line  1415:  Window:  EL1 West Win (G.N3.E8.W4)
+Line  1428:  Exterior Wall:  EL1 East Wall (G.N3.E9)
+Line  1433:  Interior Wall:  EL1 Ceiling (G.N3.I5)
+Line  1438:  Underground Wall:  EL1 Flr (G.N3.U3)
+Line  1442:  Space:  EL1 SE Perim Spc (G.SE4)
+Line  1482:  Exterior Wall:  EL1 North Wall (G.SE4.E10)
+Line  1487:  Window:  EL1 North Win (G.SE4.E10.W1)
+Line  1500:  Exterior Wall:  EL1 South Wall (G.SE4.E11)
+Line  1505:  Window:  EL1 South Win (G.SE4.E11.W1)
+Line  1518:  Window:  EL1 South Win (G.SE4.E11.W2)
+Line  1531:  Window:  EL1 South Win (G.SE4.E11.W3)
+Line  1544:  Window:  EL1 South Win (G.SE4.E11.W4)
+Line  1557:  Window:  EL1 South Win (G.SE4.E11.W5)
+Line  1570:  Window:  EL1 South Win (G.SE4.E11.W6)
+Line  1583:  Exterior Wall:  EL1 East Wall (G.SE4.E12)
+Line  1588:  Interior Wall:  EL1 North Wall (G.SE4.I6)
+Line  1593:  Interior Wall:  EL1 Ceiling (G.SE4.I7)
+Line  1598:  Underground Wall:  EL1 Flr (G.SE4.U4)
+Line  1602:  Floor:  EL1 Top Flr
+Line  1612:  Space:  EL1 North Perim Spc (T.N5)
+Line  1652:  Exterior Wall:  EL1 North Slab (T.N5.S13)
+Line  1657:  Exterior Wall:  EL1 North Wall (T.N5.E13)
+Line  1662:  Window:  EL1 North Win (T.N5.E13.W1)
+Line  1675:  Window:  EL1 North Win (T.N5.E13.W2)
+Line  1688:  Window:  EL1 North Win (T.N5.E13.W3)
+Line  1701:  Window:  EL1 North Win (T.N5.E13.W4)
+Line  1714:  Window:  EL1 North Win (T.N5.E13.W5)
+Line  1727:  Exterior Wall:  EL1 West Slab (T.N5.S14)
+Line  1732:  Exterior Wall:  EL1 West Wall (T.N5.E14)
+Line  1737:  Window:  EL1 West Win (T.N5.E14.W1)
+Line  1750:  Window:  EL1 West Win (T.N5.E14.W2)
+Line  1763:  Window:  EL1 West Win (T.N5.E14.W3)
+Line  1776:  Window:  EL1 West Win (T.N5.E14.W4)
+Line  1789:  Exterior Wall:  EL1 East Slab (T.N5.S15)
+Line  1794:  Exterior Wall:  EL1 East Wall (T.N5.E15)
+Line  1799:  Window:  EL1 East Win (T.N5.E15.W1)
+Line  1812:  Window:  EL1 East Win (T.N5.E15.W2)
+Line  1825:  Window:  EL1 East Win (T.N5.E15.W3)
+Line  1838:  Window:  EL1 East Win (T.N5.E15.W4)
+Line  1851:  Exterior Wall:  EL1 Roof (T.N5.E16)
+Line  1855:  Interior Wall:  EL1 Flr (T.N5.I8)
+Line  1860:  Space:  EL1 SW Perim Spc (T.SW6)
+Line  1907:  Exterior Wall:  EL1 North Slab (T.SW6.S17)
+Line  1912:  Exterior Wall:  EL1 North Wall (T.SW6.E17)
+Line  1917:  Window:  EL1 North Win (T.SW6.E17.W1)
+Line  1930:  Exterior Wall:  EL1 West Slab (T.SW6.S18)
+Line  1935:  Exterior Wall:  EL1 West Wall (T.SW6.E18)
+Line  1940:  Window:  EL1 West Win (T.SW6.E18.W1)
+Line  1953:  Window:  EL1 West Win (T.SW6.E18.W2)
+Line  1966:  Window:  EL1 West Win (T.SW6.E18.W3)
+Line  1979:  Window:  EL1 West Win (T.SW6.E18.W4)
+Line  1992:  Exterior Wall:  EL1 South Slab (T.SW6.S19)
+Line  1997:  Exterior Wall:  EL1 South Wall (T.SW6.E19)
+Line  2002:  Window:  EL1 South Win (T.SW6.E19.W1)
+Line  2015:  Window:  EL1 South Win (T.SW6.E19.W2)
+Line  2028:  Window:  EL1 South Win (T.SW6.E19.W3)
+Line  2041:  Window:  EL1 South Win (T.SW6.E19.W4)
+Line  2054:  Window:  EL1 South Win (T.SW6.E19.W5)
+Line  2067:  Window:  EL1 South Win (T.SW6.E19.W6)
+Line  2080:  Exterior Wall:  EL1 Roof (T.SW6.E20)
+Line  2084:  Interior Wall:  EL1 Flr (T.SW6.I9)
+Line  2089:  Interior Wall:  EL1 North Wall (T.SW6.I10)
+Line  2094:  Interior Wall:  EL1 East Wall (T.SW6.I11)
+Line  2099:  Space:  EL1 North Perim Spc (T.N7)
+Line  2139:  Exterior Wall:  EL1 North Slab (T.N7.S21)
+Line  2144:  Exterior Wall:  EL1 North Wall (T.N7.E21)
+Line  2149:  Window:  EL1 North Win (T.N7.E21.W1)
+Line  2162:  Window:  EL1 North Win (T.N7.E21.W2)
+Line  2175:  Window:  EL1 North Win (T.N7.E21.W3)
+Line  2188:  Window:  EL1 North Win (T.N7.E21.W4)
+Line  2201:  Window:  EL1 North Win (T.N7.E21.W5)
+Line  2214:  Exterior Wall:  EL1 West Slab (T.N7.S22)
+Line  2219:  Exterior Wall:  EL1 West Wall (T.N7.E22)
+Line  2224:  Window:  EL1 West Win (T.N7.E22.W1)
+Line  2237:  Window:  EL1 West Win (T.N7.E22.W2)
+Line  2250:  Window:  EL1 West Win (T.N7.E22.W3)
+Line  2263:  Window:  EL1 West Win (T.N7.E22.W4)
+Line  2276:  Exterior Wall:  EL1 East Slab (T.N7.S23)
+Line  2281:  Exterior Wall:  EL1 East Wall (T.N7.E23)
+Line  2286:  Exterior Wall:  EL1 Roof (T.N7.E24)
+Line  2290:  Interior Wall:  EL1 Flr (T.N7.I12)
+Line  2295:  Space:  EL1 SE Perim Spc (T.SE8)
+Line  2335:  Exterior Wall:  EL1 North Slab (T.SE8.S25)
+Line  2340:  Exterior Wall:  EL1 North Wall (T.SE8.E25)
+Line  2345:  Window:  EL1 North Win (T.SE8.E25.W1)
+Line  2358:  Exterior Wall:  EL1 South Slab (T.SE8.S26)
+Line  2363:  Exterior Wall:  EL1 South Wall (T.SE8.E26)
+Line  2368:  Window:  EL1 South Win (T.SE8.E26.W1)
+Line  2381:  Window:  EL1 South Win (T.SE8.E26.W2)
+Line  2394:  Window:  EL1 South Win (T.SE8.E26.W3)
+Line  2407:  Window:  EL1 South Win (T.SE8.E26.W4)
+Line  2420:  Window:  EL1 South Win (T.SE8.E26.W5)
+Line  2433:  Window:  EL1 South Win (T.SE8.E26.W6)
+Line  2446:  Exterior Wall:  EL1 East Slab (T.SE8.S27)
+Line  2451:  Exterior Wall:  EL1 East Wall (T.SE8.E27)
+Line  2456:  Exterior Wall:  EL1 Roof (T.SE8.E28)
+Line  2460:  Interior Wall:  EL1 Flr (T.SE8.I13)
+Line  2465:  Interior Wall:  EL1 North Wall (T.SE8.I14)
+Line  2501:  Master Meters:  MASTER-METERS 1
+Line  2615:  HVAC System:  S1 Sys (PSZ)
+Line  2648:  Thermal Zone:  EL1 North Perim Zn (G.N1)
+Line  2658:  Thermal Zone:  EL1 SW Perim Zn (G.SW2)
+Line  2668:  Thermal Zone:  EL1 North Perim Zn (G.N3)
+Line  2678:  Thermal Zone:  EL1 SE Perim Zn (G.SE4)
+Line  2688:  Thermal Zone:  EL1 North Perim Zn (T.N5)
+Line  2698:  Thermal Zone:  EL1 SW Perim Zn (T.SW6)
+Line  2708:  Thermal Zone:  EL1 North Perim Zn (T.N7)
+Line  2718:  Thermal Zone:  EL1 SE Perim Zn (T.SE8)
+Line  2782:  Loads Report
+Line  2792:  Systems Report
+Line  2802:  Plant Report
+Line  2812:  Economics Report
+Line  2823:  Hourly Report:  Hourly Report
+Line  2832:  End
+
+
+
+Counts of BDL Components:
+-------------------------
+     16 - Annual Schedule
+     17 - Week Schedule
+     61 - Day Schedule
+      1 - Site Parameters
+     12 - Construction
+      2 - Glass Type
+      8 - Space
+     40 - Exterior Wall
+     79 - Window
+     14 - Interior Wall
+      4 - Underground Wall
+    230 - Set Default
+      1 - Loads Report
+     10 - Layers
+     16 - Material
+      2 - Hourly Report Block
+      1 - Hourly Report
+      1 - Title
+      1 - Run Period
+      1 - Diagnostic
+      3 - End
+      1 - Project Data
+      1 - BDL Tables
+      2 - Door
+      8 - Weighting Factor
+      1 - Holidays
+      9 - Polygon
+      2 - Floor
+      1 - Building Parameters
+      2 - Glass Type Code
+      1 - HVAC System
+      8 - Thermal Zone
+      1 - Systems Report
+      9 - Curve Fit
+      1 - Electric Meter
+      1 - Fuel Meter
+      1 - Master Meters
+      1 - Plant Report
+      1 - Baseline
+      1 - Economics Report
+      1 - Compliance Data

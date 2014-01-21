@@ -1,0 +1,96 @@
+
+Start DOESIM : Storage capacity =  75000000
+Starting LOADS   : SAVE-FILES is On , weather is EPW ABU DHABI,-,ARE 
+Finished LOADS    BDL  2 : Memory (wds) =    135094, Time (sec) =    6.14
+Starting REPORT  
+Finished REPORT   BDL  2 : Memory (wds) =    181817, Time (sec) =    0.23
+Starting HVAC    : SAVE-FILES is On , weather is EPW ABU DHABI,-,ARE 
+*** ERRORS or WARNINGS from HVAC     program. Examine output file for details.
+Finished HVAC     BDL  2 : Memory (wds) =    147568, Time (sec) =    1.02
+Starting REPORT  
+Finished REPORT   BDL  2 : Memory (wds) =    164832, Time (sec) =    0.18
+Starting HOURLY-R
+Finished HOURLY-R BDL  2 : Memory (wds) =    425267, Time (sec) =    1.03
+Starting ECONOMIC
+Finished ECONOMIC BDL  2 : Memory (wds) =      1034, Time (sec) =    0.15
+End   DOESIM : Total elapsed time of      8.8 seconds
+
+Start DOESIM : Storage capacity =  75000000
+Starting LOADS   : SAVE-FILES is On , weather is EPW ABU DHABI,-,ARE 
+Finished LOADS    BDL  4 : Memory (wds) =    135094, Time (sec) =    4.38
+Starting REPORT  
+Finished REPORT   BDL  4 : Memory (wds) =    181817, Time (sec) =    0.16
+Starting HVAC    : SAVE-FILES is On , weather is EPW ABU DHABI,-,ARE 
+*** ERRORS or WARNINGS from HVAC     program. Examine output file for details.
+Finished HVAC     BDL  4 : Memory (wds) =    147568, Time (sec) =    0.49
+Starting REPORT  
+Finished REPORT   BDL  4 : Memory (wds) =    164832, Time (sec) =    0.15
+Starting HOURLY-R
+Finished HOURLY-R BDL  4 : Memory (wds) =    425267, Time (sec) =    0.48
+Starting ECONOMIC
+Finished ECONOMIC BDL  4 : Memory (wds) =      1034, Time (sec) =    0.11
+End   DOESIM : Total elapsed time of      5.8 seconds
+
+Start DOESIM : Storage capacity =  75000000
+Starting LOADS   : SAVE-FILES is On , weather is EPW ABU DHABI,-,ARE 
+Finished LOADS    BDL  2 : Memory (wds) =    135094, Time (sec) =    4.30
+Starting REPORT  
+Finished REPORT   BDL  2 : Memory (wds) =    181817, Time (sec) =    0.20
+Starting HVAC    : SAVE-FILES is On , weather is EPW ABU DHABI,-,ARE 
+*** ERRORS or WARNINGS from HVAC     program. Examine output file for details.
+Finished HVAC     BDL  2 : Memory (wds) =    147568, Time (sec) =    1.05
+Starting REPORT  
+Finished REPORT   BDL  2 : Memory (wds) =    164832, Time (sec) =    0.24
+Starting HOURLY-R
+Finished HOURLY-R BDL  2 : Memory (wds) =    425267, Time (sec) =    1.20
+Starting ECONOMIC
+Finished ECONOMIC BDL  2 : Memory (wds) =      1034, Time (sec) =    0.21
+End   DOESIM : Total elapsed time of      7.2 seconds
+
+Start DOESIM : Storage capacity =  75000000
+Starting LOADS   : SAVE-FILES is On , weather is EPW ABU DHABI,-,ARE 
+Finished LOADS    BDL  2 : Memory (wds) =    135094, Time (sec) =    5.31
+Starting REPORT  
+Finished REPORT   BDL  2 : Memory (wds) =    181817, Time (sec) =    0.25
+Starting HVAC    : SAVE-FILES is On , weather is EPW ABU DHABI,-,ARE 
+*** ERRORS or WARNINGS from HVAC     program. Examine output file for details.
+Finished HVAC     BDL  2 : Memory (wds) =    147568, Time (sec) =    1.20
+Starting REPORT  
+Finished REPORT   BDL  2 : Memory (wds) =    164832, Time (sec) =    0.45
+Starting HOURLY-R
+Finished HOURLY-R BDL  2 : Memory (wds) =    425267, Time (sec) =    0.90
+Starting ECONOMIC
+Finished ECONOMIC BDL  2 : Memory (wds) =      1034, Time (sec) =    0.19
+End   DOESIM : Total elapsed time of      8.3 seconds
+
+Start DOESIM : Storage capacity =  75000000
+Starting LOADS   : SAVE-FILES is On , weather is EPW ABU DHABI,-,ARE 
+Finished LOADS    BDL  4 : Memory (wds) =    135094, Time (sec) =    4.34
+Starting REPORT  
+Finished REPORT   BDL  4 : Memory (wds) =    181817, Time (sec) =    0.20
+Starting HVAC    : SAVE-FILES is On , weather is EPW ABU DHABI,-,ARE 
+*** ERRORS or WARNINGS from HVAC     program. Examine output file for details.
+Finished HVAC     BDL  4 : Memory (wds) =    147568, Time (sec) =    0.47
+Starting REPORT  
+Finished REPORT   BDL  4 : Memory (wds) =    164832, Time (sec) =    0.15
+Starting HOURLY-R
+Finished HOURLY-R BDL  4 : Memory (wds) =    425267, Time (sec) =    0.67
+Starting ECONOMIC
+Finished ECONOMIC BDL  4 : Memory (wds) =      1034, Time (sec) =    0.16
+End   DOESIM : Total elapsed time of      6.0 seconds
+
+Start DOESIM : Storage capacity =  75000000
+Starting LOADS   : SAVE-FILES is On , weather is EPW ABU DHABI,-,ARE 
+Finished LOADS    BDL  6 : Memory (wds) =    135094, Time (sec) =    6.83
+Starting REPORT  
+Finished REPORT   BDL  6 : Memory (wds) =    181817, Time (sec) =    0.20
+Starting HVAC    : SAVE-FILES is On , weather is EPW ABU DHABI,-,ARE 
+*** ERRORS or WARNINGS from HVAC     program. Examine output file for details.
+Finished HVAC     BDL  6 : Memory (wds) =    147568, Time (sec) =    0.49
+Starting REPORT  
+Finished REPORT   BDL  6 : Memory (wds) =    164832, Time (sec) =    0.14
+Starting HOURLY-R
+Finished HOURLY-R BDL  6 : Memory (wds) =    425267, Time (sec) =    0.66
+Starting ECONOMIC
+Finished ECONOMIC BDL  6 : Memory (wds) =      1034, Time (sec) =    0.16
+End   DOESIM : Total elapsed time of      8.5 seconds

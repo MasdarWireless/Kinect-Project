@@ -1,0 +1,11 @@
+; Format:
+;   SPACE,   <space name>,   AirCompElec, MotorElec, ProcElec,   MiscGas, CookGas, ProcGas,   <AirCompESched>, <MotorESched>, <ProcESched>,   <MiscGSched>, <CookGSched>, <ProcGSched>
+SPACE,   "EL1 North Perim Spc (G.N1)",   0, 0, 0,   0, 0, 0,   "none", "none", "none",   "none", "none", "none"
+SPACE,   "EL1 SW Perim Spc (G.SW2)",   0, 0, 0,   0, 0, 0,   "none", "none", "none",   "none", "none", "none"
+SPACE,   "EL1 North Perim Spc (G.N3)",   0, 0, 0,   0, 0, 0,   "none", "none", "none",   "none", "none", "none"
+SPACE,   "EL1 SE Perim Spc (G.SE4)",   0, 0, 0,   0, 0, 0,   "none", "none", "none",   "none", "none", "none"
+SPACE,   "EL1 North Perim Spc (T.N5)",   0, 0, 0,   0, 0, 0,   "none", "none", "none",   "none", "none", "none"
+SPACE,   "EL1 SW Perim Spc (T.SW6)",   0, 0, 0,   0, 0, 0,   "none", "none", "none",   "none", "none", "none"
+SPACE,   "EL1 North Perim Spc (T.N7)",   0, 0, 0,   0, 0, 0,   "none", "none", "none",   "none", "none", "none"
+SPACE,   "EL1 SE Perim Spc (T.SE8)",   0, 0, 0,   0, 0, 0,   "none", "none", "none",   "none", "none", "none"
+END-OF-FILE

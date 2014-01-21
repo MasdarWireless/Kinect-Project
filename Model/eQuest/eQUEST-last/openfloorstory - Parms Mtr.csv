@@ -1,0 +1,14 @@
+,,,,,,,,Meter #1 ---,,,,,,Meter #2 ---,,,,,,Meter #3 ...
+Run,Internal,Case,Short,Carry,,,,,,Annual,Energy,Peak,Demand,,,Annual,Energy,Peak,Demand
+Type,Loads,#s,Name,Fwd,Date & Time of Run,File Name,Case Description,Name,Type,Energy,Units,Demand,Units,Name,Type,Energy,Units,Demand,Units
+n/a,n/a,2,2,0,01-17-14@18:46:10,"openfloorstory - 2","0+BASELINE","EM1","Elec (utility)",27047.3,"KWH",14.6887,"KW","FM1","Fuel (nat gas)",0,"THERM",0,"THERM/HR"
+
+n/a,n/a,2,2,0,01-17-14@20:03:44,"openfloorstory - 2","0+BASELINE","EM1","Elec (utility)",27950.2,"KWH",15.5353,"KW","FM1","Fuel (nat gas)",0,"THERM",0,"THERM/HR"
+
+n/a,n/a,2,2,0,01-17-14@20:36:35,"openfloorstory - 2","0+BASELINE","EM1","Elec (utility)",27261,"KWH",14.3547,"KW","FM1","Fuel (nat gas)",0,"THERM",0,"THERM/HR"
+
+n/a,n/a,2,2,0,01-17-14@22:57:40,"openfloorstory - 2","0+BASELINE","EM1","Elec (utility)",27261,"KWH",14.3547,"KW","FM1","Fuel (nat gas)",0,"THERM",0,"THERM/HR"
+
+n/a,n/a,2,2,0,01-17-14@23:13:35,"openfloorstory - 2","0+BASELINE","EM1","Elec (utility)",86456.9,"KWH",53.9676,"KW","FM1","Fuel (nat gas)",0,"THERM",0,"THERM/HR"
+
+n/a,n/a,2,2,0,01-17-14@23:15:30,"openfloorstory - 2","0+BASELINE","EM1","Elec (utility)",27261,"KWH",14.3547,"KW","FM1","Fuel (nat gas)",0,"THERM",0,"THERM/HR"

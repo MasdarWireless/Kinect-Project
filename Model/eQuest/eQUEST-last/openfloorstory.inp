@@ -1,0 +1,2834 @@
+INPUT ..
+
+
+$ ---------------------------------------------------------
+$              Abort, Diagnostics
+$ ---------------------------------------------------------
+
+
+
+
+$ ---------------------------------------------------------
+$              Global Parameters
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Title, Run Periods, Design Days, Holidays
+$ ---------------------------------------------------------
+
+TITLE           
+   LINE-1           = *flooroffice-U2*
+   ..
+
+"Entire Year" = RUN-PERIOD-PD
+   BEGIN-MONTH      = 1
+   BEGIN-DAY        = 1
+   BEGIN-YEAR       = 2014
+   END-MONTH        = 12
+   END-DAY          = 31
+   END-YEAR         = 2014
+   ..
+
+
+"Observed Holidays" = HOLIDAYS        
+   TYPE             = ALTERNATE
+   MONTHS           = ( 1, 9, 12 )
+   DAYS             = ( 1, 1, 31 )
+   ..
+
+
+$ ---------------------------------------------------------
+$              Compliance Data
+$ ---------------------------------------------------------
+
+"Compliance Data" = COMPLIANCE      
+   C-PERMIT-SCOPE   = 0
+   C-PROJ-NAME      = *flooroffice-U2*
+   C-BUILDING-TYPE  = 0
+   C-CONS-PHASE     = 0
+   C-NR-DHW-INCL    = 1
+   C-CODE-VERSION   = 1
+   C-901-NUM-FLRS   = 2
+   C-901-BLDG-TYPE  = 15
+   ..
+
+
+$ ---------------------------------------------------------
+$              Site and Building Data
+$ ---------------------------------------------------------
+
+"Site Data" = SITE-PARAMETERS 
+   C-WEATHER-FILE   = *International\Middle East\AbDhb_ns.bin*
+   C-COUNTRY        = 2
+   ..
+
+"Building Data" = BUILD-PARAMETERS
+   HOLIDAYS         = "Observed Holidays"
+   ..
+
+
+
+PROJECT-DATA    
+   ..
+
+
+$ ---------------------------------------------------------
+$              Materials / Layers / Constructions
+$ ---------------------------------------------------------
+
+"EL1 IWall Cons Mat 2 (0.91)" = MATERIAL        
+   TYPE             = RESISTANCE
+   RESISTANCE       = 0.91
+   ..
+"EL1 UFMat (G.N1.U2.M1)" = MATERIAL        
+   TYPE             = RESISTANCE
+   RESISTANCE       = 5.80169
+   ..
+"EL1 UFMat (G.SW2.U3.M1)" = MATERIAL        
+   TYPE             = RESISTANCE
+   RESISTANCE       = 9.52773
+   ..
+"EL1 UFMat (G.N3.U4.M1)" = MATERIAL        
+   TYPE             = RESISTANCE
+   RESISTANCE       = 5.77073
+   ..
+"EL1 UFMat (G.SE4.U5.M1)" = MATERIAL        
+   TYPE             = RESISTANCE
+   RESISTANCE       = 9.54144
+   ..
+
+"EL1 EWall Cons Layers" = LAYERS          
+   MATERIAL         = ( "Polyisocyanurate 3in", "Conc HW 140lb 4in (CC03)" )
+   ..
+"EL1 Roof Cons Layers" = LAYERS          
+   MATERIAL         = ( "Conc LW 30lb 2in (CC33)", "Blt-Up Roof 3/8in (BR01)", 
+         "Polyisocyanurate 4in", "Conc HW 140lb 4in (CC03)", 
+         "Gypsum  LW Agg 3/4in (GP04)" )
+   ..
+"EL1 Ceilg Cons Layers" = LAYERS          
+   MATERIAL         = ( "Gypsum  LW Agg 3/4in (GP04)" )
+   THICKNESS        = ( 1 )
+   ..
+"EL1 IWall Cons Layers" = LAYERS          
+   MATERIAL         = ( "GypBd 1/2in (GP01)", "EL1 IWall Cons Mat 2 (0.91)", 
+         "GypBd 1/2in (GP01)" )
+   ..
+"EL1 IFlr Cons Layers" = LAYERS          
+   MATERIAL         = ( "Conc HW 140lb 6in (HF-C13)", 
+         "Carpet & Rubber Pad (CP02)" )
+   ..
+"EL1 IFSHL Cons Layers" = LAYERS          
+   MATERIAL         = ( "Polyisocyanurate 3in", "Conc HW 140lb 12in (HF-C11)" )
+   ..
+"EL1 UFLyrs (G.N1.U2)" = LAYERS          
+   MATERIAL         = ( "EL1 UFMat (G.N1.U2.M1)", "Light Soil, Damp 12in", 
+         "Conc HW 140lb 6in (HF-C13)", "Carpet & Rubber Pad (CP02)" )
+   ..
+"EL1 UFLyrs (G.SW2.U3)" = LAYERS          
+   MATERIAL         = ( "EL1 UFMat (G.SW2.U3.M1)", "Light Soil, Damp 12in", 
+         "Conc HW 140lb 6in (HF-C13)", "Carpet & Rubber Pad (CP02)" )
+   ..
+"EL1 UFLyrs (G.N3.U4)" = LAYERS          
+   MATERIAL         = ( "EL1 UFMat (G.N3.U4.M1)", "Light Soil, Damp 12in", 
+         "Conc HW 140lb 6in (HF-C13)", "Carpet & Rubber Pad (CP02)" )
+   ..
+"EL1 UFLyrs (G.SE4.U5)" = LAYERS          
+   MATERIAL         = ( "EL1 UFMat (G.SE4.U5.M1)", "Light Soil, Damp 12in", 
+         "Conc HW 140lb 6in (HF-C13)", "Carpet & Rubber Pad (CP02)" )
+   ..
+
+"EL1 EWall Construction" = CONSTRUCTION    
+   TYPE             = LAYERS
+   ABSORPTANCE      = 0.25
+   ROUGHNESS        = 3
+   LAYERS           = "EL1 EWall Cons Layers"
+   ..
+"EL1 Roof Construction" = CONSTRUCTION    
+   TYPE             = LAYERS
+   ABSORPTANCE      = 0.25
+   ROUGHNESS        = 3
+   LAYERS           = "EL1 Roof Cons Layers"
+   ..
+"EL1 Ceilg Construction" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "EL1 Ceilg Cons Layers"
+   ..
+"EL1 IWall Construction" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "EL1 IWall Cons Layers"
+   ..
+"EL1 IFlr Construction" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "EL1 IFlr Cons Layers"
+   ..
+"EL1 IFSHL Construction" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "EL1 IFSHL Cons Layers"
+   ..
+"EL1 IFlSP Construction" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "EL1 IFlr Cons Layers"
+   ..
+"EL1 UFCons (G.N1.U2)" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "EL1 UFLyrs (G.N1.U2)"
+   ..
+"EL1 UFCons (G.SW2.U3)" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "EL1 UFLyrs (G.SW2.U3)"
+   ..
+"EL1 UFCons (G.N3.U4)" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "EL1 UFLyrs (G.N3.U4)"
+   ..
+"EL1 UFCons (G.SE4.U5)" = CONSTRUCTION    
+   TYPE             = LAYERS
+   LAYERS           = "EL1 UFLyrs (G.SE4.U5)"
+   ..
+
+
+$ ---------------------------------------------------------
+$              Glass Type Codes
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Glass Types
+$ ---------------------------------------------------------
+
+"EL1 Window Type #1 GT" = GLASS-TYPE      
+   TYPE             = GLASS-TYPE-CODE
+   GLASS-TYPE-CODE  = "3001"
+   C-PRODUCT-TYPE   = 1
+   C-FRAME-TYPE     = 1
+   ..
+"EL1 Window Type #2 GT" = GLASS-TYPE      
+   TYPE             = GLASS-TYPE-CODE
+   GLASS-TYPE-CODE  = "2203"
+   C-PRODUCT-TYPE   = 1
+   C-FRAME-TYPE     = 0
+   ..
+
+
+$ ---------------------------------------------------------
+$              Window Layers
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Lamps / Luminaries / Lighting Systems
+$ ---------------------------------------------------------
+
+
+
+
+
+$ ---------------------------------------------------------
+$              Day Schedules
+$ ---------------------------------------------------------
+
+"EL1 Bldg Occup Mon" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0, &D, &D, &D, &D, &D, 0.1, 0.2, 0.95, &D, &D, 0.95, 
+         0.5, 0.95, &D, &D, 0.95, 0.3, 0.1, &D, &D, &D, 0.05 )
+   ..
+"EL1 Bldg Occup Fri" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0, &D, &D, &D, &D, &D, 0.075, &D, &D, &D, &D, &D, &D, 
+         &D, &D, &D, &D, &D, 0 )
+   ..
+"EL1 Bldg InsLt Mon" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.05, &D, &D, &D, &D, &D, 0.2965, 0.798, 0.9, &D, &D, 
+         &D, &D, &D, &D, &D, 0.798, 0.5005, 0.2965, &D, 0.101, &D, 0.05 )
+   ..
+"EL1 Bldg InsLt Fri" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.015 )
+   ..
+"EL1 Bldg InsLt Sun" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.05 )
+   ..
+"EL1 Bldg InsLt HDD" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0 )
+   ..
+"EL1 Bldg OffEq Mon" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.12, &D, &D, &D, &D, &D, 0.2214, 0.7596, 0.9, &D, &D, 
+         0.7362, &D, 0.9, &D, &D, 0.822, 0.4164, 0.2214, &D, 0.159, &D, 0.12 )
+   ..
+"EL1 Bldg OffEq Fri" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.036 )
+   ..
+"EL1 Bldg OffEq Sun" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.12 )
+   ..
+"EL1 Bldg OffEq HDD" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0 )
+   ..
+"EL1 Bldg TskLt Mon" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.013, &D, &D, &D, &D, &D, 0.1461, 0.7226, 0.9, &D, 
+         &D, 0.5984, &D, 0.9, &D, &D, 0.7226, 0.3501, 0.1461, &D, 0.1017, &D, 
+         0.013 )
+   ..
+"EL1 Bldg TskLt Fri" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.004 )
+   ..
+"EL1 Bldg TskLt Sun" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.013 )
+   ..
+"EL1 Bldg TskLt HDD" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0 )
+   ..
+"EL1 WinShade Day 1" = DAY-SCHEDULE-PD
+   TYPE             = MULTIPLIER
+   VALUES           = ( 0.55, &D, &D, &D, &D, &D, 0.59, 0.831, 0.91, &D, &D, 
+         0.752, &D, 0.91, &D, &D, 0.831, 0.669, 0.59, &D, &D, &D, 0.55 )
+   ..
+"EL1 WinShade Day 2" = DAY-SCHEDULE-PD
+   TYPE             = MULTIPLIER
+   VALUES           = ( 0.55 )
+   ..
+"EL1 WinShade Day 3" = DAY-SCHEDULE-PD
+   TYPE             = MULTIPLIER
+   VALUES           = ( 1 )
+   ..
+"EL1 WinShade Day 4" = DAY-SCHEDULE-PD
+   TYPE             = MULTIPLIER
+   VALUES           = ( 0.55, &D, &D, &D, &D, &D, 0.57, 0.69, 0.73, &D, &D, 
+         0.651, &D, 0.73, &D, &D, 0.69, 0.609, 0.57, &D, &D, &D, 0.55 )
+   ..
+"DHW Eqp NRes Mon" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.05, &D, &D, &D, &D, &D, 0.101, 0.5005, &D, 0.9, &D, 
+         &D, &D, &D, &D, 0.696, 0.5005, 0.2965, 0.203, &D, &D, 0.05 )
+   ..
+"DHW Eqp NRes Fri" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.015 )
+   ..
+"DHW Eqp NRes Sun" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.05 )
+   ..
+"DHW Eqp NRes HDD" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0 )
+   ..
+"ZG1-S1 (PSZ) P-Inf Mon" = DAY-SCHEDULE-PD
+   TYPE             = MULTIPLIER
+   VALUES           = ( 0.5, &D, &D, &D, &D, 0.647, 1.25, &D, 0.944, 0.5, 
+         1.25, &D, &D, &D, 0.5, 0.944, 1.25, &D, 0.944, 0.5, &D, 0.647, &D, 
+         0.5 )
+   ..
+"ZG1-S1 (PSZ) P-Inf Wed" = DAY-SCHEDULE-PD
+   TYPE             = MULTIPLIER
+   VALUES           = ( 1, &D, &D, &D, &D, 1.049, 1.25, &D, 0.944, 0.5, 1.25, 
+         &D, &D, &D, 0.5, 0.944, 1.25, &D, 1.148, 1, &D, 1.049, &D, 1 )
+   ..
+"ZG1-S1 (PSZ) P-Inf Fri" = DAY-SCHEDULE-PD
+   TYPE             = MULTIPLIER
+   VALUES           = ( 1 )
+   ..
+"ZG1-S1 (PSZ) P-Inf Sun" = DAY-SCHEDULE-PD
+   TYPE             = MULTIPLIER
+   VALUES           = ( 1, &D, &D, &D, &D, &D, &D, 0.5, &D, &D, &D, &D, &D, 
+         &D, &D, &D, &D, &D, 1 )
+   ..
+"ZG1-S1 (PSZ) P-Inf HDD" = DAY-SCHEDULE-PD
+   TYPE             = MULTIPLIER
+   VALUES           = ( 0.5, &D, &D, &D, &D, &D, 1, 0.5 )
+   ..
+"ZG1-S1 (PSZ) C-Inf Mon" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.5, &D, &D, &D, &D, &D, 1, 0.5 )
+   ..
+"ZG1-S1 (PSZ) C-Inf Wed" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 1, &D, &D, &D, &D, &D, &D, 0.5, &D, &D, &D, &D, &D, 
+         &D, &D, &D, &D, &D, 1 )
+   ..
+"ZG1-S1 (PSZ) C-Inf Fri" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 1 )
+   ..
+"S1 Sys1 (PSZ) Fan Mon" = DAY-SCHEDULE-PD
+   TYPE             = ON/OFF/FLAG
+   VALUES           = ( 1, &D, &D, &D, &D, &D, 0, 1 )
+   ..
+"S1 Sys1 (PSZ) Fan Wed" = DAY-SCHEDULE-PD
+   TYPE             = ON/OFF/FLAG
+   VALUES           = ( 0, &D, &D, &D, &D, &D, &D, 1, &D, &D, &D, &D, &D, &D, 
+         &D, &D, &D, &D, 0 )
+   ..
+"S1 Sys1 (PSZ) Fan Fri" = DAY-SCHEDULE-PD
+   TYPE             = ON/OFF/FLAG
+   VALUES           = ( 0 )
+   ..
+"S1 Sys1 (PSZ) Cool Mon" = DAY-SCHEDULE-PD
+   TYPE             = TEMPERATURE
+   VALUES           = ( 82, &D, &D, &D, &D, &D, &D, 75, &D, &D, &D, &D, &D, 
+         &D, &D, &D, &D, &D, 82 )
+   ..
+"S1 Sys1 (PSZ) Cool Fri" = DAY-SCHEDULE-PD
+   TYPE             = TEMPERATURE
+   VALUES           = ( 82 )
+   ..
+"S1 Sys1 (PSZ) Heat Mon" = DAY-SCHEDULE-PD
+   TYPE             = TEMPERATURE
+   VALUES           = ( 64, &D, &D, &D, &D, &D, &D, 70, &D, &D, &D, &D, &D, 
+         &D, &D, &D, &D, &D, 64 )
+   ..
+"S1 Sys1 (PSZ) Heat Fri" = DAY-SCHEDULE-PD
+   TYPE             = TEMPERATURE
+   VALUES           = ( 64 )
+   ..
+"Day Schedule 40" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0, &D, &D, &D, &D, &D, 0.099, 0.702, 0.9, &D, &D, 
+         0.504, &D, 0.9, &D, &D, 0.702, 0.297, 0.099, &D, &D, &D, 0 )
+   ..
+"SUN-Z1" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.2, 0.2, 0.4, &D, 0.5, 0.6, 
+         &D, 0.7, &D, &D, 0.4, 0.4, 0.267, &D, 0.14, &D, 0.067 )
+   ..
+"MON-K1" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.14, &D, 0.067, 0.067, 0, &D, 0.4, 0.4, 0.6, &D, &D, 
+         0.8, &D, 0.9, &D, &D, 0.8, 0.4, 0.267, &D, 0.14, &D, 0.14 )
+   ..
+"FRI-K1" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.067, 0.067, 0.067, &D, 
+         0.2, 0.2, &D, 0.14, &D, &D, 0.067, 0.067, 0.14, &D, 0.067, &D, 0.2 )
+   ..
+"SAT-K1" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.067, 0.067, 0.067, &D, 
+         0.2, 0.2, 0.4, 0.5, 0.4, &D, 0.4, 0.4, 0.14, &D, 0.067, &D, 0.067 )
+   ..
+"THUR-K1" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.14, &D, 0.067, 0, &D, &D, 0.14, 0.14, 0.4, &D, &D, 
+         0.8, &D, 0.85, &D, &D, 0.4, 0.4, 0.14, 0.14, 0.067, 0.067, 0.067, 
+         0.067 )
+   ..
+"TUES-K1" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.14, 0.14, 0.14, &D, &D, 
+         0.55, &D, 0.6, 0.7, 0.7, 0.7, 0.4, 0.267, 0.14, 0.14, 0.067, 0.067 )
+   ..
+"WED-K1" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.067, 0.14, 0.267, &D, 0.4, 
+         0.55, &D, 0.6, 0.7, 0.8, 0.7, 0.4, 0.267, 0.14, 0.14, 0.067, 0.14, 
+         0.2 )
+   ..
+"sun-z2" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.067, 0.067, 0.2, &D, 0.5, 
+         0.3, &D, 0.35, 0.4, 0.45, 0.3, 0.2, 0.2, &D, 0.067, &D, 0.067 )
+   ..
+"mon-z2" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.14, 0.14, 0.2, &D, 0.5, 
+         0.3, &D, 0.35, 0.6, 0.5, 0.3, 0.2, 0.2, &D, 0.067, &D, 0.067 )
+   ..
+"tues-z2" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.067, 0.067, 0.2, &D, 0.2, 
+         0.3, &D, 0.35, 0.3, 0.3, 0.3, 0.2, 0.2, &D, 0.067, &D, 0.067 )
+   ..
+"wed-z2" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.067, 0.067, 0.2, &D, 0.2, 
+         0.3, &D, 0.4, 0.4, 0.4, 0.4, 0.2, 0.2, &D, 0.067, &D, 0.067 )
+   ..
+"thurs-z2" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.2, 0.2, 0.2, &D, 0.5, 0.3, 
+         &D, 0.35, 0.6, 0.5, 0.3, 0.2, 0.2, &D, 0.067, &D, 0.067 )
+   ..
+"fri-z2" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.067, 0.067, 0.14, &D, 
+         0.14, 0.2, &D, 0.14, 0.14, 0.14, 0.14, 0.14, 0.14, &D, 0.067, &D, 
+         0.067 )
+   ..
+"sat-z2" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.067, 0.067, 0.2, &D, 0.3, 
+         0.2, &D, 0.3, 0.3, 0.14, 0.14, 0.14, 0.14, &D, 0.067, &D, 0.067 )
+   ..
+"sun-z3" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.067, 0.067, 0.2, &D, 0.5, 
+         0.3, &D, 0.35, 0.35, 0.35, 0.3, 0.2, 0.2, &D, 0.067, &D, 0.067 )
+   ..
+"mon-z3" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.14, 0.14, 0.2, &D, 0.2, 
+         0.3, &D, 0.35, 0.35, 0.35, 0.3, 0.2, 0.2, &D, 0.067, &D, 0.067 )
+   ..
+"tues-z3" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.14, 0.14, 0.14, &D, 0.2, 
+         0.14, &D, 0.27, 0.27, 0.27, 0.2, 0.2, 0.067, &D, 0.067, &D, 0.067 )
+   ..
+"wed-z3" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.14, 0.14, 0.2, &D, 0.2, 
+         0.2, 0.25, 0.35, 0.4, 0.5, 0.14, 0.14, 0.14, &D, 0.067, &D, 0.067 )
+   ..
+"thurs-z3" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.14, 0.14, 0.2, &D, 0.2, 
+         0.5, 0.2, 0.35, 0.35, 0.35, 0.3, 0.2, 0.2, &D, 0.067, &D, 0.067 )
+   ..
+"fri-z3" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.14, 0.14, 0.2, &D, 0.2, 
+         0.2, 0.2, 0.2, 0.2, 0.2, 0.067, 0.14, 0.14, &D, 0.067, &D, 0.067 )
+   ..
+"sat-z3" = DAY-SCHEDULE-PD
+   TYPE             = FRACTION
+   VALUES           = ( 0.067, &D, &D, 0, &D, &D, 0.14, 0.14, 0.14, &D, 0.2, 
+         0.2, 0.2, 0.2, 0.27, 0.27, 0.27, 0.27, 0.14, &D, 0.067, &D, 0.067 )
+   ..
+
+$ ---------------------------------------------------------
+$              Week Schedules
+$ ---------------------------------------------------------
+
+"EL1 Bldg Occup Wk" = WEEK-SCHEDULE-PD
+   TYPE             = FRACTION
+   DAY-SCHEDULES    = ( "EL1 Bldg Occup Mon", &D, &D, &D, 
+         "EL1 Bldg Occup Fri", "EL1 Bldg Occup Fri", &D, &D, 
+         "EL1 Bldg Occup Fri" )
+   ..
+"EL1 Bldg InsLt Wk" = WEEK-SCHEDULE-PD
+   TYPE             = FRACTION
+   DAY-SCHEDULES    = ( "MON-K1", "TUES-K1", "WED-K1", "THUR-K1", "FRI-K1", 
+         "SAT-K1", "SUN-Z1", "FRI-K1", "FRI-K1" )
+   ..
+"EL1 Bldg OffEq Wk" = WEEK-SCHEDULE-PD
+   TYPE             = FRACTION
+   DAY-SCHEDULES    = ( "EL1 Bldg OffEq Mon", &D, &D, &D, 
+         "EL1 Bldg OffEq Fri", "EL1 Bldg OffEq Fri", "EL1 Bldg OffEq Sun", 
+         "EL1 Bldg OffEq Fri", "EL1 Bldg OffEq HDD" )
+   ..
+"EL1 Bldg TskLt Wk" = WEEK-SCHEDULE-PD
+   TYPE             = FRACTION
+   DAY-SCHEDULES    = ( "EL1 Bldg TskLt Mon", &D, &D, &D, 
+         "EL1 Bldg TskLt Fri", "EL1 Bldg TskLt Fri", "EL1 Bldg TskLt Sun", 
+         "EL1 Bldg TskLt Fri", "EL1 Bldg TskLt HDD" )
+   ..
+"EL1 WinShade Week 1" = WEEK-SCHEDULE-PD
+   TYPE             = MULTIPLIER
+   DAY-SCHEDULES    = ( "EL1 WinShade Day 1", &D, &D, &D, 
+         "EL1 WinShade Day 2", "EL1 WinShade Day 2", &D, &D, 
+         "EL1 WinShade Day 2", "EL1 WinShade Day 3" )
+   ..
+"EL1 WinShade Week 2" = WEEK-SCHEDULE-PD
+   TYPE             = MULTIPLIER
+   DAY-SCHEDULES    = ( "EL1 WinShade Day 4", &D, &D, &D, 
+         "EL1 WinShade Day 2", "EL1 WinShade Day 2", &D, &D, 
+         "EL1 WinShade Day 2", "EL1 WinShade Day 3" )
+   ..
+"DHW Eqp NRes Wk" = WEEK-SCHEDULE-PD
+   TYPE             = FRACTION
+   DAY-SCHEDULES    = ( "DHW Eqp NRes Mon", &D, &D, &D, "DHW Eqp NRes Fri", 
+         "DHW Eqp NRes Fri", "DHW Eqp NRes Sun", "DHW Eqp NRes Fri", 
+         "DHW Eqp NRes HDD" )
+   ..
+"ZG1-S1 (PSZ) P-Inf Wk" = WEEK-SCHEDULE-PD
+   TYPE             = MULTIPLIER
+   DAY-SCHEDULES    = ( "ZG1-S1 (PSZ) P-Inf Mon", &D, 
+         "ZG1-S1 (PSZ) P-Inf Wed", "ZG1-S1 (PSZ) P-Inf Wed", 
+         "ZG1-S1 (PSZ) P-Inf Fri", "ZG1-S1 (PSZ) P-Inf Fri", 
+         "ZG1-S1 (PSZ) P-Inf Sun", "ZG1-S1 (PSZ) P-Inf Fri", 
+         "ZG1-S1 (PSZ) P-Inf HDD" )
+   ..
+"ZG1-S1 (PSZ) C-Inf Wk" = WEEK-SCHEDULE-PD
+   TYPE             = FRACTION
+   DAY-SCHEDULES    = ( "ZG1-S1 (PSZ) C-Inf Mon", &D, 
+         "ZG1-S1 (PSZ) C-Inf Wed", "ZG1-S1 (PSZ) C-Inf Wed", 
+         "ZG1-S1 (PSZ) C-Inf Fri", "ZG1-S1 (PSZ) C-Inf Fri", 
+         "ZG1-S1 (PSZ) C-Inf Wed", "ZG1-S1 (PSZ) C-Inf Fri" )
+   ..
+"S1 Sys1 (PSZ) Fan Wk" = WEEK-SCHEDULE-PD
+   TYPE             = ON/OFF/FLAG
+   DAY-SCHEDULES    = ( "S1 Sys1 (PSZ) Fan Mon", &D, "S1 Sys1 (PSZ) Fan Wed", 
+         "S1 Sys1 (PSZ) Fan Wed", "S1 Sys1 (PSZ) Fan Fri", 
+         "S1 Sys1 (PSZ) Fan Fri", "S1 Sys1 (PSZ) Fan Wed", 
+         "S1 Sys1 (PSZ) Fan Fri" )
+   ..
+"S1 Sys1 (PSZ) Cool Wk" = WEEK-SCHEDULE-PD
+   TYPE             = TEMPERATURE
+   DAY-SCHEDULES    = ( "S1 Sys1 (PSZ) Cool Mon", &D, &D, &D, 
+         "S1 Sys1 (PSZ) Cool Fri", "S1 Sys1 (PSZ) Cool Fri", 
+         "S1 Sys1 (PSZ) Cool Mon", "S1 Sys1 (PSZ) Cool Fri" )
+   ..
+"S1 Sys1 (PSZ) Heat Wk" = WEEK-SCHEDULE-PD
+   TYPE             = TEMPERATURE
+   DAY-SCHEDULES    = ( "S1 Sys1 (PSZ) Heat Mon", &D, &D, &D, 
+         "S1 Sys1 (PSZ) Heat Fri", "S1 Sys1 (PSZ) Heat Fri", 
+         "S1 Sys1 (PSZ) Heat Mon", "S1 Sys1 (PSZ) Heat Fri" )
+   ..
+"zone1 Bld Occup Wk" = WEEK-SCHEDULE-PD
+   TYPE             = FRACTION
+   DAY-SCHEDULES    = ( "MON-K1", "TUES-K1", "WED-K1", "THUR-K1", "FRI-K1", 
+         "SAT-K1", "SUN-Z1", "FRI-K1", "FRI-K1" )
+   ..
+"zone2 Bld Occup Wk" = WEEK-SCHEDULE-PD
+   TYPE             = FRACTION
+   DAY-SCHEDULES    = ( "mon-z2", "tues-z2", "wed-z2", "thurs-z2", "fri-z2", 
+         "sat-z2", "sun-z2", "fri-z2", "fri-z2" )
+   ..
+"zone3 Bld Occup Wk" = WEEK-SCHEDULE-PD
+   TYPE             = FRACTION
+   DAY-SCHEDULES    = ( "mon-z3", "tues-z3", "wed-z3", "thurs-z3", "fri-z3", 
+         "sat-z3", "sun-z3", "fri-z3", "fri-z3" )
+   ..
+
+$ ---------------------------------------------------------
+$              Annual Schedules
+$ ---------------------------------------------------------
+
+"EL1 Bldg Occup Sch" = SCHEDULE-PD
+   TYPE             = FRACTION
+   MONTH            = ( 12 )
+   DAY              = ( 31 )
+   WEEK-SCHEDULES   = ( "EL1 Bldg Occup Wk" )
+   ..
+"EL1 Bldg InsLt Sch" = SCHEDULE-PD
+   TYPE             = FRACTION
+   MONTH            = ( 12 )
+   DAY              = ( 31 )
+   WEEK-SCHEDULES   = ( "EL1 Bldg InsLt Wk" )
+   ..
+"EL1 Bldg OffEq Sch" = SCHEDULE-PD
+   TYPE             = FRACTION
+   MONTH            = ( 12 )
+   DAY              = ( 31 )
+   WEEK-SCHEDULES   = ( "EL1 Bldg OffEq Wk" )
+   ..
+"EL1 Bldg TskLt Sch" = SCHEDULE-PD
+   TYPE             = FRACTION
+   MONTH            = ( 12 )
+   DAY              = ( 31 )
+   WEEK-SCHEDULES   = ( "EL1 Bldg TskLt Wk" )
+   ..
+"EL1 WinShade Year 1" = SCHEDULE-PD
+   TYPE             = MULTIPLIER
+   MONTH            = ( 3, 11, 12 )
+   DAY              = ( 31, 30, 31 )
+   WEEK-SCHEDULES   = ( "EL1 WinShade Week 1", "EL1 WinShade Week 2", 
+         "EL1 WinShade Week 1" )
+   ..
+"DHW Eqp NRes Sch" = SCHEDULE-PD
+   TYPE             = FRACTION
+   MONTH            = ( 12 )
+   DAY              = ( 31 )
+   WEEK-SCHEDULES   = ( "DHW Eqp NRes Wk" )
+   ..
+"ZG1-S1 (PSZ) P-Inf Sch" = SCHEDULE-PD
+   TYPE             = MULTIPLIER
+   MONTH            = ( 12 )
+   DAY              = ( 31 )
+   WEEK-SCHEDULES   = ( "ZG1-S1 (PSZ) P-Inf Wk" )
+   ..
+"ZG1-S1 (PSZ) C-Inf Sch" = SCHEDULE-PD
+   TYPE             = FRACTION
+   MONTH            = ( 12 )
+   DAY              = ( 31 )
+   WEEK-SCHEDULES   = ( "ZG1-S1 (PSZ) C-Inf Wk" )
+   ..
+"S1 Sys1 (PSZ) Fan Sch" = SCHEDULE-PD
+   TYPE             = ON/OFF/FLAG
+   MONTH            = ( 12 )
+   DAY              = ( 31 )
+   WEEK-SCHEDULES   = ( "S1 Sys1 (PSZ) Fan Wk" )
+   ..
+"S1 Sys1 (PSZ) Cool Sch" = SCHEDULE-PD
+   TYPE             = TEMPERATURE
+   MONTH            = ( 12 )
+   DAY              = ( 31 )
+   WEEK-SCHEDULES   = ( "S1 Sys1 (PSZ) Cool Wk" )
+   ..
+"S1 Sys1 (PSZ) Heat Sch" = SCHEDULE-PD
+   TYPE             = TEMPERATURE
+   MONTH            = ( 12 )
+   DAY              = ( 31 )
+   WEEK-SCHEDULES   = ( "S1 Sys1 (PSZ) Heat Wk" )
+   ..
+"zone1 Yearly Occup Sch" = SCHEDULE-PD
+   TYPE             = FRACTION
+   MONTH            = ( 12 )
+   DAY              = ( 31 )
+   WEEK-SCHEDULES   = ( "zone1 Bld Occup Wk" )
+   ..
+"zone2 Yearly Occup Sch" = SCHEDULE-PD
+   TYPE             = FRACTION
+   MONTH            = ( 12 )
+   DAY              = ( 31 )
+   WEEK-SCHEDULES   = ( "zone2 Bld Occup Wk" )
+   ..
+"zone3 Yearly Occup Sch" = SCHEDULE-PD
+   TYPE             = FRACTION
+   MONTH            = ( 12 )
+   DAY              = ( 31 )
+   WEEK-SCHEDULES   = ( "zone3 Bld Occup Wk" )
+   ..
+
+
+$ ---------------------------------------------------------
+$              Polygons
+$ ---------------------------------------------------------
+
+"EL1 Floor Polygon" = POLYGON         
+   V1               = ( 0, 0 )
+   V2               = ( 66.65, 0 )
+   V3               = ( 66.65, 41.65 )
+   V4               = ( 41.65, 41.65 )
+   V5               = ( 41.65, 20 )
+   V6               = ( 25, 20 )
+   V7               = ( 25, 41.65 )
+   V8               = ( 0, 41.65 )
+   ..
+"EL1 Space Polygon 1" = POLYGON         
+   V1               = ( 0, 0 )
+   V2               = ( 25, 0 )
+   V3               = ( 25, 21.65 )
+   V4               = ( -0, 21.65 )
+   ..
+"EL1 Space Polygon 2" = POLYGON         
+   V1               = ( 0, 0 )
+   V2               = ( 9, 0 )
+   V3               = ( 34, 0 )
+   V4               = ( 34, 20 )
+   V5               = ( 0, 20 )
+   ..
+"EL1 Space Polygon 3" = POLYGON         
+   V1               = ( 0, 0 )
+   V2               = ( 25, 0 )
+   V3               = ( 25, 21.65 )
+   V4               = ( 0.15, 21.65 )
+   ..
+"EL1 Space Polygon 4" = POLYGON         
+   V1               = ( 0, 0 )
+   V2               = ( 7.65, 0 )
+   V3               = ( 7.65, 20 )
+   V4               = ( -25, 20 )
+   V5               = ( -24.85, -0 )
+   ..
+"EL1 Space Polygon 1 - SMirro" = POLYGON         
+   V1               = ( 0, 0 )
+   V2               = ( 21.65, -0 )
+   V3               = ( 21.65, 25 )
+   V4               = ( 0, 25 )
+   ..
+"EL1 Space Polygon 2 - SMirro" = POLYGON         
+   V1               = ( 0, 0 )
+   V2               = ( 20, 0 )
+   V3               = ( 20, 34 )
+   V4               = ( 0, 34 )
+   V5               = ( 0, 9 )
+   ..
+"EL1 Space Polygon 3 - SMirro" = POLYGON         
+   V1               = ( 0, 0 )
+   V2               = ( 21.65, 0.15 )
+   V3               = ( 21.65, 25 )
+   V4               = ( 0, 25 )
+   ..
+"EL1 Space Polygon 4 - SMirro" = POLYGON         
+   V1               = ( 0, 0 )
+   V2               = ( -0, -24.85 )
+   V3               = ( 20, -25 )
+   V4               = ( 20, 7.65 )
+   V5               = ( 0, 7.65 )
+   ..
+
+
+$ ---------------------------------------------------------
+$              Wall Parameters
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Fixed and Building Shades
+$ ---------------------------------------------------------
+
+
+
+
+$ ---------------------------------------------------------
+$              Misc Cost Related Objects
+$ ---------------------------------------------------------
+
+
+
+"Baseline Data" = BASELINE        
+   ..
+
+
+$ *********************************************************
+$ **                                                     **
+$ **      Floors / Spaces / Walls / Windows / Doors      **
+$ **                                                     **
+$ *********************************************************
+
+"EL1 Ground Flr" = FLOOR           
+   AZIMUTH          = 360
+   POLYGON          = "EL1 Floor Polygon"
+   SHAPE            = POLYGON
+   FLOOR-HEIGHT     = 12
+   SPACE-HEIGHT     = 12
+   C-DIAGRAM-DATA   = *Bldg Envelope & Loads 1 Diag Data*
+   C-901-BLDG-TYPE  = 15
+   ..
+"EL1 North Perim Spc (G.N1)" = SPACE           
+   SHAPE            = POLYGON
+   ZONE-TYPE        = CONDITIONED
+   PEOPLE-SCHEDULE  = "zone2 Yearly Occup Sch"
+   LIGHTING-SCHEDUL = ( "EL1 Bldg InsLt Sch" )
+   TASK-LIGHT-SCH   = "EL1 Bldg TskLt Sch"
+   EQUIP-SCHEDULE   = ( "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch", 
+         "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch" )
+   INF-SCHEDULE     = "ZG1-S1 (PSZ) P-Inf Sch"
+   INF-METHOD       = AIR-CHANGE
+   AIR-CHANGES/HR   = 0.25
+   INF-FLOW/AREA    = 0
+   PEOPLE-HG-LAT    = 185
+   PEOPLE-HG-SENS   = 215
+   EQUIP-LATENT     = ( 0, 0, 0, 0, 0 )
+   EQUIP-SENSIBLE   = ( 1, 1, 1, 1, 1 )
+   NUMBER-OF-PEOPLE = 15
+   PEOPLE-HEAT-GAIN = 400
+   LIGHTING-W/AREA  = ( 0.496479 )
+   TASK-LT-W/AREA   = 0.101038
+   EQUIPMENT-W/AREA = ( 0, 0, 0, 0, 0.005 )
+   DAYLIGHTING      = YES
+   LIGHT-REF-POINT1 = ( 9.18, 7.5, 2.5 )
+   ZONE-FRACTION1   = 0.733
+   LIGHT-SET-POINT1 = 100
+   VIEW-AZIMUTH     = 90
+   AREA/PERSON      = 45
+   POLYGON          = "EL1 Space Polygon 1"
+   LTG-CTRL-METHOD1 = On/Off
+   LOCATION         = FLOOR-V7
+   C-SCHEDULE-TYPE  = 0
+   C-SUB-AREA       = ( 444.82, 24.41, 19.53, 52.49 )
+   C-OCC-TYPE       = ( 35, 35, 35, 13, 12, 18, 18 )
+   C-SUB-SRC-BTUH   = ( 0, 0, 0 )
+   C-SUB-SRC-KW     = ( 0, 0, 0 )
+   C-ACTIVITY-DESC  = *Office (Open Plan) (63%)*
+   C-901-OCC-TYPE   = ( 2, 13, 3, 19 )
+   C-901-SCH-TYPE   = 1
+   C-HTG-SYS-CLASS  = 2
+   ..
+"EL1 North Wall (G.N1.E1)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V1
+   SHADING-SURFACE  = YES
+   ..
+"EL1 North Win (G.N1.E1.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 0.108333
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 North Win (G.N1.E1.W2)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 20.1083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 North Win (G.N1.E1.W3)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 5.10833
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.28333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 North Win (G.N1.E1.W4)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 15.6083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.28333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 North Door (G.N1.E1.D1)" = DOOR            
+   CONSTRUCTION     = "Other Wd Door"
+   X                = 9.5
+   HEIGHT           = 7
+   WIDTH            = 6
+   ..
+"EL1 West Wall (G.N1.E2)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V2
+   SHADING-SURFACE  = YES
+   ..
+"EL1 West Win (G.N1.E2.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 0.314584
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (G.N1.E2.W2)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 5.72708
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (G.N1.E2.W3)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 11.1396
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (G.N1.E2.W4)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 16.5521
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 East Wall (G.N1.E3)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V4
+   SHADING-SURFACE  = YES
+   ..
+"EL1 East Win (G.N1.E3.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 0.314584
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 East Win (G.N1.E3.W2)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 5.72708
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 East Win (G.N1.E3.W3)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 11.1396
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 East Win (G.N1.E3.W4)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 16.5521
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 Ceiling (G.N1.I1)" = INTERIOR-WALL   
+   NEXT-TO          = "EL1 North Perim Spc (T.N5)"
+   CONSTRUCTION     = "EL1 Ceilg Construction"
+   LOCATION         = TOP
+   ..
+"EL1 Flr (G.N1.U1)" = UNDERGROUND-WALL
+   CONSTRUCTION     = "EL1 UFCons (G.N1.U2)"
+   LOCATION         = BOTTOM
+   ..
+"EL1 SW Perim Spc (G.SW2)" = SPACE           
+   X                = 34
+   Y                = 20
+   AZIMUTH          = 180
+   SHAPE            = POLYGON
+   ZONE-TYPE        = CONDITIONED
+   PEOPLE-SCHEDULE  = "zone3 Yearly Occup Sch"
+   LIGHTING-SCHEDUL = ( "EL1 Bldg InsLt Sch" )
+   TASK-LIGHT-SCH   = "EL1 Bldg TskLt Sch"
+   EQUIP-SCHEDULE   = ( "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch", 
+         "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch" )
+   INF-SCHEDULE     = "ZG1-S1 (PSZ) P-Inf Sch"
+   INF-METHOD       = AIR-CHANGE
+   AIR-CHANGES/HR   = 0.25
+   INF-FLOW/AREA    = 0
+   PEOPLE-HG-LAT    = 185
+   PEOPLE-HG-SENS   = 215
+   EQUIP-LATENT     = ( 0, 0, 0, 0, 0 )
+   EQUIP-SENSIBLE   = ( 1, 1, 1, 1, 1 )
+   NUMBER-OF-PEOPLE = 15
+   PEOPLE-HEAT-GAIN = 400
+   LIGHTING-W/AREA  = ( 0.496479 )
+   TASK-LT-W/AREA   = 0.101038
+   EQUIPMENT-W/AREA = ( 0, 0, 0, 0, 0.005 )
+   DAYLIGHTING      = YES
+   LIGHT-REF-POINT1 = ( 22.15, 12.5, 2.5 )
+   LIGHT-REF-POINT2 = ( 2.12, 12.5, 2.5 )
+   ZONE-FRACTION1   = 0.357
+   ZONE-FRACTION2   = 0.184
+   LIGHT-SET-POINT1 = 100
+   LIGHT-SET-POINT2 = 100
+   VIEW-AZIMUTH     = 90
+   AREA/PERSON      = 45
+   POLYGON          = "EL1 Space Polygon 2"
+   VIEW-AZIMUTH2    = 90
+   LTG-CTRL-METHOD1 = On/Off
+   LTG-CTRL-METHOD2 = On/Off
+   C-SCHEDULE-TYPE  = 0
+   C-SUB-AREA       = ( 558.84, 30.67, 24.54, 65.95 )
+   C-OCC-TYPE       = ( 35, 35, 35, 13, 12, 18, 18 )
+   C-SUB-SRC-BTUH   = ( 0, 0, 0 )
+   C-SUB-SRC-KW     = ( 0, 0, 0 )
+   C-ACTIVITY-DESC  = *Office (Open Plan) (63%)*
+   C-901-OCC-TYPE   = ( 2, 13, 3, 19 )
+   C-901-SCH-TYPE   = 1
+   C-HTG-SYS-CLASS  = 2
+   ..
+"EL1 North Wall (G.SW2.E4)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V1
+   SHADING-SURFACE  = YES
+   ..
+"EL1 North Win (G.SW2.E4.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 2.10833
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Wall (G.SW2.E5)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V3
+   SHADING-SURFACE  = YES
+   ..
+"EL1 West Win (G.SW2.E5.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 0.108333
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (G.SW2.E5.W2)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 5.10833
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (G.SW2.E5.W3)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 10.1083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (G.SW2.E5.W4)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 15.1083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Wall (G.SW2.E6)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V4
+   SHADING-SURFACE  = YES
+   ..
+"EL1 South Win (G.SW2.E6.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 0.441667
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (G.SW2.E6.W2)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 6.10833
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (G.SW2.E6.W3)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 23.1083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (G.SW2.E6.W4)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 28.775
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (G.SW2.E6.W5)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 11.775
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 1.45
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (G.SW2.E6.W6)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 20.775
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 1.45
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Door (G.SW2.E6.D1)" = DOOR            
+   CONSTRUCTION     = "Other Wd Door"
+   X                = 14
+   HEIGHT           = 7
+   WIDTH            = 6
+   ..
+"EL1 North Wall (G.SW2.I2)" = INTERIOR-WALL   
+   NEXT-TO          = "EL1 North Perim Spc (G.N1)"
+   CONSTRUCTION     = "EL1 IWall Construction"
+   LOCATION         = SPACE-V2
+   ..
+"EL1 East Wall (G.SW2.I3)" = INTERIOR-WALL   
+   NEXT-TO          = "EL1 SE Perim Spc (G.SE4)"
+   CONSTRUCTION     = "EL1 IWall Construction"
+   LOCATION         = SPACE-V5
+   ..
+"EL1 Ceiling (G.SW2.I4)" = INTERIOR-WALL   
+   NEXT-TO          = "EL1 SW Perim Spc (T.SW6)"
+   CONSTRUCTION     = "EL1 Ceilg Construction"
+   LOCATION         = TOP
+   ..
+"EL1 Flr (G.SW2.U2)" = UNDERGROUND-WALL
+   CONSTRUCTION     = "EL1 UFCons (G.SW2.U3)"
+   LOCATION         = BOTTOM
+   ..
+"EL1 North Perim Spc (G.N3)" = SPACE           
+   SHAPE            = POLYGON
+   ZONE-TYPE        = CONDITIONED
+   PEOPLE-SCHEDULE  = "zone3 Yearly Occup Sch"
+   LIGHTING-SCHEDUL = ( "EL1 Bldg InsLt Sch" )
+   TASK-LIGHT-SCH   = "EL1 Bldg TskLt Sch"
+   EQUIP-SCHEDULE   = ( "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch", 
+         "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch" )
+   INF-SCHEDULE     = "ZG1-S1 (PSZ) P-Inf Sch"
+   INF-METHOD       = AIR-CHANGE
+   AIR-CHANGES/HR   = 0.25
+   INF-FLOW/AREA    = 0
+   PEOPLE-HG-LAT    = 185
+   PEOPLE-HG-SENS   = 215
+   EQUIP-LATENT     = ( 0, 0, 0, 0, 0 )
+   EQUIP-SENSIBLE   = ( 1, 1, 1, 1, 1 )
+   NUMBER-OF-PEOPLE = 15
+   PEOPLE-HEAT-GAIN = 400
+   LIGHTING-W/AREA  = ( 0.496479 )
+   TASK-LT-W/AREA   = 0.101038
+   EQUIPMENT-W/AREA = ( 0, 0, 0, 0, 0.005 )
+   DAYLIGHTING      = YES
+   LIGHT-REF-POINT1 = ( 17.5, 7.4, 2.5 )
+   ZONE-FRACTION1   = 0.566
+   LIGHT-SET-POINT1 = 100
+   VIEW-AZIMUTH     = 90
+   AREA/PERSON      = 45
+   POLYGON          = "EL1 Space Polygon 3"
+   LTG-CTRL-METHOD1 = On/Off
+   LOCATION         = FLOOR-V3
+   C-SCHEDULE-TYPE  = 0
+   C-SUB-AREA       = ( 443.48, 24.34, 19.47, 52.33 )
+   C-OCC-TYPE       = ( 35, 35, 35, 13, 12, 18, 18 )
+   C-SUB-SRC-BTUH   = ( 0, 0, 0 )
+   C-SUB-SRC-KW     = ( 0, 0, 0 )
+   C-ACTIVITY-DESC  = *Office (Open Plan) (63%)*
+   C-901-OCC-TYPE   = ( 2, 13, 3, 19 )
+   C-901-SCH-TYPE   = 1
+   C-HTG-SYS-CLASS  = 2
+   ..
+"EL1 North Wall (G.N3.E7)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V1
+   SHADING-SURFACE  = YES
+   ..
+"EL1 North Win (G.N3.E7.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 0.108333
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 North Win (G.N3.E7.W2)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 5.10833
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 North Win (G.N3.E7.W3)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 10.1083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 North Win (G.N3.E7.W4)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 15.1083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 North Win (G.N3.E7.W5)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 20.1083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Wall (G.N3.E8)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V2
+   SHADING-SURFACE  = YES
+   ..
+"EL1 West Win (G.N3.E8.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 0.314584
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (G.N3.E8.W2)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 5.72708
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (G.N3.E8.W3)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 11.1396
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (G.N3.E8.W4)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 16.5521
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 East Wall (G.N3.E9)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V4
+   SHADING-SURFACE  = YES
+   ..
+"EL1 Ceiling (G.N3.I5)" = INTERIOR-WALL   
+   NEXT-TO          = "EL1 North Perim Spc (T.N7)"
+   CONSTRUCTION     = "EL1 Ceilg Construction"
+   LOCATION         = TOP
+   ..
+"EL1 Flr (G.N3.U3)" = UNDERGROUND-WALL
+   CONSTRUCTION     = "EL1 UFCons (G.N3.U4)"
+   LOCATION         = BOTTOM
+   ..
+"EL1 SE Perim Spc (G.SE4)" = SPACE           
+   SHAPE            = POLYGON
+   ZONE-TYPE        = CONDITIONED
+   PEOPLE-SCHEDULE  = "zone3 Yearly Occup Sch"
+   LIGHTING-SCHEDUL = ( "EL1 Bldg InsLt Sch" )
+   TASK-LIGHT-SCH   = "EL1 Bldg TskLt Sch"
+   EQUIP-SCHEDULE   = ( "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch", 
+         "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch" )
+   INF-SCHEDULE     = "ZG1-S1 (PSZ) P-Inf Sch"
+   INF-METHOD       = AIR-CHANGE
+   AIR-CHANGES/HR   = 0.25
+   INF-FLOW/AREA    = 0
+   PEOPLE-HG-LAT    = 185
+   PEOPLE-HG-SENS   = 215
+   EQUIP-LATENT     = ( 0, 0, 0, 0, 0 )
+   EQUIP-SENSIBLE   = ( 1, 1, 1, 1, 1 )
+   NUMBER-OF-PEOPLE = 15
+   PEOPLE-HEAT-GAIN = 400
+   LIGHTING-W/AREA  = ( 0.496479 )
+   TASK-LT-W/AREA   = 0.101038
+   EQUIPMENT-W/AREA = ( 0, 0, 0, 0, 0.005 )
+   DAYLIGHTING      = YES
+   LIGHT-REF-POINT1 = ( 4.93, 10, 2.5 )
+   ZONE-FRACTION1   = 0.541
+   LIGHT-SET-POINT1 = 100
+   VIEW-AZIMUTH     = -90
+   AREA/PERSON      = 45
+   POLYGON          = "EL1 Space Polygon 4"
+   LTG-CTRL-METHOD1 = On/Off
+   LOCATION         = FLOOR-V5
+   C-SCHEDULE-TYPE  = 0
+   C-SUB-AREA       = ( 535.42, 29.39, 23.51, 63.18 )
+   C-OCC-TYPE       = ( 35, 35, 35, 13, 12, 18, 18 )
+   C-SUB-SRC-BTUH   = ( 0, 0, 0 )
+   C-SUB-SRC-KW     = ( 0, 0, 0 )
+   C-ACTIVITY-DESC  = *Office (Open Plan) (63%)*
+   C-901-OCC-TYPE   = ( 2, 13, 3, 19 )
+   C-901-SCH-TYPE   = 1
+   C-HTG-SYS-CLASS  = 2
+   ..
+"EL1 North Wall (G.SE4.E10)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V1
+   SHADING-SURFACE  = YES
+   ..
+"EL1 North Win (G.SE4.E10.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 1.43333
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Wall (G.SE4.E11)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V3
+   SHADING-SURFACE  = YES
+   ..
+"EL1 South Win (G.SE4.E11.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 0.329167
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (G.SE4.E11.W2)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 5.77083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (G.SE4.E11.W3)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 11.2125
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (G.SE4.E11.W4)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 16.6542
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (G.SE4.E11.W5)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 22.0958
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (G.SE4.E11.W6)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 27.5375
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 East Wall (G.SE4.E12)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V4
+   SHADING-SURFACE  = YES
+   ..
+"EL1 North Wall (G.SE4.I6)" = INTERIOR-WALL   
+   NEXT-TO          = "EL1 North Perim Spc (G.N3)"
+   CONSTRUCTION     = "EL1 IWall Construction"
+   LOCATION         = SPACE-V5
+   ..
+"EL1 Ceiling (G.SE4.I7)" = INTERIOR-WALL   
+   NEXT-TO          = "EL1 SE Perim Spc (T.SE8)"
+   CONSTRUCTION     = "EL1 Ceilg Construction"
+   LOCATION         = TOP
+   ..
+"EL1 Flr (G.SE4.U4)" = UNDERGROUND-WALL
+   CONSTRUCTION     = "EL1 UFCons (G.SE4.U5)"
+   LOCATION         = BOTTOM
+   ..
+"EL1 Top Flr" = FLOOR           
+   Z                = 12
+   AZIMUTH          = 360
+   POLYGON          = "EL1 Floor Polygon"
+   SHAPE            = POLYGON
+   FLOOR-HEIGHT     = 12
+   SPACE-HEIGHT     = 12
+   C-DIAGRAM-DATA   = *Bldg Envelope & Loads 1 Diag Data*
+   C-901-BLDG-TYPE  = 15
+   ..
+"EL1 North Perim Spc (T.N5)" = SPACE           
+   SHAPE            = POLYGON
+   ZONE-TYPE        = CONDITIONED
+   PEOPLE-SCHEDULE  = "zone2 Yearly Occup Sch"
+   LIGHTING-SCHEDUL = ( "EL1 Bldg InsLt Sch" )
+   TASK-LIGHT-SCH   = "EL1 Bldg TskLt Sch"
+   EQUIP-SCHEDULE   = ( "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch", 
+         "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch" )
+   INF-SCHEDULE     = "ZG1-S1 (PSZ) P-Inf Sch"
+   INF-METHOD       = AIR-CHANGE
+   AIR-CHANGES/HR   = 0.25
+   INF-FLOW/AREA    = 0
+   PEOPLE-HG-LAT    = 185
+   PEOPLE-HG-SENS   = 215
+   EQUIP-LATENT     = ( 0, 0, 0, 0, 0 )
+   EQUIP-SENSIBLE   = ( 1, 1, 1, 1, 1 )
+   NUMBER-OF-PEOPLE = 15
+   PEOPLE-HEAT-GAIN = 400
+   LIGHTING-W/AREA  = ( 0.324703 )
+   TASK-LT-W/AREA   = 0.123252
+   EQUIPMENT-W/AREA = ( 0, 0, 0, 0, 0.006 )
+   DAYLIGHTING      = YES
+   LIGHT-REF-POINT1 = ( 12.26, 7.5, 2.5 )
+   ZONE-FRACTION1   = 0.766
+   LIGHT-SET-POINT1 = 100
+   VIEW-AZIMUTH     = 90
+   AREA/PERSON      = 45
+   POLYGON          = "EL1 Space Polygon 1"
+   LTG-CTRL-METHOD1 = On/Off
+   LOCATION         = FLOOR-V7
+   C-SCHEDULE-TYPE  = 0
+   C-SUB-AREA       = ( 476.5, 29.78, 23.83, 11.14 )
+   C-OCC-TYPE       = ( 35, 35, 13, 12, 18 )
+   C-SUB-SRC-BTUH   = ( 0, 0, 0 )
+   C-SUB-SRC-KW     = ( 0, 0, 0 )
+   C-ACTIVITY-DESC  = *Office (Open Plan) (77%)*
+   C-901-OCC-TYPE   = ( 2, 13, 3, 19 )
+   C-901-SCH-TYPE   = 1
+   C-HTG-SYS-CLASS  = 2
+   ..
+"EL1 North Slab (T.N5.S13)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 IFSHL Construction"
+   HEIGHT           = 0.5
+   LOCATION         = SPACE-V1
+   ..
+"EL1 North Wall (T.N5.E13)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V1
+   SHADING-SURFACE  = YES
+   ..
+"EL1 North Win (T.N5.E13.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 0.108333
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 North Win (T.N5.E13.W2)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 5.10833
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 North Win (T.N5.E13.W3)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 10.1083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 North Win (T.N5.E13.W4)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 15.1083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 North Win (T.N5.E13.W5)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 20.1083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Slab (T.N5.S14)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 IFSHL Construction"
+   HEIGHT           = 0.5
+   LOCATION         = SPACE-V2
+   ..
+"EL1 West Wall (T.N5.E14)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V2
+   SHADING-SURFACE  = YES
+   ..
+"EL1 West Win (T.N5.E14.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 0.314584
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (T.N5.E14.W2)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 5.72708
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (T.N5.E14.W3)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 11.1396
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (T.N5.E14.W4)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 16.5521
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 East Slab (T.N5.S15)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 IFSHL Construction"
+   HEIGHT           = 0.5
+   LOCATION         = SPACE-V4
+   ..
+"EL1 East Wall (T.N5.E15)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V4
+   SHADING-SURFACE  = YES
+   ..
+"EL1 East Win (T.N5.E15.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 0.314584
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 East Win (T.N5.E15.W2)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 5.72708
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 East Win (T.N5.E15.W3)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 11.1396
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 East Win (T.N5.E15.W4)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 16.5521
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 Roof (T.N5.E16)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 Roof Construction"
+   LOCATION         = TOP
+   ..
+"EL1 Flr (T.N5.I8)" = INTERIOR-WALL   
+   NEXT-TO          = "EL1 North Perim Spc (G.N1)"
+   CONSTRUCTION     = "EL1 IFlr Construction"
+   LOCATION         = BOTTOM
+   ..
+"EL1 SW Perim Spc (T.SW6)" = SPACE           
+   X                = 34
+   Y                = 20
+   AZIMUTH          = 180
+   SHAPE            = POLYGON
+   ZONE-TYPE        = CONDITIONED
+   PEOPLE-SCHEDULE  = "zone3 Yearly Occup Sch"
+   LIGHTING-SCHEDUL = ( "EL1 Bldg InsLt Sch" )
+   TASK-LIGHT-SCH   = "EL1 Bldg TskLt Sch"
+   EQUIP-SCHEDULE   = ( "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch", 
+         "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch" )
+   INF-SCHEDULE     = "ZG1-S1 (PSZ) P-Inf Sch"
+   INF-METHOD       = AIR-CHANGE
+   AIR-CHANGES/HR   = 0.25
+   INF-FLOW/AREA    = 0
+   PEOPLE-HG-LAT    = 185
+   PEOPLE-HG-SENS   = 215
+   EQUIP-LATENT     = ( 0, 0, 0, 0, 0 )
+   EQUIP-SENSIBLE   = ( 1, 1, 1, 1, 1 )
+   NUMBER-OF-PEOPLE = 15
+   PEOPLE-HEAT-GAIN = 400
+   LIGHTING-W/AREA  = ( 0.324703 )
+   TASK-LT-W/AREA   = 0.123252
+   EQUIPMENT-W/AREA = ( 0, 0, 0, 0, 0.006 )
+   DAYLIGHTING      = YES
+   LIGHT-REF-POINT1 = ( 23.35, 12.5, 2.5 )
+   LIGHT-REF-POINT2 = ( 3.78, 7.5, 2.5 )
+   ZONE-FRACTION1   = 0.535
+   ZONE-FRACTION2   = 0.102
+   LIGHT-SET-POINT1 = 100
+   LIGHT-SET-POINT2 = 100
+   VIEW-AZIMUTH     = 90
+   AREA/PERSON      = 40
+   POLYGON          = "EL1 Space Polygon 2"
+   VIEW-AZIMUTH2    = 90
+   LTG-CTRL-METHOD1 = On/Off
+   LTG-CTRL-METHOD2 = On/Off
+   C-SCHEDULE-TYPE  = 0
+   C-SUB-AREA       = ( 598.65, 37.42, 29.93, 14 )
+   C-OCC-TYPE       = ( 35, 35, 13, 12, 18 )
+   C-SUB-SRC-BTUH   = ( 0, 0, 0 )
+   C-SUB-SRC-KW     = ( 0, 0, 0 )
+   C-ACTIVITY-DESC  = *Office (Open Plan) (77%)*
+   C-901-OCC-TYPE   = ( 2, 13, 3, 19 )
+   C-901-SCH-TYPE   = 1
+   C-HTG-SYS-CLASS  = 2
+   ..
+"EL1 North Slab (T.SW6.S17)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 IFSHL Construction"
+   HEIGHT           = 0.5
+   LOCATION         = SPACE-V1
+   ..
+"EL1 North Wall (T.SW6.E17)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V1
+   SHADING-SURFACE  = YES
+   ..
+"EL1 North Win (T.SW6.E17.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 2.10833
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Slab (T.SW6.S18)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 IFSHL Construction"
+   HEIGHT           = 0.5
+   LOCATION         = SPACE-V3
+   ..
+"EL1 West Wall (T.SW6.E18)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V3
+   SHADING-SURFACE  = YES
+   ..
+"EL1 West Win (T.SW6.E18.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 0.108333
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (T.SW6.E18.W2)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 5.10833
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (T.SW6.E18.W3)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 10.1083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (T.SW6.E18.W4)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 15.1083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Slab (T.SW6.S19)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 IFSHL Construction"
+   HEIGHT           = 0.5
+   LOCATION         = SPACE-V4
+   ..
+"EL1 South Wall (T.SW6.E19)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V4
+   SHADING-SURFACE  = YES
+   ..
+"EL1 South Win (T.SW6.E19.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 0.441667
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (T.SW6.E19.W2)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 6.10833
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (T.SW6.E19.W3)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 11.775
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (T.SW6.E19.W4)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 17.4417
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (T.SW6.E19.W5)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 23.1083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (T.SW6.E19.W6)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 28.775
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 Roof (T.SW6.E20)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 Roof Construction"
+   LOCATION         = TOP
+   ..
+"EL1 Flr (T.SW6.I9)" = INTERIOR-WALL   
+   NEXT-TO          = "EL1 SW Perim Spc (G.SW2)"
+   CONSTRUCTION     = "EL1 IFlr Construction"
+   LOCATION         = BOTTOM
+   ..
+"EL1 North Wall (T.SW6.I10)" = INTERIOR-WALL   
+   NEXT-TO          = "EL1 North Perim Spc (T.N5)"
+   CONSTRUCTION     = "EL1 IWall Construction"
+   LOCATION         = SPACE-V2
+   ..
+"EL1 East Wall (T.SW6.I11)" = INTERIOR-WALL   
+   NEXT-TO          = "EL1 SE Perim Spc (T.SE8)"
+   CONSTRUCTION     = "EL1 IWall Construction"
+   LOCATION         = SPACE-V5
+   ..
+"EL1 North Perim Spc (T.N7)" = SPACE           
+   SHAPE            = POLYGON
+   ZONE-TYPE        = CONDITIONED
+   PEOPLE-SCHEDULE  = "zone3 Yearly Occup Sch"
+   LIGHTING-SCHEDUL = ( "EL1 Bldg InsLt Sch" )
+   TASK-LIGHT-SCH   = "EL1 Bldg TskLt Sch"
+   EQUIP-SCHEDULE   = ( "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch", 
+         "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch" )
+   INF-SCHEDULE     = "ZG1-S1 (PSZ) P-Inf Sch"
+   INF-METHOD       = AIR-CHANGE
+   AIR-CHANGES/HR   = 0.25
+   INF-FLOW/AREA    = 0
+   PEOPLE-HG-LAT    = 185
+   PEOPLE-HG-SENS   = 215
+   EQUIP-LATENT     = ( 0, 0, 0, 0, 0 )
+   EQUIP-SENSIBLE   = ( 1, 1, 1, 1, 1 )
+   NUMBER-OF-PEOPLE = 15
+   PEOPLE-HEAT-GAIN = 400
+   LIGHTING-W/AREA  = ( 0.324703 )
+   TASK-LT-W/AREA   = 0.123252
+   EQUIPMENT-W/AREA = ( 0, 0, 0, 0, 0.006 )
+   DAYLIGHTING      = YES
+   LIGHT-REF-POINT1 = ( 17.5, 7.4, 2.5 )
+   ZONE-FRACTION1   = 0.566
+   LIGHT-SET-POINT1 = 100
+   VIEW-AZIMUTH     = 90
+   AREA/PERSON      = 45
+   POLYGON          = "EL1 Space Polygon 3"
+   LTG-CTRL-METHOD1 = On/Off
+   LOCATION         = FLOOR-V3
+   C-SCHEDULE-TYPE  = 0
+   C-SUB-AREA       = ( 475.07, 29.69, 23.75, 11.11 )
+   C-OCC-TYPE       = ( 35, 35, 13, 12, 18 )
+   C-SUB-SRC-BTUH   = ( 0, 0, 0 )
+   C-SUB-SRC-KW     = ( 0, 0, 0 )
+   C-ACTIVITY-DESC  = *Office (Open Plan) (77%)*
+   C-901-OCC-TYPE   = ( 2, 13, 3, 19 )
+   C-901-SCH-TYPE   = 1
+   C-HTG-SYS-CLASS  = 2
+   ..
+"EL1 North Slab (T.N7.S21)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 IFSHL Construction"
+   HEIGHT           = 0.5
+   LOCATION         = SPACE-V1
+   ..
+"EL1 North Wall (T.N7.E21)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V1
+   SHADING-SURFACE  = YES
+   ..
+"EL1 North Win (T.N7.E21.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 0.108333
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 North Win (T.N7.E21.W2)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 5.10833
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 North Win (T.N7.E21.W3)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 10.1083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 North Win (T.N7.E21.W4)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 15.1083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 North Win (T.N7.E21.W5)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 20.1083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Slab (T.N7.S22)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 IFSHL Construction"
+   HEIGHT           = 0.5
+   LOCATION         = SPACE-V2
+   ..
+"EL1 West Wall (T.N7.E22)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V2
+   SHADING-SURFACE  = YES
+   ..
+"EL1 West Win (T.N7.E22.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 0.314584
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (T.N7.E22.W2)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 5.72708
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (T.N7.E22.W3)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 11.1396
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 West Win (T.N7.E22.W4)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 16.5521
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 East Slab (T.N7.S23)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 IFSHL Construction"
+   HEIGHT           = 0.5
+   LOCATION         = SPACE-V4
+   ..
+"EL1 East Wall (T.N7.E23)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V4
+   SHADING-SURFACE  = YES
+   ..
+"EL1 Roof (T.N7.E24)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 Roof Construction"
+   LOCATION         = TOP
+   ..
+"EL1 Flr (T.N7.I12)" = INTERIOR-WALL   
+   NEXT-TO          = "EL1 North Perim Spc (G.N3)"
+   CONSTRUCTION     = "EL1 IFlr Construction"
+   LOCATION         = BOTTOM
+   ..
+"EL1 SE Perim Spc (T.SE8)" = SPACE           
+   SHAPE            = POLYGON
+   ZONE-TYPE        = CONDITIONED
+   PEOPLE-SCHEDULE  = "zone3 Yearly Occup Sch"
+   LIGHTING-SCHEDUL = ( "EL1 Bldg InsLt Sch" )
+   TASK-LIGHT-SCH   = "EL1 Bldg TskLt Sch"
+   EQUIP-SCHEDULE   = ( "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch", 
+         "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch", "EL1 Bldg OffEq Sch" )
+   INF-SCHEDULE     = "ZG1-S1 (PSZ) P-Inf Sch"
+   INF-METHOD       = AIR-CHANGE
+   AIR-CHANGES/HR   = 0.25
+   INF-FLOW/AREA    = 0
+   PEOPLE-HG-LAT    = 185
+   PEOPLE-HG-SENS   = 215
+   EQUIP-LATENT     = ( 0, 0, 0, 0, 0 )
+   EQUIP-SENSIBLE   = ( 1, 1, 1, 1, 1 )
+   NUMBER-OF-PEOPLE = 15
+   PEOPLE-HEAT-GAIN = 400
+   LIGHTING-W/AREA  = ( 0.324703 )
+   TASK-LT-W/AREA   = 0.123252
+   EQUIPMENT-W/AREA = ( 0, 0, 0, 0, 0.006 )
+   DAYLIGHTING      = YES
+   LIGHT-REF-POINT1 = ( 4.93, 10, 2.5 )
+   ZONE-FRACTION1   = 0.541
+   LIGHT-SET-POINT1 = 100
+   VIEW-AZIMUTH     = -90
+   AREA/PERSON      = 40
+   POLYGON          = "EL1 Space Polygon 4"
+   LTG-CTRL-METHOD1 = On/Off
+   LOCATION         = FLOOR-V5
+   C-SCHEDULE-TYPE  = 0
+   C-SUB-AREA       = ( 573.56, 35.85, 28.68, 13.41 )
+   C-OCC-TYPE       = ( 35, 35, 13, 12, 18 )
+   C-SUB-SRC-BTUH   = ( 0, 0, 0 )
+   C-SUB-SRC-KW     = ( 0, 0, 0 )
+   C-ACTIVITY-DESC  = *Office (Open Plan) (77%)*
+   C-901-OCC-TYPE   = ( 2, 13, 3, 19 )
+   C-901-SCH-TYPE   = 1
+   C-HTG-SYS-CLASS  = 2
+   ..
+"EL1 North Slab (T.SE8.S25)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 IFSHL Construction"
+   HEIGHT           = 0.5
+   LOCATION         = SPACE-V1
+   ..
+"EL1 North Wall (T.SE8.E25)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V1
+   SHADING-SURFACE  = YES
+   ..
+"EL1 North Win (T.SE8.E25.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 1.43333
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Slab (T.SE8.S26)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 IFSHL Construction"
+   HEIGHT           = 0.5
+   LOCATION         = SPACE-V3
+   ..
+"EL1 South Wall (T.SE8.E26)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V3
+   SHADING-SURFACE  = YES
+   ..
+"EL1 South Win (T.SE8.E26.W1)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 0.329167
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (T.SE8.E26.W2)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 5.77083
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (T.SE8.E26.W3)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 11.2125
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (T.SE8.E26.W4)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 16.6542
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (T.SE8.E26.W5)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 22.0958
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 South Win (T.SE8.E26.W6)" = WINDOW          
+   GLASS-TYPE       = "EL1 Window Type #1 GT"
+   SHADING-SCHEDULE = "EL1 WinShade Year 1"
+   FRAME-WIDTH      = 0.108333
+   X                = 27.5375
+   Y                = 3.10833
+   HEIGHT           = 4.78333
+   WIDTH            = 4.78333
+   VIS-TRANS-SCH    = "EL1 WinShade Year 1"
+   OVERHANG-D       = 3
+   FRAME-CONDUCT    = 1.419
+   SPACER-TYPE      = ALUMINUM
+   ..
+"EL1 East Slab (T.SE8.S27)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 IFSHL Construction"
+   HEIGHT           = 0.5
+   LOCATION         = SPACE-V4
+   ..
+"EL1 East Wall (T.SE8.E27)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 EWall Construction"
+   LOCATION         = SPACE-V4
+   SHADING-SURFACE  = YES
+   ..
+"EL1 Roof (T.SE8.E28)" = EXTERIOR-WALL   
+   CONSTRUCTION     = "EL1 Roof Construction"
+   LOCATION         = TOP
+   ..
+"EL1 Flr (T.SE8.I13)" = INTERIOR-WALL   
+   NEXT-TO          = "EL1 SE Perim Spc (G.SE4)"
+   CONSTRUCTION     = "EL1 IFlr Construction"
+   LOCATION         = BOTTOM
+   ..
+"EL1 North Wall (T.SE8.I14)" = INTERIOR-WALL   
+   NEXT-TO          = "EL1 North Perim Spc (T.N7)"
+   CONSTRUCTION     = "EL1 IWall Construction"
+   LOCATION         = SPACE-V5
+   ..
+
+
+$ *********************************************************
+$ **                                                     **
+$ **                Performance Curves                   **
+$ **                                                     **
+$ *********************************************************
+
+
+$ *********************************************************
+$ **                                                     **
+$ **              Electric & Fuel Meters                 **
+$ **                                                     **
+$ *********************************************************
+
+$ ---------------------------------------------------------
+$              Electric Meters
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Fuel Meters
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Master Meters
+$ ---------------------------------------------------------
+
+"MASTER-METERS 1" = MASTER-METERS   
+   MSTR-ELEC-METER  = "EM1"
+   MSTR-FUEL-METER  = "FM1"
+   ..
+
+
+$ *********************************************************
+$ **                                                     **
+$ **      HVAC Circulation Loops / Plant Equipment       **
+$ **                                                     **
+$ *********************************************************
+
+$ ---------------------------------------------------------
+$              Pumps
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Heat Exchangers
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Circulation Loops
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Chillers
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Boilers
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Domestic Water Heaters
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Heat Rejection
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Tower Free Cooling
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Photovoltaic Modules
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Electric Generators
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Thermal Storage
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Ground Loop Heat Exchangers
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Compliance DHW (residential dwelling units)
+$ ---------------------------------------------------------
+
+
+
+$ *********************************************************
+$ **                                                     **
+$ **            Steam & Chilled Water Meters             **
+$ **                                                     **
+$ *********************************************************
+
+$ ---------------------------------------------------------
+$              Steam Meters
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Chilled Water Meters
+$ ---------------------------------------------------------
+
+
+
+$ *********************************************************
+$ **                                                     **
+$ **               HVAC Systems / Zones                  **
+$ **                                                     **
+$ *********************************************************
+
+"S1 Sys (PSZ)" = SYSTEM          
+   TYPE             = PSZ
+   HEAT-SOURCE      = NONE
+   ZONE-HEAT-SOURCE = NONE
+   BASEBOARD-SOURCE = NONE
+   SIZING-RATIO     = 1.15
+   HUMIDIFIER-TYPE  = NONE
+   MIN-SUPPLY-T     = 55
+   MAX-HUMIDITY     = 100
+   MIN-HUMIDITY     = 0
+   ECONO-LIMIT-T    = 65
+   ENTHALPY-LIMIT   = 30
+   ECONO-LOCKOUT    = YES
+   OA-CONTROL       = FIXED
+   FAN-SCHEDULE     = "S1 Sys1 (PSZ) Fan Sch"
+   SUPPLY-STATIC    = 1
+   SUPPLY-EFF       = 0.53
+   RETURN-EFF       = 0.53
+   COOLING-EIR      = 0.16753
+   FURNACE-HIR      = 1.24155
+   HUMIDIFIER-LOC   = IN-AIR-HANDLER
+   CONTROL-ZONE     = "EL1 North Perim Zn (G.N1)"
+   C-EER95          = 15.8
+   C-AFUE           = 0.78
+   C-SF-MTR-TYPE    = 1
+   C-RF-MTR-TYPE    = 1
+   C-OSA-DMPR-CTRL  = 1
+   C-HTG-DUCT-LOCN  = *In Conditioned Space*
+   C-HTG-DUCT-RVAL  = 7
+   C-CLG-DUCT-LOCN  = *In Conditioned Space*
+   C-CLG-DUCT-RVAL  = 7
+   C-CLG-CAP-CATEG  = 9
+   ..
+"EL1 North Perim Zn (G.N1)" = ZONE            
+   TYPE             = CONDITIONED
+   FLOW/AREA        = 0.5
+   OA-FLOW/PER      = 14.2904
+   DESIGN-HEAT-T    = 72
+   DESIGN-COOL-T    = 75
+   COOL-TEMP-SCH    = "S1 Sys1 (PSZ) Cool Sch"
+   SIZING-OPTION    = ADJUST-LOADS
+   SPACE            = "EL1 North Perim Spc (G.N1)"
+   ..
+"EL1 SW Perim Zn (G.SW2)" = ZONE            
+   TYPE             = CONDITIONED
+   FLOW/AREA        = 0.5
+   OA-FLOW/PER      = 14.2904
+   DESIGN-HEAT-T    = 72
+   DESIGN-COOL-T    = 75
+   COOL-TEMP-SCH    = "S1 Sys1 (PSZ) Cool Sch"
+   SIZING-OPTION    = ADJUST-LOADS
+   SPACE            = "EL1 SW Perim Spc (G.SW2)"
+   ..
+"EL1 North Perim Zn (G.N3)" = ZONE            
+   TYPE             = CONDITIONED
+   FLOW/AREA        = 0.5
+   OA-FLOW/PER      = 14.2904
+   DESIGN-HEAT-T    = 72
+   DESIGN-COOL-T    = 75
+   COOL-TEMP-SCH    = "S1 Sys1 (PSZ) Cool Sch"
+   SIZING-OPTION    = ADJUST-LOADS
+   SPACE            = "EL1 North Perim Spc (G.N3)"
+   ..
+"EL1 SE Perim Zn (G.SE4)" = ZONE            
+   TYPE             = CONDITIONED
+   FLOW/AREA        = 0.5
+   OA-FLOW/PER      = 14.2904
+   DESIGN-HEAT-T    = 72
+   DESIGN-COOL-T    = 75
+   COOL-TEMP-SCH    = "S1 Sys1 (PSZ) Cool Sch"
+   SIZING-OPTION    = ADJUST-LOADS
+   SPACE            = "EL1 SE Perim Spc (G.SE4)"
+   ..
+"EL1 North Perim Zn (T.N5)" = ZONE            
+   TYPE             = CONDITIONED
+   FLOW/AREA        = 0.5
+   OA-FLOW/PER      = 13.374
+   DESIGN-HEAT-T    = 72
+   DESIGN-COOL-T    = 75
+   COOL-TEMP-SCH    = "S1 Sys1 (PSZ) Cool Sch"
+   SIZING-OPTION    = ADJUST-LOADS
+   SPACE            = "EL1 North Perim Spc (T.N5)"
+   ..
+"EL1 SW Perim Zn (T.SW6)" = ZONE            
+   TYPE             = CONDITIONED
+   FLOW/AREA        = 0.5
+   OA-FLOW/PER      = 13.374
+   DESIGN-HEAT-T    = 72
+   DESIGN-COOL-T    = 75
+   COOL-TEMP-SCH    = "S1 Sys1 (PSZ) Cool Sch"
+   SIZING-OPTION    = ADJUST-LOADS
+   SPACE            = "EL1 SW Perim Spc (T.SW6)"
+   ..
+"EL1 North Perim Zn (T.N7)" = ZONE            
+   TYPE             = CONDITIONED
+   FLOW/AREA        = 0.5
+   OA-FLOW/PER      = 13.374
+   DESIGN-HEAT-T    = 72
+   DESIGN-COOL-T    = 75
+   COOL-TEMP-SCH    = "S1 Sys1 (PSZ) Cool Sch"
+   SIZING-OPTION    = ADJUST-LOADS
+   SPACE            = "EL1 North Perim Spc (T.N7)"
+   ..
+"EL1 SE Perim Zn (T.SE8)" = ZONE            
+   TYPE             = CONDITIONED
+   FLOW/AREA        = 0.5
+   OA-FLOW/PER      = 13.374
+   DESIGN-HEAT-T    = 72
+   DESIGN-COOL-T    = 75
+   COOL-TEMP-SCH    = "S1 Sys1 (PSZ) Cool Sch"
+   SIZING-OPTION    = ADJUST-LOADS
+   SPACE            = "EL1 SE Perim Spc (T.SE8)"
+   ..
+
+
+$ *********************************************************
+$ **                                                     **
+$ **                Metering & Misc HVAC                 **
+$ **                                                     **
+$ *********************************************************
+
+$ ---------------------------------------------------------
+$              Equipment Controls
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Load Management
+$ ---------------------------------------------------------
+
+
+
+$ *********************************************************
+$ **                                                     **
+$ **                    Utility Rates                    **
+$ **                                                     **
+$ *********************************************************
+
+$ ---------------------------------------------------------
+$              Ratchets
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Block Charges
+$ ---------------------------------------------------------
+
+
+
+$ ---------------------------------------------------------
+$              Utility Rates
+$ ---------------------------------------------------------
+
+
+
+$ *********************************************************
+$ **                                                     **
+$ **                 Output Reporting                    **
+$ **                                                     **
+$ *********************************************************
+
+$ ---------------------------------------------------------
+$              Loads Non-Hourly Reporting
+$ ---------------------------------------------------------
+
+LOADS-REPORT    
+   VERIFICATION     = ( ALL-VERIFICATION )
+   SUMMARY          = ( ALL-SUMMARY )
+   ..
+
+
+$ ---------------------------------------------------------
+$              Systems Non-Hourly Reporting
+$ ---------------------------------------------------------
+
+SYSTEMS-REPORT  
+   VERIFICATION     = ( ALL-VERIFICATION )
+   SUMMARY          = ( ALL-SUMMARY )
+   ..
+
+
+$ ---------------------------------------------------------
+$              Plant Non-Hourly Reporting
+$ ---------------------------------------------------------
+
+PLANT-REPORT    
+   VERIFICATION     = ( ALL-VERIFICATION )
+   SUMMARY          = ( ALL-SUMMARY )
+   ..
+
+
+$ ---------------------------------------------------------
+$              Economics Non-Hourly Reporting
+$ ---------------------------------------------------------
+
+ECONOMICS-REPORT
+   VERIFICATION     = ( ALL-VERIFICATION )
+   SUMMARY          = ( ALL-SUMMARY )
+   ..
+
+
+$ ---------------------------------------------------------
+$              Hourly Reporting
+$ ---------------------------------------------------------
+
+
+"Hourly Report" = HOURLY-REPORT   
+   LIBRARY-ENTRY "Hourly Report"
+   ..
+
+
+$ ---------------------------------------------------------
+$              THE END
+$ ---------------------------------------------------------
+
+END ..
+COMPUTE ..
+STOP ..

@@ -1,0 +1,7 @@
+       4,
+	PARAMETRIC_RUN ,"Masdar"   ,"1"        ,""         ,FALSE ,""         ,FALSE ,""         ,       0,
+		PARAMETRIC_COMPONENT ,"Parameter #1" ,BDLCOMKEY ,SCHEDULE         ,       1,       2,       2,LIST ,       1,"EL1 Bldg Occup Sch" ,TRUE ,
+		PARAMETRIC_COMPONENT ,"Parameter #2" ,BDLCOMKEY ,ZONE             ,       0,       0,       0,ALL ,TRUE ,
+	PARAMETRIC_RUN ,"BASELINE" ,"2"        ,""         ,FALSE ,""         ,FALSE ,""         ,       0,
+		PARAMETRIC_COMPONENT ,"Parameter #1" ,BDLCOMKEY ,SYSTEM           ,       0,       0,       0,ALL ,TRUE ,
+PARAMETRIC_END ,
