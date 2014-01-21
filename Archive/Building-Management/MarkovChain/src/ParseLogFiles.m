@@ -126,3 +126,10 @@ for i = 1:length(dates)
         dataStruct{i} = rmfield(dataStruct{i}, 'AmPm');
     end
 end
+
+
+%% Comment
+% Write down what you think. Learn from masterpiece, or rest in
+% peace. Choose one.
+% One thing to note for me is that you do not have to be TOO
+% fancy. Make it run 

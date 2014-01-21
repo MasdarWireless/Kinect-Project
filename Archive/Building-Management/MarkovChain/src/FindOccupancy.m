@@ -76,4 +76,11 @@ for d = 1:size(commondates, 2)
                 sensor{6}.infinal' - sensor{6}.outfinal' + sensor{5}.infinal' - sensor{5}.outfinal',...
                 sensor{8}.infinal' - sensor{8}.outfinal' + sensor{7}.outfinal' - sensor{7}.infinal'];
 end
-occupancy(occupancy < 0) = 0; % This step is to ensure that total count is not made negative
+occupancy(occupancy < 0) = 0; % This step is to ensure that total
+                              % count is not made negative;
+
+
+
+%% Comment
+% Well written codes would make people happy. No matter whether you
+% are in China or in Abu Dhabi.

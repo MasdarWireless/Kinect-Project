@@ -28,6 +28,8 @@ presentstates = StateNumber(states(1:end-1,:));
 comparison = futurestates == StateNumber(states(2:end,:));
 disp('The accuracy of the prediction system in scale 0 to 1')
 disp(sum(comparison)/length(comparison))
+
+
 % DELETE Later - this block writes the transition matrix (CSV) for opening with excel
  T = mat2cell(transitionmatrix, ones(1,length(transitionmatrix)), ...
               ones(1,length(transitionmatrix))); 

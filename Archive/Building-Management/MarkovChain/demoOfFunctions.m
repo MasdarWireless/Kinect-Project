@@ -94,3 +94,11 @@ presentstates = StateNumber(states(1:end-1,:));
 comparison = futurestates == StateNumber(states(2:end,:));
 disp('The accuracy of the prediction system in scale 0 to 1')
 disp(sum(comparison)/length(comparison))
+
+
+
+
+
+%% Comment
+% Actually the code is well-written. But the student may not know
+% what have happened in the whole process.

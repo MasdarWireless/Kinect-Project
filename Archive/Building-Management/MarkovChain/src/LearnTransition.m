@@ -9,6 +9,7 @@ if size(states,1) == 0
     transitionMatrix = eye(1024);
     return
 end
+
 combinedstates = StateNumber(states);
 numTransistions = size(combinedstates,1) - 1;
 if numTransistions > 0
@@ -29,3 +30,10 @@ if numTransistions > 0
         end
     end
 end
+
+
+%% Comment
+% I say that MATLAB is god damn powerful. Who would like to raise
+% some objections.
+% In algorithms we trust. In Computer we fuck.
+% See how you change with Masdar Institute.

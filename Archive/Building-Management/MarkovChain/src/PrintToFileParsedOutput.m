@@ -21,3 +21,11 @@ end
 if fid ~= 1
     fclose(fid);
 end
+
+
+%% Comment
+% Learn from good MATLAB codes and alike. Grow with this city
+% because you are so fucking lonely.
+% With MATLAB you are able to have & preserve a better
+% understanding of Matrix, which is vital for a computer science
+% shit. 

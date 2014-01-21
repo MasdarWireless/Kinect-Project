@@ -70,3 +70,11 @@ end
 disp(occ) % tte occupancy data computed
 
 
+
+
+
+%% Comment
+% As I said before, those equations used to calculate occupancy in
+% the 5-zone situation sucks. Sucks indeed. 
+% One more note: You have to sleep earlier. In recent cases, be
+% back at 00:00 am and watch 2 episodes. Then sleep.

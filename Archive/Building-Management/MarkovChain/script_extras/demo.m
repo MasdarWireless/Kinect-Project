@@ -9,7 +9,7 @@ filenames = {'E:\Markov Chain - Ahmed\data\k1-copy.txt',...
              'E:\Markov Chain - Ahmed\data\Logs\halldisk.txt'};         
 % for some reason there is 2 types of log files one of type 
 % <date> <12 hrs time> <AM/PM> <IN> <OUT>
-% AND also
+% AND also 
 % <date> <24 hrs time> <IN> <OUT>
 % for log files of format 1, timeformat = 1, else timeformat = 2.
 % timeformats = [1,2,2];
@@ -32,3 +32,8 @@ if size(filenames) == size(outputfilenames)
 else
     error('Enter as many output file names as input file names')
 end
+
+
+%% Comment
+% These codes are great examples teaching you how to write
+% Industry-Level MATLAB codes, or, sometimes, scripts.

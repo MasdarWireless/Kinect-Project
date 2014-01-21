@@ -29,3 +29,12 @@ while ischar(str)
     str = fgetl(fid);
 end
 fclose(fid);
+
+
+%% Comment
+% Well, had those codes been written by Mrs Haleimah, we would not
+% be in such a great trouble now. Anyway, no Masdar, no
+% Happiness. All in all, you are a student, and you ARE a
+% student. For one thing, you should carry out research heart and
+% soul. For another, as with what to research & how to reach it,
+% you should follow your heart.
