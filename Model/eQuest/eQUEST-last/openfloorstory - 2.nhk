@@ -1,0 +1,269 @@
+; Key to building component name storage
+;
+;   KeyID    BDL Command
+;   ---------------------------
+;   2001     COMPONENT-COST  
+;   2005     UTILITY-RATE    
+;   2006     BLOCK-CHARGE    
+;   2007     RATCHET         
+;   2010     SYSTEM          
+;   2019     ZONE            
+;   2020     EXTERIOR-WALL   
+;   2040     UNDERGROUND-WALL
+;   2046     INTERIOR-WALL   
+;   2050     WINDOW          
+;   2055     DOOR            
+;   2061     PUMP            
+;   2062     CIRCULATION-LOOP
+;   2063     CHILLER         
+;   2064     BOILER          
+;   2065     DW-HEATER       
+;   2066     HEAT-REJECTION  
+;   2068     ELEC-GENERATOR  
+;   2069     THERMAL-STORAGE 
+;   2070     SPACE           
+;   2085     ELEC-METER      
+;   2086     FUEL-METER      
+;   2087     STEAM-METER     
+;   2088     CHW-METER       
+;   2091     MATERIALS-COST  
+;   2092     GROUND-LOOP-HX  
+
+
+KEYOBJ,  2001,  "Component Cost",  0
+
+
+KEYOBJ,  2005,  "Utility Rate",  0
+
+
+KEYOBJ,  2006,  "Block Charge",  0
+
+
+KEYOBJ,  2007,  "Ratchet",  0
+
+
+KEYOBJ,  2010,  "System",  1
+      "S1 Sys (PSZ)",  19
+
+
+KEYOBJ,  2019,  "Zone",  8
+      "EL1 North Perim Zn (G.N1)",  1
+      "EL1 SW Perim Zn (G.SW2)",  1
+      "EL1 North Perim Zn (G.N3)",  1
+      "EL1 SE Perim Zn (G.SE4)",  1
+      "EL1 North Perim Zn (T.N5)",  1
+      "EL1 SW Perim Zn (T.SW6)",  1
+      "EL1 North Perim Zn (T.N7)",  1
+      "EL1 SE Perim Zn (T.SE8)",  1
+
+
+KEYOBJ,  2020,  "Exterior Wall",  40
+      "EL1 North Wall (G.N1.E1)",  -1
+      "EL1 West Wall (G.N1.E2)",  -1
+      "EL1 East Wall (G.N1.E3)",  -1
+      "EL1 North Wall (G.SW2.E4)",  -1
+      "EL1 West Wall (G.SW2.E5)",  -1
+      "EL1 South Wall (G.SW2.E6)",  -1
+      "EL1 North Wall (G.N3.E7)",  -1
+      "EL1 West Wall (G.N3.E8)",  -1
+      "EL1 East Wall (G.N3.E9)",  -1
+      "EL1 North Wall (G.SE4.E10)",  -1
+      "EL1 South Wall (G.SE4.E11)",  -1
+      "EL1 East Wall (G.SE4.E12)",  -1
+      "EL1 North Slab (T.N5.S13)",  -1
+      "EL1 North Wall (T.N5.E13)",  -1
+      "EL1 West Slab (T.N5.S14)",  -1
+      "EL1 West Wall (T.N5.E14)",  -1
+      "EL1 East Slab (T.N5.S15)",  -1
+      "EL1 East Wall (T.N5.E15)",  -1
+      "EL1 Roof (T.N5.E16)",  -1
+      "EL1 North Slab (T.SW6.S17)",  -1
+      "EL1 North Wall (T.SW6.E17)",  -1
+      "EL1 West Slab (T.SW6.S18)",  -1
+      "EL1 West Wall (T.SW6.E18)",  -1
+      "EL1 South Slab (T.SW6.S19)",  -1
+      "EL1 South Wall (T.SW6.E19)",  -1
+      "EL1 Roof (T.SW6.E20)",  -1
+      "EL1 North Slab (T.N7.S21)",  -1
+      "EL1 North Wall (T.N7.E21)",  -1
+      "EL1 West Slab (T.N7.S22)",  -1
+      "EL1 West Wall (T.N7.E22)",  -1
+      "EL1 East Slab (T.N7.S23)",  -1
+      "EL1 East Wall (T.N7.E23)",  -1
+      "EL1 Roof (T.N7.E24)",  -1
+      "EL1 North Slab (T.SE8.S25)",  -1
+      "EL1 North Wall (T.SE8.E25)",  -1
+      "EL1 South Slab (T.SE8.S26)",  -1
+      "EL1 South Wall (T.SE8.E26)",  -1
+      "EL1 East Slab (T.SE8.S27)",  -1
+      "EL1 East Wall (T.SE8.E27)",  -1
+      "EL1 Roof (T.SE8.E28)",  -1
+
+
+KEYOBJ,  2040,  "Underground Wall",  4
+      "EL1 Flr (G.N1.U1)",  -1
+      "EL1 Flr (G.SW2.U2)",  -1
+      "EL1 Flr (G.N3.U3)",  -1
+      "EL1 Flr (G.SE4.U4)",  -1
+
+
+KEYOBJ,  2046,  "Interior Wall",  14
+      "EL1 Ceiling (G.N1.I1)",  -1
+      "EL1 North Wall (G.SW2.I2)",  -1
+      "EL1 East Wall (G.SW2.I3)",  -1
+      "EL1 Ceiling (G.SW2.I4)",  -1
+      "EL1 Ceiling (G.N3.I5)",  -1
+      "EL1 North Wall (G.SE4.I6)",  -1
+      "EL1 Ceiling (G.SE4.I7)",  -1
+      "EL1 Flr (T.N5.I8)",  -1
+      "EL1 Flr (T.SW6.I9)",  -1
+      "EL1 North Wall (T.SW6.I10)",  -1
+      "EL1 East Wall (T.SW6.I11)",  -1
+      "EL1 Flr (T.N7.I12)",  -1
+      "EL1 Flr (T.SE8.I13)",  -1
+      "EL1 North Wall (T.SE8.I14)",  -1
+
+
+KEYOBJ,  2050,  "Window",  79
+      "EL1 North Win (G.N1.E1.W1)",  -1
+      "EL1 North Win (G.N1.E1.W2)",  -1
+      "EL1 North Win (G.N1.E1.W3)",  -1
+      "EL1 North Win (G.N1.E1.W4)",  -1
+      "EL1 West Win (G.N1.E2.W1)",  -1
+      "EL1 West Win (G.N1.E2.W2)",  -1
+      "EL1 West Win (G.N1.E2.W3)",  -1
+      "EL1 West Win (G.N1.E2.W4)",  -1
+      "EL1 East Win (G.N1.E3.W1)",  -1
+      "EL1 East Win (G.N1.E3.W2)",  -1
+      "EL1 East Win (G.N1.E3.W3)",  -1
+      "EL1 East Win (G.N1.E3.W4)",  -1
+      "EL1 North Win (G.SW2.E4.W1)",  -1
+      "EL1 West Win (G.SW2.E5.W1)",  -1
+      "EL1 West Win (G.SW2.E5.W2)",  -1
+      "EL1 West Win (G.SW2.E5.W3)",  -1
+      "EL1 West Win (G.SW2.E5.W4)",  -1
+      "EL1 South Win (G.SW2.E6.W1)",  -1
+      "EL1 South Win (G.SW2.E6.W2)",  -1
+      "EL1 South Win (G.SW2.E6.W3)",  -1
+      "EL1 South Win (G.SW2.E6.W4)",  -1
+      "EL1 South Win (G.SW2.E6.W5)",  -1
+      "EL1 South Win (G.SW2.E6.W6)",  -1
+      "EL1 North Win (G.N3.E7.W1)",  -1
+      "EL1 North Win (G.N3.E7.W2)",  -1
+      "EL1 North Win (G.N3.E7.W3)",  -1
+      "EL1 North Win (G.N3.E7.W4)",  -1
+      "EL1 North Win (G.N3.E7.W5)",  -1
+      "EL1 West Win (G.N3.E8.W1)",  -1
+      "EL1 West Win (G.N3.E8.W2)",  -1
+      "EL1 West Win (G.N3.E8.W3)",  -1
+      "EL1 West Win (G.N3.E8.W4)",  -1
+      "EL1 North Win (G.SE4.E10.W1)",  -1
+      "EL1 South Win (G.SE4.E11.W1)",  -1
+      "EL1 South Win (G.SE4.E11.W2)",  -1
+      "EL1 South Win (G.SE4.E11.W3)",  -1
+      "EL1 South Win (G.SE4.E11.W4)",  -1
+      "EL1 South Win (G.SE4.E11.W5)",  -1
+      "EL1 South Win (G.SE4.E11.W6)",  -1
+      "EL1 North Win (T.N5.E13.W1)",  -1
+      "EL1 North Win (T.N5.E13.W2)",  -1
+      "EL1 North Win (T.N5.E13.W3)",  -1
+      "EL1 North Win (T.N5.E13.W4)",  -1
+      "EL1 North Win (T.N5.E13.W5)",  -1
+      "EL1 West Win (T.N5.E14.W1)",  -1
+      "EL1 West Win (T.N5.E14.W2)",  -1
+      "EL1 West Win (T.N5.E14.W3)",  -1
+      "EL1 West Win (T.N5.E14.W4)",  -1
+      "EL1 East Win (T.N5.E15.W1)",  -1
+      "EL1 East Win (T.N5.E15.W2)",  -1
+      "EL1 East Win (T.N5.E15.W3)",  -1
+      "EL1 East Win (T.N5.E15.W4)",  -1
+      "EL1 North Win (T.SW6.E17.W1)",  -1
+      "EL1 West Win (T.SW6.E18.W1)",  -1
+      "EL1 West Win (T.SW6.E18.W2)",  -1
+      "EL1 West Win (T.SW6.E18.W3)",  -1
+      "EL1 West Win (T.SW6.E18.W4)",  -1
+      "EL1 South Win (T.SW6.E19.W1)",  -1
+      "EL1 South Win (T.SW6.E19.W2)",  -1
+      "EL1 South Win (T.SW6.E19.W3)",  -1
+      "EL1 South Win (T.SW6.E19.W4)",  -1
+      "EL1 South Win (T.SW6.E19.W5)",  -1
+      "EL1 South Win (T.SW6.E19.W6)",  -1
+      "EL1 North Win (T.N7.E21.W1)",  -1
+      "EL1 North Win (T.N7.E21.W2)",  -1
+      "EL1 North Win (T.N7.E21.W3)",  -1
+      "EL1 North Win (T.N7.E21.W4)",  -1
+      "EL1 North Win (T.N7.E21.W5)",  -1
+      "EL1 West Win (T.N7.E22.W1)",  -1
+      "EL1 West Win (T.N7.E22.W2)",  -1
+      "EL1 West Win (T.N7.E22.W3)",  -1
+      "EL1 West Win (T.N7.E22.W4)",  -1
+      "EL1 North Win (T.SE8.E25.W1)",  -1
+      "EL1 South Win (T.SE8.E26.W1)",  -1
+      "EL1 South Win (T.SE8.E26.W2)",  -1
+      "EL1 South Win (T.SE8.E26.W3)",  -1
+      "EL1 South Win (T.SE8.E26.W4)",  -1
+      "EL1 South Win (T.SE8.E26.W5)",  -1
+      "EL1 South Win (T.SE8.E26.W6)",  -1
+
+
+KEYOBJ,  2055,  "Door",  2
+      "EL1 North Door (G.N1.E1.D1)",  -1
+      "EL1 South Door (G.SW2.E6.D1)",  -1
+
+
+KEYOBJ,  2061,  "Pump",  0
+
+
+KEYOBJ,  2062,  "Circulation Loop",  0
+
+
+KEYOBJ,  2063,  "Chiller",  0
+
+
+KEYOBJ,  2064,  "Boiler",  0
+
+
+KEYOBJ,  2065,  "DW Heater",  0
+
+
+KEYOBJ,  2066,  "Heat Rejection",  0
+
+
+KEYOBJ,  2068,  "Elec Generator",  0
+
+
+KEYOBJ,  2069,  "Thermal Storage",  0
+
+
+KEYOBJ,  2070,  "Space",  8
+      "EL1 North Perim Spc (G.N1)",  -1
+      "EL1 SW Perim Spc (G.SW2)",  -1
+      "EL1 North Perim Spc (G.N3)",  -1
+      "EL1 SE Perim Spc (G.SE4)",  -1
+      "EL1 North Perim Spc (T.N5)",  -1
+      "EL1 SW Perim Spc (T.SW6)",  -1
+      "EL1 North Perim Spc (T.N7)",  -1
+      "EL1 SE Perim Spc (T.SE8)",  -1
+
+
+KEYOBJ,  2085,  "Elec Meter",  1
+      "EM1",  1
+
+
+KEYOBJ,  2086,  "Fuel Meter",  1
+      "FM1",  1
+
+
+KEYOBJ,  2087,  "Steam Meter",  0
+
+
+KEYOBJ,  2088,  "CHW Meter",  0
+
+
+KEYOBJ,  2091,  "Materials Cost",  0
+
+
+KEYOBJ,  2092,  "Ground Loop HX",  0
+
+
+END

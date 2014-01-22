@@ -1,0 +1,72 @@
+\section{Introduction}
+\label{sec:intro}
+
+A 2009 report by the United Nations Environment Program (UNEP SBCI)
+\cite{huovila2009buildings} has clearly identified  construction
+buildings as responsible of a significant amount of global energy use
+and greenhouse gas emissions in both developed and developing
+countries. Although most local governments have taken steps through
+regulations and policies to reduce energy use and gas emissions, their
+efforts have had little impact in the past. In addition,  these
+measures are likely to meet some resistance in the future because they
+may not serve the economic interests of the many stakeholders involved
+in the building sector. Therefore,  there is a need for an innovative
+system that implements energy efficiency measures. Such system would
+provide locally small energy-reduction opportunities for each of the
+millions of buildings across the globe.
+
+At the core of energy consumption in buildings, are Heat Ventilation
+And Cooling systems (HVAC) which are mostly designed to operate at
+full capacity under the assumption of normal occupancy of rooms at all
+time. Although current HVAC systems are equipped with sensors, their
+management and control systems ignore the dynamic nature of daily
+occupancy of buildings. In addition, they are unable to proactive
+adjust to occupants' comfort levels. Understanding	human mobility
+and occupancy patterns are key factors in successfully managing energy
+in buildings. Building occupancy has been the subject of intensive
+studies in the past years. Several approaches using building occupancy
+data to improve prediction and simulation of HVAC control have been
+proposed. In the same perspective, the main objective of our paper is
+to propose an energy-saving model based on occupancy patterns of human
+mobility in buildings. This model offers a solution for the management
+and control of HVAC systems in smart buildings. The most important
+features of the system that implements this model are the following:
+
+\begin{enumerate}
+\item  The {\em detection and tracking of people in real time} in the
+  building provides accurate occupancy data of an entire building
+  divided into several related zones.
+\item  A  {\em Occupancy Counter Software} carries out the detection,
+  tracking and monitoring process based on multiple Microsoft Kinect
+  for Windows (K4W) sensors distributed in strategic locations in the
+  building.
+\item A {\em prediction of future occupancy} of the building is
+  introduced through the use of a Markov chain (MC) which models the
+  collected occupancy data.  MC is a suitable because it captures the
+  temporal nature of occupancy variation along with inter-room
+  correlations and occupant usage.  Unlike most building occupancy
+  techniques described in the Related works
+  Section~\ref{sec:relatedworks}, our approach implements an occupancy
+  counting technique that is based on the Microsoft Kinect for Windows
+  (K4W) device.
+\end{enumerate}
+
+{\bf Organization:}This paper is organized as follows: In
+Section~\ref{sec:background}, we present relevant background
+information about human detection and tracking techniques and tools as
+well as the most popular occupancy counting and sensing devices. In
+particular, we mention the Microsoft Kinect for Windows that is
+central to our experimentation. Next, in Section~\ref{sec:design}, we
+discuss about the design and implementation of our solution to
+energy-saving problem in smart buildings.  Here, we give a detailed
+account of the setup of our human mobility tracking and detection
+system based on a occupancy counter software using the Kincet for
+windows sensor. In Section~\ref{sec:relatedworks}, we expose several
+approaches using building occupancy data to improve prediction and
+simulation of HVAC control. These approaches use models or techniques
+that are related  to our study. Then, in Section~\ref{sec:evaluation},
+we displays the results and evaluations of our real world test-bed
+conducted in an open office laboratory.  In
+Section~\ref{sec:conclusion}, we conclude our paper and propose some
+perspectives. 
+

@@ -1,0 +1,530 @@
+Proj   "flooroffice-U2"  
+   ProgramVersion = "eQUEST 3.65.7158"
+   BDBaseVersion = 25
+   ProductCode = "eQUEST"
+   WeatherFile = "ARE_Abu.Dhabi.412170_IWEC.bin"
+   CreateDate = 1302504145
+   ModDate = 1390302099
+   RunDate = 1389988764
+   LibraryFile = "eQ_Lib.dat"
+   ActiveMode = 0
+   InputModule = 1
+   ComplianceRules = "LEED-NC - v3.0 (LEED.bin)"
+   UseCameraData = 1
+   ClippingRange = ( 121.676, 366.45 )
+   FocalPoint = ( 35.35, 35.35, 6.02929 )
+   Position = ( -106.448, 204.339, 70.3881 )
+   ViewUpVector = ( 0, 0, 1 )
+   ViewAngle = 30
+   InterfaceMode = 1
+   AllowWizard = 1
+   NotProjFile = "flooroffice-U2"
+   InputUnitsType = "English"
+   OutputUnitsType = "English"
+   PreviousName = "flooroffice-U"
+   DetailedModelEdits = 1
+   ProjTreeType[1] = 0
+   ProjTreeType[2] = 1
+   ProjTreeType[3] = 1
+   ProjTreeType[4] = 1
+   ProjTreeType[5] = 1
+   ProjTreeID[1] = 10000
+   ProjTreeID[2] = 10010012
+   ProjTreeID[3] = 10080001
+   ProjTreeID[4] = 10010000
+   ProjTreeID[5] = 10550000
+   ProjTreeLabel[1] = "Project:  'flooroffice-U2'"
+   ProjTreeLabel[2] = "zone2 Yearly Occup Sch"
+   ProjTreeLabel[3] = "EL1 SW Perim Spc (G.SW2)"
+   ProjTreeLabel[4] = "EL1 Bldg Occup Sch"
+   ProjTreeLabel[5] = "EL1 North Perim Zn (G.N1)"
+   BDBUpdateReEval = 0
+   ..
+
+MainWiz   "flooroffice-U2"  
+   ProductCode = "eQUEST"
+   WizardType = "Design Development"
+   DebugID = 0
+   AllowCustWinDoor = 1
+   ScreenIDArrIdx = 2
+   ScreenIDArrID = 18
+   Compliance = "LEED-NC (Appendix G)"
+   Coverage = "User Selected"
+   WeatherFile = "International\Middle East\AbDhb_ns.bin"
+   ElecUtility = "- none -"
+   GasUtility = "- none -"
+   BldgType = "Office Bldg, Two Story"
+   A901BldgType = "Office"
+   NumSeasons = 1
+   NumDatePeriods[1] = 2
+   SecSeasStartMoDa[1] = 101
+   SecSeasStartMoDa[2] = 1201
+   SecSeasEndMoDa[1] = 331
+   SecSeasEndMoDa[2] = 1231
+   TerSeasStartMoDa[1] = 401
+   TerSeasEndMoDa[1] = 1130
+   ActiveHoliday = "New Year's Day (celebrated)"
+   HolidayChecked[1] = 1
+   HolidayChecked[2] = 0
+   HolidayChecked[3] = 0
+   HolidayChecked[4] = 0
+   HolidayChecked[8] = 0
+   HolidayChecked[11] = 0
+   HolidayChecked[13] = 0
+   HolidayChecked[14] = 0
+   HolidayChecked[15] = 0
+   HolidayChecked[18] = 0
+   HolidayChecked[19] = 0
+   HolidayChecked[20] = 1
+   HVACDefaulted = 1
+   ..
+
+ShellWiz   "Bldg Envelope & Loads 1"  
+   ModelEnduse[2] = 0
+   ModelEnduse[4] = 0
+   ModelEnduse[6] = 0
+   ModelEnduse[13] = 1
+   DHWModelInputs = "Model DHW Equipment with Seasonal Profiles"
+   ScreenIDArrIdx = 1
+   ScreenIDArrID = 22
+   BldgType = "Office Bldg, Two Story"
+   GrossArea = 5000
+   FlrsAboveGrade = 2
+   Daylighting = "Yes"
+   Footprint = "'U' Shape"
+   Orientation = "North"
+   UseAspectRatio = 0
+   Y[1] = 41.65
+   Y[3] = 20
+   FlrToCeiling = 12
+   ZoningPattern = "- custom -"
+   NumMCZnGrps = 0
+   MCZnGrpAAIdx = ( 1, 2, 3, 4, 0, 0, 0 )
+   MCZnGrpName[1] = "Core 1 - Corridor"
+   MCZnGrpName[2] = "Core 2 - Restrooms"
+   MCZnGrpName[3] = "Core 3 - (unknown)"
+   MCZnGrpName[4] = "Core 4 - (unknown)"
+   DiagLink = "Bldg Envelope & Loads 1 Diag Data"
+   RoofConsType = "4 in. Concrete"
+   RoofBrdInsType = "4 in. polyisocyanurate (R-28)"
+   RoofFinish = "Concrete (no ext finish)"
+   RoofColor = "White, gloss"
+   VertExtConsType = "4 in.   HW Concrete"
+   VertExtBrdInsType = "3 in. polyisocyanurate (R-21)"
+   VertExtIntInsType = "- no furred insul -"
+   VertExtColor = "White, gloss"
+   CeilingConsType = "Plaster Finish"
+   VertIntConsType = "Frame"
+   IntFlrInsType = "Carpet with rubber pad"
+   IntFlrPTSlab = 1
+   IntFlrPTSlabIns = "3 in. polyisocyanurate (R-21)"
+   IntFlrPTSlabFin = "Concrete"
+   GrndFlrInsType = "- no perimeter insulation -"
+   GrndFlrSecInsType = "Carpet with rubber pad"
+   PerimInfMethod = "ACH (air changes per hour)"
+   CoreInfMethod = "ACH (air changes per hour)"
+   PerimInfil = 0.25
+   CoreInfil = 0.25
+   ZoningCurrent = 1
+   AdiabaticCurrent = 1
+   ZoneGroupsOK = 1
+   DfltZnGrpName[1] = "EL1 Underground Areas"
+   DfltZnGrpName[2] = "EL1 Ground Floor Core"
+   DfltZnGrpName[3] = "EL1 Ground Floor Perimeter"
+   DfltZnGrpName[4] = "EL1 Typical Floor(s) Core"
+   DfltZnGrpName[5] = "EL1 Typical Floor(s) Perimeter"
+   DfltZnGrpName[6] = "EL1 Top Floor Core"
+   DfltZnGrpName[7] = "EL1 Top Floor Perimeter"
+   DfltZnGrpName[8] = "EL1 Data Center"
+   EnableCustomZGs = 1
+   CustomZoning = 1
+   ActiveZoneIndex = 3
+   CustomRoofZoning = -1
+   LastFootprint = 5
+   LastY[1] = 41.65
+   LastY[3] = 20
+   OverhangOption = "All Windows"
+   OverhangDepth[1] = 3
+   OverhangDepth[2] = 3
+   OverhangDepth[3] = 3
+   OverhangDepth[4] = 3
+   GTCCategory[1] = "Triple Clr"
+   GlassTypeCode[1] = "Trpl Clear 1/8in, 1/4in Air (3001)"
+   WindowHeight[1] = 5
+   WindowHeight[2] = 0
+   WinSillHeight[2] = 0
+   WinFrameType[1] = "Alum w/ Brk, Fixed, Mtl Spacer"
+   WinAreaSpecMethod = "Percent of Gross Wall Area (floor to floor)"
+   PercentGlassI2[1] = 40
+   PercentGlassI3[1] = 40
+   PercentGlassI4[1] = 40
+   WinShadeType = "Horizontal Blinds - Light Color"
+   WShdNumSeasons = 3
+   WShdSecSeasStMoDa[1] = 401
+   WShdSecSeasEnMoDa[1] = 1130
+   WShdTerSeasStMoDa[1] = 1201
+   WShdTerSeasEnMoDa[1] = 331
+   WShdOccPctClsd[6] = 60
+   WShdOccPctClsd[11] = 20
+   WShdUnoccPctClsd[1] = 100
+   DoorType[1] = "Opaque"
+   NumExtDoors2[1] = 1
+   NumExtDoors3[1] = 0
+   NumExtDoors4[1] = 0
+   OpaqueDoorType[1] = "Wood, 7/16 in. Panel, 1-3/8 in."
+   WindowOverDist = 0
+   TypWindowWidth[1] = 5
+   SkyZonesCurrent = 1
+   SkyltZones[1] = 1
+   SkyltZones[2] = 1
+   SkyltZones[3] = 1
+   SkyltZones[4] = 1
+   SkyltZones[5] = 1
+   SkyltZones[6] = 1
+   SkyltZones[7] = 1
+   SkyltZones[8] = 1
+   SkyltZones[9] = 1
+   SkyPosCurrent = 1
+   DayltOption[1] = 2
+   DesignLtLevel[1] = 100
+   DesignLtLevel[5] = 100
+   LtgControlMethod[1] = "On/Off"
+   LtgControlMethod[5] = "On/Off"
+   DayZonesCurrent[1] = 1
+   DayZonesCurrent[3] = 1
+   DayltZones[1] = 2
+   DayltZones[2] = 2
+   DayltZones[3] = 2
+   DayltZones[4] = 2
+   DayltZones[5] = 2
+   DayltZones[6] = 0
+   DayltZones[7] = 0
+   DayltZones[8] = 2
+   DayltZones[9] = 0
+   DayltZones[401] = 2
+   DayltZones[402] = 2
+   DayltZones[403] = 2
+   DayltZones[404] = 2
+   DayltZones[405] = 2
+   DayltZones[406] = 0
+   DayltZones[407] = 0
+   DayltZones[408] = 2
+   DayltZones[409] = 0
+   WinDoorCurrent = 1
+   DetailsCurrent = ( 1, 1, 1 )
+   BDLNumDayltCtrls[6] = 0
+   BDLNumDayltCtrls[7] = 0
+   BDLNumDayltCtrls[9] = 0
+   BDLNumDayltCtrls[406] = 0
+   BDLNumDayltCtrls[407] = 0
+   BDLNumDayltCtrls[409] = 0
+   ActAreaType[1] = "Office (Open Plan)"
+   ActAreaType[2] = "Office (Open Plan)"
+   ActAreaType[3] = "Office (Open Plan)"
+   SchedDayAssign1[5] = 1
+   SchedDayAssign1[7] = 0
+   ActAreaX[2] = 20
+   ActAreaX[3] = 45
+   ActAreaY[2] = 20
+   ActAreaY[3] = 20
+   ActAreaWidth[2] = 1
+   ActAreaWidth[3] = 0.5
+   ActAreaDepth[2] = 0.5
+   ActAreaDepth[3] = 1
+   OpenSeas1[5] = "Closed"
+   OpenSeas1[7] = "8 am"
+   OpenSeas1[8] = "Closed"
+   CloseSeas1[7] = "5 pm"
+   OccShape = ( "Occup Profile (S1)", "EL1 Occup Profile (S2)", 
+                "EL1 Occup Profile (S3)" )
+   ILShape = ( "InsLtg Profile (S1)", "EL1 InsLtg Profile (S2)", 
+               "EL1 InsLtg Profile (S3)" )
+   ILElecIntens[1] = 0.1
+   ILElecIntens[2] = 1
+   ELDayShapes = ( "ExtLtg DayShape (Jan)", "ExtLtg DayShape (Feb)", 
+                   "ExtLtg DayShape (Mar)", "ExtLtg DayShape (Apr)", 
+                   "ExtLtg DayShape (May)", "ExtLtg DayShape (Jun)", 
+                   "ExtLtg DayShape (Jul)", "ExtLtg DayShape (Aug)", 
+                   "ExtLtg DayShape (Sep)", "ExtLtg DayShape (Oct)", 
+                   "ExtLtg DayShape (Nov)", "ExtLtg DayShape (Dec)" )
+   OEShape = ( "EL1 OffEq Profile (S1)", "EL1 OffEq Profile (S2)", 
+               "EL1 OffEq Profile (S3)" )
+   CEShape[1] = "CookEq Profile (S1)"
+   MiscShape[1] = "Misc Profile (S1)"
+   DHWShape = ( "DHW Profile (S1)", "EL1 DHW Profile (S2)", 
+                "EL1 DHW Profile (S3)" )
+   TLShape = ( "EL1 TskLtg Profile (S1)", "EL1 TskLtg Profile (S2)", 
+               "EL1 TskLtg Profile (S3)" )
+   TLElecIntens[1] = 0.16
+   TLElecIntens[2] = 0
+   SCRShape[1] = "S-C Refrig Profile (S1)"
+   DaylitAreaCurrent[1] = 1
+   DaylitAreaCurrent[3] = 1
+   HasPitchedRoof = 0
+   RoofZoneErrorCode = 4
+   ZoneNamingScheme = "- automatic -"
+   ..
+
+ShapeWiz   "InsLtg Profile (S1)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Jan)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Feb)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Mar)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Apr)"  
+   ..
+
+DayShape   "ExtLtg DayShape (May)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Jun)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Jul)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Aug)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Sep)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Oct)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Nov)"  
+   ..
+
+DayShape   "ExtLtg DayShape (Dec)"  
+   ..
+
+ShapeWiz   "CookEq Profile (S1)"  
+   ..
+
+ShapeWiz   "Misc Profile (S1)"  
+   ..
+
+ShapeWiz   "DHW Profile (S1)"  
+   ..
+
+ShapeWiz   "Occup Profile (S1)"  
+   FinDayMin[5] = 0
+   FinDayMax[1] = 90
+   FinDayMax[5] = 0
+   ..
+
+ShapeWiz   "S-C Refrig Profile (S1)"  
+   ..
+
+ShapeWiz   "EL1 OffEq Profile (S1)"  
+   ..
+
+ShapeWiz   "EL1 TskLtg Profile (S1)"  
+   ..
+
+ShapeWiz   "EL1 InsLtg Profile (S2)"  
+   ..
+
+ShapeWiz   "EL1 InsLtg Profile (S3)"  
+   ..
+
+ShapeWiz   "EL1 OffEq Profile (S2)"  
+   ..
+
+ShapeWiz   "EL1 OffEq Profile (S3)"  
+   ..
+
+ShapeWiz   "EL1 DHW Profile (S2)"  
+   ..
+
+ShapeWiz   "EL1 DHW Profile (S3)"  
+   ..
+
+ShapeWiz   "EL1 Occup Profile (S2)"  
+   ..
+
+ShapeWiz   "EL1 Occup Profile (S3)"  
+   ..
+
+ShapeWiz   "EL1 TskLtg Profile (S2)"  
+   ..
+
+ShapeWiz   "EL1 TskLtg Profile (S3)"  
+   ..
+
+ZnGrpWiz   "EL1 Ground Floor Core"  
+   ShortName = "GndCor"
+   ..
+
+ZnGrpWiz   "EL1 Ground Floor Perimeter"  
+   ShortName = "GndPrm"
+   ..
+
+ZnGrpWiz   "EL1 Top Floor Core"  
+   ShortName = "TopCor"
+   ..
+
+ZnGrpWiz   "EL1 Top Floor Perimeter"  
+   ShortName = "TopPrm"
+   ..
+
+CustomZone   "Custom Zone 4"  
+   NumVerts = 4
+   X[1] = 25
+   X[2] = 0
+   X[3] = 0
+   X[4] = 25
+   Y[1] = 41.65
+   Y[2] = 41.65
+   Y[3] = 20
+   Y[4] = 20
+   ..
+
+CustomZone   "Custom Zone 6"  
+   NumVerts = 4
+   X[1] = 34
+   X[2] = 0
+   X[3] = 0
+   X[4] = 34
+   Y[1] = 20
+   Y[2] = 20
+   Y[3] = 0
+   Y[4] = 0
+   ..
+
+CustomZone   "Custom Zone 3"  
+   NumVerts = 4
+   X[1] = 66.65
+   X[2] = 41.65
+   X[3] = 41.65
+   X[4] = 66.5
+   Y[1] = 41.65
+   Y[2] = 41.65
+   Y[3] = 20
+   Y[4] = 20
+   ..
+
+CustomZone   "Custom Zone 5"  
+   NumVerts = 4
+   X[1] = 66.5
+   X[2] = 34
+   X[3] = 34
+   X[4] = 66.65
+   Y[1] = 20
+   Y[2] = 20
+   Y[3] = 0
+   Y[4] = 0
+   ..
+
+ConsWiz   "Construction 1"  
+   MatType[1] = "Specify Resistance Only"
+   ..
+
+ConsWiz   "Construction 2"  
+   MatType[1] = "Specify Resistance Only"
+   ..
+
+DiagData   "Bldg Envelope & Loads 1 Diag Data"  
+   PolyWndShowGrid = 1
+   PolyWndGridRes = 0.5
+   PolyWndLwrLeftX = -13.5
+   PolyWndLwrLeftY = -4
+   PolyWndWidth = 93.6429
+   PolyWndSnapOrder = ( 2, 0, 3 )
+   ..
+
+HVACWiz   "HVAC System 1"  
+   ScreenIDArrIdx = 5
+   ScreenIDArrID = 170
+   CoolSource[1] = "DX Coils"
+   HeatSource[1] = "No Heating"
+   HVACSysType[1] = "Split System Single Zone DX (no heating)"
+   EconomizerType[1] = "- none -"
+   DesCoolEff[1] = 15.8
+   CoolOccTemp[1] = 75
+   SchedOn1[1] = "8 am"
+   SchedOff1[1] = "5 pm"
+   Sys1FanOnSeas1[1] = "7 am"
+   Sys1FanOnSeas1[2] = "7 am"
+   Sys1FanOnSeas1[3] = "7 am"
+   Sys1FanOnSeas1[4] = "7 am"
+   Sys1FanOnSeas1[7] = "7 am"
+   Sys1FanOffSeas1[1] = "6 am"
+   Sys1FanOffSeas1[2] = "6 am"
+   Sys1FanOffSeas1[7] = "6 pm"
+   SystemPerWhat[1] = "System per Site"
+   ..
+
+DXCWWiz   "Water-Cooled DX System"  
+   ..
+
+WSECWWiz   "Wtr-Side Econo System"  
+   ..
+
+WLHPWiz   "WSHP System"  
+   ..
+
+GSHPWiz   "GSHP System"  
+   ..
+
+PrimWiz   "Primary HVAC Plant"  
+   ..
+
+DHWWiz   "DHW Plant 1"  
+   ScreenIDArrIdx = 0
+   DHWFuel = "- none -"
+   DHWTankInsRVal = 30
+   ..
+
+FacetColor   "By Wall Type"  
+   FacetType = "Walls"
+   ColorOption = "By Wall Type"
+   ..
+
+FacetColor   "By Construction"  
+   FacetType = "Walls"
+   ColorOption = "By Construction"
+   ..
+
+FacetColor   "Uniform"  
+   FacetType = "Windows"
+   ColorOption = "Uniform"
+   ..
+
+FacetColor   "By Glass Type"  
+   FacetType = "Windows"
+   ColorOption = "By Glass Type"
+   ..
+
+Light3D   "Light3D - Default"  
+   Type = "Default"
+   ..
+
+Light3D   "Light3D - User1"  
+   Type = "User Defined 1"
+   ..
+
+Light3D   "Light3D - User2"  
+   Type = "User Defined 2"
+   ..
+
+Light3D   "Light3D - User3"  
+   Type = "User Defined 3"
+   ..
+
+Light3D   "Light3D - User4"  
+   Type = "User Defined 4"
+   ..
+
+Light3D   "Light3D - User5"  
+   Type = "User Defined 5"
+   ..
+
+
+END_OF_FILE

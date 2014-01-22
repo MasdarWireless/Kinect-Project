@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Person Counter" Height="500" Width="800" Loaded="Window_Loaded" FontSize="20" ResizeMode="NoResize" WindowStyle="ThreeDBorderWindow">
+    <Grid>
+        <Image Source="./images/NODATA.jpg" Height="180" HorizontalAlignment="Left" Margin="9,72,0,0" Name="deplthimageimg" Stretch="Fill" VerticalAlignment="Top" Width="217" />
+        <Image Source="./images/NODATA.jpg" Height="180" HorizontalAlignment="Left" Margin="9,263,0,0" Name="colorimageimg" Stretch="Fill" VerticalAlignment="Top" Width="217" />
+        <Label Content="IN: ---" Height="29"  Margin="232,90,412,0" Name="peopleinsidelbl" VerticalAlignment="Top" Width="134" FontSize="12" Foreground="#FF53C301" />
+        <Label Content=""  Margin="232,134,412,296" Name="peopleinlobbylbl" Width="134" FontSize="12" Foreground="#FF53C301" Visibility="Hidden" />
+        <Label Content="OUT: ---"  Margin="236,117,423.6,313.4" Name="peopleoutsidelbl" Width="134" FontSize="12" Foreground="#FF53C301" />
+        <Image Source="./images/NODATA.jpg" Height="180" HorizontalAlignment="Left" Margin="400,69,0,0" Name="deplthimageimgk2" Stretch="Fill" VerticalAlignment="Top" Width="217" OpacityMask="Black"></Image>
+        <Image Source="./images/NODATA.jpg" Height="181" HorizontalAlignment="Left" Margin="400,260,0,0" Name="colorimageimgk2" Stretch="Fill" VerticalAlignment="Top" Width="217" />
+        <Label Content="IN: ---" FontSize="12" Height="28" Margin="625,87,19,0" Name="peopleinsidelblk2" VerticalAlignment="Top" Width="134" Foreground="#FF53C301" />
+        <Label Content="" FontSize="12" Margin="625,133,19,297" Name="peopleinlobbylblk2" Width="134" Foreground="#FF53C301" Visibility="Hidden" />
+        <Label Content="OUT: ---" FontSize="12" Height="24"  Margin="625,114,15,0" Name="peopleoutsidelblk2" VerticalAlignment="Top" Width="138" Foreground="#FF53C301" />
+        <Label Content="Kinect 1: No Data" Height="46" HorizontalAlignment="Left" Margin="18,14,0,0" Name="Statuslbl" VerticalAlignment="Top" Width="272" FontSize="24" FontWeight="Bold" Foreground="#FF00A3E8" />
+        <Label Content="Kinect 2: No Data" FontSize="24" FontWeight="Bold" Foreground="#FF00A3E8" Height="46"  Margin="407,14,99,0" Name="Statuslblk2" VerticalAlignment="Top" Width="272" />
+        <Label Content="" FontSize="12" Foreground="#FF53C301" Height="289" Margin="231,181,413,0" Name="movementlbl" VerticalAlignment="Top" Width="134" />
+        <Label Content="" FontSize="12" Foreground="#FF53C301" Height="289"  Margin="624,178,20,0" Name="movementlblk2" VerticalAlignment="Top" Width="134" />
+        <Label Content="PEOPLE COUNT: KINECT 1" FontSize="12" Foreground="#FF00A3E8" Height="29" Margin="232,69,393,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="PEOPLE COUNT: KINECT 2" FontSize="12" Foreground="#FF00A3E8" Height="29" Margin="624,66,2,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="MOVEMENTS: KINECT 1" FontSize="12" Foreground="#FF00A3E8" Height="29" Margin="231,162,413,0" Name="label3" VerticalAlignment="Top" Width="134" />
+        <Label Content="MOVEMENTS: KINECT 2" FontSize="12" Foreground="#FF00A3E8" Height="29" Margin="623,159,7,0" Name="label4" VerticalAlignment="Top" />
+        <Canvas Height="180" HorizontalAlignment="Left" Margin="8,72,0,0" Name="canvas1" VerticalAlignment="Top" Width="217">
+         </Canvas>
+        <Canvas Canvas.Left="391" Canvas.Top="-3" Height="180" Name="canvas2" Width="217" Margin="399,70,162,211" />
+
+    </Grid>
+</Window>

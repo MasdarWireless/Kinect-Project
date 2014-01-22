@@ -1,0 +1,189 @@
+# Sometimes, or most of the time you have to bear the
+# solitude. Especially when you are just a master student studying
+# tens of thousands of miles, away from home. In this situation, home
+# means the "so-called" People's Republic of China.
+
+* TODO What I really should do next?
+
+** NEXT REALLY figure out what her thesis is about.
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2013-12-28 Sat 16:59]
+   :END:
+
+** NEXT Extract some days' occupancy data.
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2013-12-28 Sat 17:00]
+   :END:
+
+** NEXT Build models according to what you designed below.
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2013-12-28 Sat 17:01]
+   :END:
+
+** NEXT Validate your models. There should be 3 according to your plan.
+   DEADLINE: <2013-12-29 Sun>
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2013-12-28 Sat 17:02]
+   :END:
+
+** NEXT Use eQuest to get the results as expected.
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2013-12-28 Sat 17:03]
+   :END:
+
+
+
+
+
+
+
+* TODO ACM E-Energy 2014 Paper.
+  DEADLINE: <2013-12-31 Tue>
+
+** NEXT Build model for occupancy in this lab. 
+   DEADLINE: <2013-12-28 Sat>
+   - [ ] Multi variate model. 
+   - [ ] Agent based model.
+   - [ ] Markov Chain model. [fn:1]
+   - [ ] Trying to solve the sparse Markov Chain problem. (Well, it's
+     not easy when dealing with a open office environment like this.) 
+
+
+     
+   :LOGBOOK:
+   CLOCK: [2013-12-30 Mon 17:53]--[2013-12-30 Mon 18:18] =>  0:25
+   - Removed deadline, was "2013-12-28 Sat" on [2013-12-28 Sat 01:31] \\
+     Well, this deadline operation is fascinating.
+   - State "NEXT"       from ""           [2013-12-28 Sat 01:23] \\
+     Somethings that has to be done.
+   :END:
+
+** NEXT Use eQuest to find out the "possible energy saving" data. [25%]
+   SCHEDULED: <2013-12-29 Sun>
+   - [X] Install eQuest.
+   - [ ] Read a quick start manual. 
+   - [ ] Use this free software to simulate our lab.
+   - [ ] Use the real data for configuration.
+
+   :LOGBOOK:
+   - State "TODO"       from "NEXT"       [2013-12-28 Sat 01:53]
+   - State "NEXT"       from ""           [2013-12-28 Sat 01:41] \\
+     Something "less" mathematical.
+   :END:
+
+** NEXT Finish this conference paper with our good great Mrs Haleimah.
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2013-12-28 Sat 01:54] \\
+     Final stuff.
+   :END:
+
+
+* Multi-Variate model.
+
+** TODO Read some reference materials.
+
+** TODO Try to write some codes by yourself. [0%]
+   - [ ] Figure out which part deals with the reformat of data.
+   - [ ] Play with Mrs Haleimah's code.
+   - [ ] Modify the code and polish the model.
+   - 
+
+** TODO Test the code and finish this shit.
+
+
+* TODO Learn and use eQuest to finish building simulation.
+
+** NEXT Read the manual.
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2014-01-05 Sun 10:31]
+   :END:
+
+** NEXT Use this software.
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2014-01-05 Sun 10:32]
+   :END:
+
+** DONE Simple testing line of words to validate that this function is disabled ...... It seems that's disabled......
+   CLOSED: [2014-01-06 Mon 23:22]
+   :LOGBOOK:
+   - State "DONE"       from "NEXT"       [2014-01-06 Mon 23:22]
+   - State "NEXT"       from "TODO"       [2014-01-06 Mon 23:20]
+   :END:
+   - [X] Simple testing line of words to validate that this function
+     is disabled ...... It seems that's disabled...... So the case is
+     that for non-title you have to be precise and more
+     precise. Remember, 
+
+* Comments:
+  - The MATLAB code is well-written by, well, someone. But I also have
+    trouble debugging it.
+  - Judging from this file [[https://github.com/ProfessorX/Kinect-Project/blob/master/Archive/Kinect%2520based%2520Building%2520Energy%2520Managment/MarkovChain/data/tempOccMat.txt][A sample of some days' occupancy data]], if
+    we assume the People Counting software works fine, then there is
+    something wrong with the "calculation algorithm".
+  - I doubt yet another time the equations used below. But right now I
+    can do nothing more about it...
+  - Where the heck is your Jie Cao? I have lost it.
+
+
+#+NAME: Occupancy Algorithm
+#+BEGIN_SRC matlab
+  % Occupancy formulas used
+  %   zone1 = k1_in + k2_out - k2_in
+  %   lobby = k2_in - k2_out + k3_out - k3_in + k6_out - k6_in
+  %   zone2 = k3_in - k3_out + k4_in - k4_out
+  %   zone3 = k6_in - k6_out
+  %   zone4 = k8_in - k8_out + k7_out - k7_in
+#+END_SRC
+
+
+* Paper
+  :LOGBOOK:
+  CLOCK: [2014-01-19 Sun 15:56]
+  :END:
+
+** TODO Check the paper and see what else you should write.
+   :LOGBOOK:
+   CLOCK: [2014-01-19 Sun 15:56]--[2014-01-19 Sun 15:56] =>  0:00
+   :END:
+
+** NEXT Software Engineer? Are you a software engineer?
+   DEADLINE: <2014-01-19 Sun 21:00>
+   :LOGBOOK:
+   - State "NEXT"       from ""           [2014-01-19 Sun 15:53] \\
+     Simulation, simulation.
+   :END:
+
+
+
+* Future work
+
+** Finish the two MATLAB codes as required.
+
+** Try to modify her paper, if that's necessary enough.
+
+** Be a good student. Make money by creating value.
+
+** Finish the MATLAB part. But I am not 100% clear whether I am capable to make the Markov chain lively again.
+
+
+* Something more about the Markov Chain
+
+** Modify the code so that it applies to (or make it runs) 4 zone case
+   - [ ] Make sure what kind of algorithm to take, so that we can have
+     a Markov model for 4 zones...
+   - [ ] In this case, I hope that indeed we can work something
+     out. Instead of following what others are sucking and fucking.
+   - 
+
+* Something more about the paper
+
+ 
+
+* Footnotes
+
+[fn:1] This is done in some other papers.[[file:Archive/Kinect%20based%20Building%20Energy%20Managment/Litreture%20Papers/Erickson10a.pdf][Markov Chain model reference paper.]]
+
+
+
+  
+

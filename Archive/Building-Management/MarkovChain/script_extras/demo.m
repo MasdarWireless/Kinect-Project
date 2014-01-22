@@ -1,0 +1,39 @@
+% Add filenames here in the same format
+% filenames = {'E:\Markov Chain - Ahmed\data\kinect1_5.txt',...
+%              'E:\Markov Chain - Ahmed\data\kinect1_18.txt',...
+%              'E:\Markov Chain - Ahmed\data\kinect1_19.txt'};
+filenames = {'E:\Markov Chain - Ahmed\data\k1-copy.txt',...
+             'E:\Markov Chain - Ahmed\data\Logs\elevator.txt',...
+             'E:\Markov Chain - Ahmed\data\Logs\entlab2.txt',...
+             'E:\Markov Chain - Ahmed\data\Logs\entlab4.txt',...
+             'E:\Markov Chain - Ahmed\data\Logs\halldisk.txt'};         
+% for some reason there is 2 types of log files one of type 
+% <date> <12 hrs time> <AM/PM> <IN> <OUT>
+% AND also 
+% <date> <24 hrs time> <IN> <OUT>
+% for log files of format 1, timeformat = 1, else timeformat = 2.
+% timeformats = [1,2,2];
+% % Add output filenames here in the same format
+% outputfilenames = {'E:\Markov Chain - Ahmed\data\kinect1_5_out_1.txt',...
+%              'E:\Markov Chain - Ahmed\data\kinect1_18_out_1.txt',...
+%              'E:\Markov Chain - Ahmed\data\kinect1_19_out_1.txt'};
+
+
+outputfilenames = {'E:\Markov Chain - Ahmed\data\k1-copy-out.txt',...
+             'E:\Markov Chain - Ahmed\data\Logs_out\elevator.txt',...
+             'E:\Markov Chain - Ahmed\data\Logs_out\entlab2.txt',...
+             'E:\Markov Chain - Ahmed\data\Logs_out\entlab4.txt',...
+             'E:\Markov Chain - Ahmed\data\Logs_out\halldisk.txt'};
+if size(filenames) == size(outputfilenames)
+    for i = 1:size(outputfilenames,2)
+        dataStruct = ParseLogFiles(filenames{i});
+        PrintToFileParsedOutput(dataStruct, outputfilenames{i})
+    end
+else
+    error('Enter as many output file names as input file names')
+end
+
+
+%% Comment
+% These codes are great examples teaching you how to write
+% Industry-Level MATLAB codes, or, sometimes, scripts.
