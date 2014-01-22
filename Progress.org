@@ -163,7 +163,21 @@
 
 ** Be a good student. Make money by creating value.
 
-   
+** Finish the MATLAB part. But I am not 100% clear whether I am capable to make the Markov chain lively again.
+
+
+* Something more about the Markov Chain
+
+** Modify the code so that it applies to (or make it runs) 4 zone case
+   - [ ] Make sure what kind of algorithm to take, so that we can have
+     a Markov model for 4 zones...
+   - [ ] In this case, I hope that indeed we can work something
+     out. Instead of following what others are sucking and fucking.
+   - 
+
+* Something more about the paper
+
+ 
 
 * Footnotes
 
